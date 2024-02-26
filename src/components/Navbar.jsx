@@ -1,9 +1,9 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+
 import { KeyboardArrowDown, Login } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
-const Navbar = ({ textColor }) => {
+const Navbar = ({ textColor, logo }) => {
   const [showLoginDropdown, setShowLoginDropdown] = useState(false);
 
   const toggleLoginDropdown = () => {
@@ -26,7 +26,6 @@ const Navbar = ({ textColor }) => {
                 width: "160px",
                 height: "24",
                 objectFit: "contain",
-                backgroundColor: textColor,
               }}
             />
           </Link>

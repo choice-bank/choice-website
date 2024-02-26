@@ -4,11 +4,12 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/Home/HomePage";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import ApiBanking from "./pages/APIBanking/ApiBanking";
+import logo from "./assets/logo.png";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar logo={logo} />
 
       <Routes>
         <Route path="/" element={<HomePage />} />

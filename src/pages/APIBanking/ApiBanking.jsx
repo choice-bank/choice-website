@@ -4,11 +4,12 @@ import ActionCard from "../../components/ActionCard";
 import Tools from "./components/Tools";
 import Solutions from "./components/Solutions";
 import Navbar from "../../components/Navbar";
+import logo from "../../assets/api/logo.png";
 
 const ApiBanking = () => {
   return (
     <div>
-      <Navbar textColor="white" />
+      <Navbar textColor="white" logo={logo} />
       <Hero />
       <Tools />
       <Solutions />
