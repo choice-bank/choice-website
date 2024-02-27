@@ -20,21 +20,21 @@ const HomeSectionTwo = () => {
       title: "next level digital banking",
       imageUrl: pic2,
       description:
-        "We build digital banking based on your daily use, not complicated banking lanague. we listen to your suggestions and are quick to upgrade. ",
+        "We build digital banking based on your daily use, not complicated banking language. We listen to your suggestions and are quick to upgrade. ",
     },
     {
       id: 3,
       title: "always on 24/7",
       imageUrl: pic3,
       description:
-        "an agile business and support team is ta your disposal anytime for your everday banking needs and long-term financial planning.",
+        "An agile business and support team is at your disposal anytime for your everday banking needs and long-term financial planning.",
     },
     {
       id: 4,
       title: "best deals",
       imageUrl: pic4,
       description:
-        "We build digital banking based on your daily use, not complicated banking lanague. We listen to your suggestions and are quick to upgrade.",
+        "We build digital banking based on your daily use, not complicated banking language. We listen to your suggestions and are quick to upgrade.",
     },
   ]);
 

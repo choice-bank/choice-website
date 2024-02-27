@@ -46,11 +46,11 @@ const Header = () => {
             </span>
           </h1>
           <p
-            className="font-sans mb-8"
-            style={{ fontSize: "25px", color: "#0B0D2C", lineHeight: "29px" }}
+            className="mb-8"
+            style={{ fontSize: "18px", color: "#0B0D2C", lineHeight: "29px" }}
           >
-            A Bank built by bankers & technopreneurs for next-level private &
-            API banking in Africa
+            A Bank built by bankers & techpreneurs for next-level private <br />
+            & API banking in Africa
           </p>
         </div>
 
