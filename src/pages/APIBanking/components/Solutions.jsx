@@ -33,7 +33,7 @@ const Solutions = () => {
           And that's not all we can offer
         </h4>
         <h1 className="font-bold" style={{ fontSize: "45px" }}>
-          Meet our Global Solutions
+          Meet out Global
         </h1>
         <h1
           className="font-bold"

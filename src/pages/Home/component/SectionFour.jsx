@@ -4,7 +4,7 @@ import { ArrowForward } from "@mui/icons-material";
 
 const SectionFour = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
+    <div className="min-h-screen flex flex-col items-center justify-center px-auto mx-auto">
       <h3
         className="font-semibold text-[0A1D2B] mb-6 text-center"
         style={{ fontSize: "35px" }}
@@ -13,7 +13,7 @@ const SectionFour = () => {
         Solution
       </h3>
       <div className="flex justify-around items-center">
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-10 mx-4">
+        <div className="">
           <img
             src={image}
             alt="Image"
@@ -21,8 +21,8 @@ const SectionFour = () => {
           />
         </div>
         <div className="w-full sm:w-1/2 md:w-2/3 lg:w-1/4 mx-4">
-          <div className="mb-4 p-4">
-            <div className="mr-4 text-purple-600">01.</div>
+          <div className=" flex mb-4 p-4">
+            <div className="mr-4">01.</div>
             <div>
               <h3 className="font-bold">Bank Accounts</h3>
               <p>
@@ -31,8 +31,8 @@ const SectionFour = () => {
               </p>
             </div>
           </div>
-          <div className="mb-4 p-4">
-            <div className="mr-4 text-purple-600">02.</div>
+          <div className=" flex mb-4 p-4">
+            <div className="mr-4 ">02.</div>
             <div>
               <h3 className="font-bold">Payments</h3>
               <p>
@@ -41,8 +41,8 @@ const SectionFour = () => {
               </p>
             </div>
           </div>
-          <div className="mb-4 p-4">
-            <div className="mr-4 text-purple-600">03.</div>
+          <div className="flex mb-4 p-4">
+            <div className="mr-4">03.</div>
             <div>
               <h3 className="font-bold">Lending</h3>
               <p>
@@ -52,8 +52,8 @@ const SectionFour = () => {
               </p>
             </div>
           </div>
-          <div className="mb-4 p-4">
-            <div className="mr-4 text-purple-600">04.</div>
+          <div className="flex mb-4 p-4">
+            <div className="mr-4">04.</div>
             <div>
               <h3 className="font-bold">Other products</h3>
               <p>

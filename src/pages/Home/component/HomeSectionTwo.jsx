@@ -10,7 +10,7 @@ const HomeSectionTwo = () => {
   const [cards] = useState([
     {
       id: 1,
-      title: "regulated bank & insecured deposits",
+      title: "regulated bank & insured deposits",
       imageUrl: pic1,
       description:
         "Security is our top priority. Our Bank is regulated by the Central Bank of Kenya (CBK) and deposits are insured by Kenya Deposit Insurance Corporation (KDIC)",
@@ -78,40 +78,53 @@ const HomeSectionTwo = () => {
           {visibleIndices.map((index) => (
             <div key={cards[index].id} className="w-3/4 p-4">
               <div
-                className="bg-cover h-[400px] w-[250px] rounded-lg shadow-md flex flex-col justify-end item-end p-4"
+                className="relative bg-cover h-[400px] w-[250px] rounded-lg shadow-md "
                 style={{ backgroundImage: `url(${cards[index].imageUrl})` }}
               >
-                <div
-                  style={{
-                    background: "white",
-                    borderRadius: "50px",
-                    padding: "3px 5px",
-                    display: "inline-block",
-                  }}
-                >
-                  <h2
-                    className=" uppercase font-bold"
-                    style={{
-                      margin: "0",
-                      fontSize: "10px",
-                    }}
-                  >
-                    {cards[index].title}
-                  </h2>
-                </div>
+                {/** Overlay */}
+                <div className="absolute inset-0 bg-black opacity-70 rounded-lg">
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <div className="inline-block">
+                      <div
+                        style={{
+                          background: "white",
+                          borderRadius: "50px",
+                          padding: "3px 5px",
+                          display: "inline-block",
+                        }}
+                      >
+                        <h2
+                          className=" uppercase font-bold"
+                          style={{
+                            margin: "0",
+                            fontSize: "10px",
+                          }}
+                        >
+                          {cards[index].title}
+                        </h2>
+                      </div>
+                    </div>
 
-                <p className="text-white" style={{ fontSize: "10px" }}>
-                  {cards[index].description}
-                </p>
+                    <p className="text-white" style={{ fontSize: "10px" }}>
+                      {cards[index].description}
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           ))}
         </div>
         <div className="mt-4 flex space-x-4 float-right">
-          <div className="bg-purple-600 hover:bg-purple-300 text-white font-semibold py-2 px-4 rounded">
+          <div
+            className="bg-purple-600 hover:bg-purple-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
+            style={{ borderRadius: "50%", height: "30px", width: "30px" }}
+          >
             <ArrowBack onClick={showPreviousCard} />
           </div>
-          <div className="bg-purple-600 hover:bg-blue-300 text-white font-semibold py-2 px-4 rounded">
+          <div
+            className="bg-purple-600 hover:bg-blue-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
+            style={{ borderRadius: "50%", height: "30px", width: "30px" }}
+          >
             <ArrowForward onClick={showNextCard} />
           </div>
         </div>

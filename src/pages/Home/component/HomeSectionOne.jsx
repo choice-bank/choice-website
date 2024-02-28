@@ -12,32 +12,45 @@ const HomeSectionOne = () => {
       {/* Left Section */}
       <div className="p-8 items-center">
         <div className="flex p-2">
-          <h1
-            className="capitalize text-white"
+          <div
+            className="inline-block"
             style={{
               background: "linear-gradient(to left, #D43A36, #6043EC, #120670)",
               borderRadius: "50px",
               padding: "3px 5px",
               marginRight: "10px",
-              fontSize: "17px",
             }}
           >
-            personal private banking
-          </h1>
-          <h1
-            className="capitalize text-white"
+            <h1
+              className="capitalize text-white"
+              style={{
+                fontSize: "14px",
+              }}
+            >
+              personal private banking
+            </h1>
+          </div>
+          <div
+            className="inline-block"
             style={{
               background: "linear-gradient(to left, #D43A36, #6043EC, #120670)",
               borderRadius: "50px",
               padding: "3px 5px",
-              fontSize: "17px",
+              marginRight: "10px",
             }}
           >
-            business private banking
-          </h1>
+            <h1
+              className="capitalize text-white"
+              style={{
+                fontSize: "14px",
+              }}
+            >
+              business private banking
+            </h1>
+          </div>
         </div>
         <div>
-          <h2 className=" mb-4" style={{ fontSize: "30px" }}>
+          <h2 className=" mb-4" style={{ fontSize: "50px" }}>
             <span className="text-white italic">We believe</span>{" "}
             <span
               className="font-bold"
@@ -60,15 +73,15 @@ const HomeSectionOne = () => {
           >
             <style>
               {`
-      .custom-bullet::before {
-        content: '★';
-        color: #BB4ADC;
-        margin-right: 0.5rem;
-      }
-    `}
+                .custom-bullet::before {
+                  content: '★';
+                  color: #BB4ADC;
+                  margin-right: 0.5rem;
+                }
+              `}
             </style>
             <li
-              className="text-lg text-[#D8D8DB] mb-2 custom-bullet"
+              className="text-lg font-aeonik text-[#D8D8DB] mb-2 custom-bullet"
               style={{ fontSize: "17px" }}
             >
               Next-level digital banking experience

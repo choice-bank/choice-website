@@ -1,4 +1,4 @@
-import image1 from "../../../assets/image1.png";
+//import image1 from "../../../assets/image1.png";
 
 const Header = () => {
   return (
@@ -54,13 +54,13 @@ const Header = () => {
           </p>
         </div>
 
-        <div className="float-right">
+        {/* <div className="float-right">
           <img
             src={image1}
             alt="Hero Image"
             className="h-96 w-96 object-contain rounded-lg shadow-md"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
