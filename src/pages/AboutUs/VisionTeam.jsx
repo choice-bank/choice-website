@@ -5,7 +5,7 @@ import Team from "./Team";
 const VisionTeam = () => {
   return (
     <div
-      className=""
+      className="min-h-screen"
       style={{
         background: "linear-gradient(#EFEDFE, #EFECFE)",
       }}

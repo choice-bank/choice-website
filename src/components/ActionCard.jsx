@@ -19,14 +19,14 @@ const ActionCard = ({ title, subTitle, button }) => {
       >
         <div className="flex flex-col justify-center h-full">
           <h2
-            className="text-lg font-bold mb-2 text-center"
+            className="text-lg font-bold mb-10 text-center"
             style={{ fontSize: "36px" }}
           >
             {title}
           </h2>
           <p className="text-sm mb-4 text-center">{subTitle}</p>
           <div
-            className="flex justify-center w-2/5 mx-auto py-3 px-10"
+            className="flex justify-center items-center mx-auto py-3 px-10"
             style={{
               background: "white",
               color: "black",

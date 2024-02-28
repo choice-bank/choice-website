@@ -1,4 +1,5 @@
 import image from "../../assets/aboutUs/vision.png";
+import location from "../../assets/aboutUs/location.png";
 import connection from "../../assets/aboutUs/img2.png";
 const Vision = () => {
   return (
@@ -14,12 +15,10 @@ const Vision = () => {
       <div className="bg-white rounded" style={{ borderRadius: "10px" }}>
         <div
           className=" mx-auto w-1/2 h-1/2 bg-cover"
-          style={{ backgroundImage: `url(${image})`, paddingTop: "50px" }}
+          style={{ paddingTop: "50px" }}
         >
-          <h1
-            className="text-center font-bold"
-            style={{ fontSize: "35px", marginTop: "50px" }}
-          >
+          <img src={location} alt="location-icon" className="mx-auto" />
+          <h1 className="text-center font-bold" style={{ fontSize: "35px" }}>
             Our Vision
           </h1>
           <p className="text-center" style={{ fontSize: "14px" }}>
@@ -29,7 +28,10 @@ const Vision = () => {
             prosperity across the continent.
           </p>
         </div>
-        <div className="w-1/2 mx-auto mt-10">
+        <div
+          className="w-1/2 mx-auto mt-10 bg-cover"
+          style={{ backgroundImage: `url(${image})` }}
+        >
           <img src={connection} alt="connection" className="cover" />
         </div>
       </div>

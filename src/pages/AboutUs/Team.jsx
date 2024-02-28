@@ -82,11 +82,11 @@ const Team = () => {
 
 const Card = () => {
   return (
-    <div className="min-h-screen grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-3 gap-4">
       {items.map((member, index) => (
         <div
           key={index}
-          className="max-w-md h-full w-3/4 rounded overflow-hidden bg-white-10 shadow-lg m-4"
+          className="max-w-md  w-3/4 rounded overflow-hidden bg-white-10 shadow-lg m-4"
         >
           <img
             className="w-1/2 h-30 object-cover mx-auto"

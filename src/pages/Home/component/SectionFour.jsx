@@ -65,7 +65,7 @@ const SectionFour = () => {
         </div>
       </div>
       <div
-        className="flex justify-center items-center bg-purple-500 py-2 px-4 rounded-lg text-white mt-4"
+        className="flex justify-center items-center bg-purple-500 py-2 px-4 text-white mt-4"
         style={{ borderRadius: "50px" }}
       >
         <p className="mr-2">Learn More</p>
