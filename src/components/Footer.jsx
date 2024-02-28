@@ -42,8 +42,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6  ">
-        <p className="font-poppins font-normal text-center text-[18px] leading-[27px]">
-          Copyright Ⓒ {currentYear} ChoiceBank. All Rights Reserved.
+        <p className="font-poppins font-normal text-center text-[14px] leading-[27px]">
+          Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
 
         <div className="flex flex-row md:mt-0 mt-6">
@@ -58,6 +58,14 @@ const Footer = () => {
               onClick={() => window.open(social.link)}
             />
           ))}
+        </div>
+      </div>
+      <div className="mx-auto mt-10">
+        <div className="flex justify-between">
+          <p className="pr-5">Privacy Policy.</p>
+          <p className="pr-5">Terms of Service.</p>
+          <p className="pr-5">Data Privacy Statement.</p>
+          <p className="pr-5">Disclaimer.</p>
         </div>
       </div>
     </section>
