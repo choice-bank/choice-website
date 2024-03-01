@@ -15,7 +15,7 @@ const Navbar = ({ textColor, logo }) => {
   };
 
   return (
-    <nav className="p-4 z-30 absolute  w-full">
+    <nav className="p-4 z-30 absolute  w-full font-sans">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex-shrink-0 mr-20">
           <Link to="/">
@@ -24,7 +24,7 @@ const Navbar = ({ textColor, logo }) => {
               alt="Logo"
               style={{
                 width: "160px",
-                height: "24",
+                height: "24px",
                 objectFit: "contain",
               }}
             />
@@ -34,15 +34,15 @@ const Navbar = ({ textColor, logo }) => {
           {/* Home */}
           <Link
             to="/"
-            className=" hover:text-gray-700 px-3 py-2 font-bold size-14 uppercase whitespace-nowrap"
+            className="px-3 py-2 font-[500] text-[14px] uppercase whitespace-nowrap"
             style={{ color: textColor }}
           >
             Home
           </Link>
           {/**Private Banking */}
           <Link
-            to="/privste-banking"
-            className=" hover:text-gray-700 px-3 py-2 font-bold size-14 uppercase whitespace-nowrap"
+            to="/private-banking"
+            className="  px-3 py-2 font-[500] text-[14px] uppercase whitespace-nowrap"
             style={{ color: textColor }}
           >
             private banking
@@ -50,14 +50,14 @@ const Navbar = ({ textColor, logo }) => {
 
           <Link
             to="/api-banking"
-            className=" hover:text-gray-700 px-3 py-2 font-bold size-14 uppercase whitespace-nowrap"
+            className=" px-3 py-2 font-[500] text-[14px] uppercase whitespace-nowrap"
             style={{ color: textColor }}
           >
             API Banking
           </Link>
           <Link
             to="/about-us"
-            className=" hover:text-gray-700 px-3 py-2 font-bold size-14 uppercase whitespace-nowrap"
+            className="  px-3 py-2 font-[500] text-[14px] uppercase whitespace-nowrap"
             style={{ color: textColor }}
           >
             About Us

@@ -67,7 +67,7 @@ const HomeSectionTwo = () => {
     <div className="min-h-screen flex flex-col items-center justify-center">
       <h1
         className=" font-semibold text-[0A1D2B] mb-6 text-center"
-        style={{ fontSize: "35px" }}
+        style={{ fontSize: "35px", lineHeight: "35px" }}
       >
         Unparalleled Banking <br />
         Experience
@@ -82,33 +82,32 @@ const HomeSectionTwo = () => {
                 style={{ backgroundImage: `url(${cards[index].imageUrl})` }}
               >
                 {/** Overlay */}
-                <div className="absolute inset-0 bg-black opacity-70 rounded-lg">
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <div className="inline-block">
-                      <div
+
+                <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <div className="inline-block">
+                    <div
+                      style={{
+                        background: "white",
+                        borderRadius: "50px",
+                        padding: "3px 8px",
+                        display: "inline-block",
+                      }}
+                    >
+                      <h2
+                        className=" uppercase font-bold"
                         style={{
-                          background: "white",
-                          borderRadius: "50px",
-                          padding: "3px 5px",
-                          display: "inline-block",
+                          margin: "0",
+                          fontSize: "10px",
                         }}
                       >
-                        <h2
-                          className=" uppercase font-bold"
-                          style={{
-                            margin: "0",
-                            fontSize: "10px",
-                          }}
-                        >
-                          {cards[index].title}
-                        </h2>
-                      </div>
+                        {cards[index].title}
+                      </h2>
                     </div>
-
-                    <p className="text-white" style={{ fontSize: "10px" }}>
-                      {cards[index].description}
-                    </p>
                   </div>
+
+                  <p className="text-white" style={{ fontSize: "10px" }}>
+                    {cards[index].description}
+                  </p>
                 </div>
               </div>
             </div>

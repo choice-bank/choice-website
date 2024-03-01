@@ -15,7 +15,8 @@ const HomeSectionOne = () => {
           <div
             className="inline-block"
             style={{
-              background: "linear-gradient(to left, #D43A36, #6043EC, #120670)",
+              background:
+                "linear-gradient(90deg, #D43A36 -10.29%, #6043EC 35.97%, #120670 91.38%)",
               borderRadius: "50px",
               padding: "3px 5px",
               marginRight: "10px",
@@ -33,9 +34,10 @@ const HomeSectionOne = () => {
           <div
             className="inline-block"
             style={{
-              background: "linear-gradient(to left, #D43A36, #6043EC, #120670)",
+              background:
+                "linear-gradient(90deg, #D43A36 -10.29%, #6043EC 35.97%, #120670 91.38%)",
               borderRadius: "50px",
-              padding: "3px 5px",
+              padding: "3px 8px",
               marginRight: "10px",
             }}
           >
@@ -55,9 +57,11 @@ const HomeSectionOne = () => {
             <span
               className="font-bold"
               style={{
-                background: "linear-gradient(to right, #794EF7, #BB4ADC)",
+                background:
+                  "linear-gradient(90deg, #794EF7 -29.56%, #BB4ADC 132.3%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
+                backgroundClip: "text",
               }}
             >
               Less is More

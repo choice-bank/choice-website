@@ -5,6 +5,7 @@ import HomePage from "./pages/Home/HomePage";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import ApiBanking from "./pages/APIBanking/ApiBanking";
 import logo from "./assets/logo.png";
+import PrivateBanking from "./pages/PrivateBanking/PrivateBanking";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/private-banking" element={<PrivateBanking />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/api-banking" element={<ApiBanking />} />
       </Routes>

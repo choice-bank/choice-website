@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowForward } from "@mui/icons-material";
+import bg from "../assets/card.png";
 
 const ActionCard = ({ title, subTitle, button }) => {
   return (
@@ -9,11 +10,12 @@ const ActionCard = ({ title, subTitle, button }) => {
       id="outer"
     >
       <div
-        className="text-white bg-[#0A0534] p-6"
+        className="text-white p-6"
         style={{
           borderRadius: "10px",
           width: "70%",
           height: "300px",
+          backgroundImage: `url(${bg})`,
         }}
         id="second"
       >
