@@ -20,7 +20,7 @@ const SectionThree = () => {
         </div>
 
         <p
-          className="italic text-white"
+          className="italic text-white font-[400]"
           style={{ fontSize: "50px", lineHeight: "51px" }}
         >
           We believe in a future where
@@ -31,12 +31,8 @@ const SectionThree = () => {
           </span>
         </p>
       </div>
-      <div>
-        <img
-          src={image}
-          alt="Image"
-          className="h-[446px] w-[660px] object-contain"
-        />
+      <div className="h-[446px] w-[600px]">
+        <img src={image} alt="Image" className=" object-contain" />
       </div>
     </div>
   );

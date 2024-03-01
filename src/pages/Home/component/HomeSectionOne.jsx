@@ -3,15 +3,15 @@ import image from "../../../assets/person1.png";
 const HomeSectionOne = () => {
   return (
     <div
-      className="flex  justify-around min-h-screen bg-[#0A0534]"
+      className="flex flex-col lg:flex-row justify-around min-h-screen bg-[#0A0534]"
       style={{
         paddingTop: "100px",
         paddingBottom: "100px",
       }}
     >
       {/* Left Section */}
-      <div className="p-8 items-center">
-        <div className="flex p-2">
+      <div className="p-8 items-center lg:w-1/2">
+        <div className="flex  mb-5">
           <div
             className="inline-block"
             style={{
@@ -52,8 +52,11 @@ const HomeSectionOne = () => {
           </div>
         </div>
         <div>
-          <h2 className=" mb-4" style={{ fontSize: "50px" }}>
-            <span className="text-white italic">We believe</span>{" "}
+          <h2
+            className="mb-4 font-[400] text-white"
+            style={{ fontSize: "50px", lineHeight: "46px" }}
+          >
+            <span className="italic">We believe</span>{" "}
             <span
               className="font-bold"
               style={{
@@ -68,7 +71,7 @@ const HomeSectionOne = () => {
             </span>
           </h2>
           <ul
-            className="ml-6 list-outside"
+            className="ml-6 list-outside text-white"
             style={{
               listStyleType: "none",
               marginLeft: "1.5rem",
@@ -84,28 +87,16 @@ const HomeSectionOne = () => {
                 }
               `}
             </style>
-            <li
-              className="text-lg font-aeonik text-[#D8D8DB] mb-2 custom-bullet"
-              style={{ fontSize: "17px" }}
-            >
+            <li className="text-lg font-aeonik mb-2 custom-bullet">
               Next-level digital banking experience
             </li>
-            <li
-              className="text-lg text-[#D8D8DB] mb-2 custom-bullet"
-              style={{ fontSize: "17px" }}
-            >
+            <li className="text-lg mb-2 custom-bullet">
               24 hour business and support team
             </li>
-            <li
-              className="text-lg text-[#D8D8DB] mb-2 custom-bullet"
-              style={{ fontSize: "17px" }}
-            >
+            <li className="text-lg mb-2 custom-bullet">
               Best FX deals, customized interest rates
             </li>
-            <li
-              className="text-lg text-[#D8D8DB] mb-2 custom-bullet"
-              style={{ fontSize: "17px" }}
-            >
+            <li className="text-lg mb-2 custom-bullet">
               Send, receive & invest funds globally
             </li>
           </ul>
@@ -113,7 +104,7 @@ const HomeSectionOne = () => {
       </div>
 
       {/* Right Section */}
-      <div className="mb-10">
+      <div className="mb-10 ">
         <img src={image} alt="Image" className="h-full w-full object-contain" />
       </div>
     </div>

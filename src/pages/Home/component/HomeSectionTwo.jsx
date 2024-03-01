@@ -81,8 +81,6 @@ const HomeSectionTwo = () => {
                 className="relative bg-cover h-[400px] w-[250px] rounded-lg shadow-md "
                 style={{ backgroundImage: `url(${cards[index].imageUrl})` }}
               >
-                {/** Overlay */}
-
                 <div className="absolute bottom-0 left-0 right-0 p-4">
                   <div className="inline-block">
                     <div

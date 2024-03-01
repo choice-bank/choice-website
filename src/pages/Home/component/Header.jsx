@@ -14,8 +14,8 @@ const Header = () => {
       <div className="max-w-7xl">
         <div className="">
           <h1
-            className="font-[700] text-[90px] capitalize font-sans"
-            style={{ lineHeight: "-2.7px" }}
+            className="font-[700] text-[90px] capitalize font-sans mb-20"
+            style={{ lineHeight: "76px", letterSpacing: "-2.7px" }}
           >
             <span
               style={{
@@ -26,25 +26,21 @@ const Header = () => {
                 backgroundClip: "text",
               }}
             >
-              your ultimate
+              your ultimate <br />{" "}
+              <span
+                style={{
+                  background:
+                    "linear-gradient(90deg, #0A0534 -29.56%, #BB4ADC 132.3%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                }}
+              >
+                Choice for Banking
+              </span>
             </span>
           </h1>
-          <h1
-            className="font-[700] text-[90px] capitalize font-sans mb-10"
-            style={{ lineHeight: "-2.7px" }}
-          >
-            <span
-              style={{
-                background:
-                  "linear-gradient(90deg, #0A0534 -29.56%, #BB4ADC 132.3%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
-              }}
-            >
-              Choice for Banking
-            </span>
-          </h1>
+
           <p
             className="mb-8 font-sans text-[25px] font-[250]"
             style={{ color: "#0B0D2C", lineHeight: "29px" }}
