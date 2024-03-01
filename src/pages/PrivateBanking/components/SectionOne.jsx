@@ -4,19 +4,20 @@ import image from "../../../assets/banking/image1.png";
 const SectionOne = () => {
   return (
     <div
-      className="flex  justify-around min-h-screen bg-[#fff]"
+      className="flex flex-col lg:flex-row justify-center items-center min-h-screen bg-[#fff]"
       style={{
         paddingTop: "100px",
         paddingBottom: "100px",
       }}
     >
       {/* Left Section */}
-      <div className="p-8 items-center">
+      <div className="p-8 lg:mr-10 text-center lg:text-left">
         <div>
-          <h1 className="font-bold" style={{ fontSize: "50px" }}>
-            Bespoke Services
-          </h1>
-          <h1 className=" mb-4" style={{ fontSize: "50px" }}>
+          <h1
+            className="font-bold text-center lg:text-left"
+            style={{ fontSize: "clamp(2rem, 8vw, 3.5rem)", lineHeight: "1.2" }}
+          >
+            Bespoke Services <br />{" "}
             <span
               className="font-bold"
               style={{
@@ -28,13 +29,14 @@ const SectionOne = () => {
               for You & Your Business
             </span>
           </h1>
-          <p className="mb-10">
+
+          <p className="mb-10 text-sm lg:text-base">
             With Choice's Private Banking, you gain access to an elite world of
             investment <br /> opportunities, innovative banking products, and a
             global network designed <br /> to empower your financial
             aspirations.
           </p>
-          <p>
+          <p className="text-sm lg:text-base">
             Whether you are looking to grow your investment portfolio, secure
             your <br /> family's future, or manage your personal and business
             finances with efficiency <br /> and foresight, our private banking
@@ -45,7 +47,7 @@ const SectionOne = () => {
       </div>
 
       {/* Right Section */}
-      <div className="mb-10">
+      <div className="mb-10 lg:mb-0">
         <img src={image} alt="Image" className="h-full w-full object-contain" />
       </div>
     </div>
