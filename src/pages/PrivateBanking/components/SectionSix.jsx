@@ -30,8 +30,8 @@ const SectionSix = () => {
         background: "linear-gradient(180deg, #F8F8F8 0%, #F9F9F9 100%)",
       }}
     >
-      <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-10">
+      <div className="max-w-4xl mx-auto">
+        <div className="mb-10  text-center">
           <h4
             className="text-[#0A0534] text-[19px]"
             style={{ lineHeight: "22px" }}
@@ -62,10 +62,22 @@ const SectionSix = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="flex-grow bg-white shadow-md rounded-lg p-6"
+              className=" bg-white shadow-md rounded-lg p-2"
               style={{ maxWidth: "250px", minWidth: "200px" }} // Fixed width for cards
             >
-              <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
+              <h2 className="text-[25px] mb-2" style={{ lineHeight: "27px" }}>
+                <span
+                  style={{
+                    background:
+                      "linear-gradient(270deg, #9D45C6 51.19%, #593994 83.75%)",
+                    backgroundClip: "text",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}
+                >
+                  {item.title}
+                </span>
+              </h2>
               <p className="text-gray-600">{item.description}</p>
             </div>
           ))}
