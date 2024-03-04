@@ -1,13 +1,14 @@
 import React from "react";
 import image from "../../../assets/person1.png";
 import { ArrowForward } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 const SectionFour = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-auto mx-auto">
       <h3
-        className="font-semibold text-[0A1D2B] mb-6 text-center"
-        style={{ fontSize: "35px" }}
+        className="font-normal text-[0A1D2B] mb-6 text-center"
+        style={{ fontSize: "35px", lineHeight: "51px" }}
       >
         Powerful API Banking <br />
         Solution
@@ -64,13 +65,14 @@ const SectionFour = () => {
           </div>
         </div>
       </div>
-      <div
+      <Link
+        to="private-banking"
         className="flex justify-center items-center bg-purple-500 py-2 px-4 text-white mt-4"
         style={{ borderRadius: "50px" }}
       >
         <p className="mr-2">Learn More</p>
         <ArrowForward />
-      </div>
+      </Link>
     </div>
   );
 };

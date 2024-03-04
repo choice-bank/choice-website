@@ -27,14 +27,21 @@ const HomeSectionTwo = () => {
       title: "always on 24/7",
       imageUrl: pic3,
       description:
-        "An agile business and support team is at your disposal anytime for your everday banking needs and long-term financial planning.",
+        "An agile business and support team is at your disposal anytime for your everyday banking needs and long-term financial planning.",
     },
     {
       id: 4,
       title: "best deals",
       imageUrl: pic4,
       description:
-        "We build digital banking based on your daily use, not complicated banking language. We listen to your suggestions and are quick to upgrade.",
+        "You grow, we grow. As your partner, we always push the best deals for you in transactions, savings, FX, investments and much more.",
+    },
+    {
+      id: 5,
+      title: "global outreach",
+      imageUrl: pic2,
+      description:
+        "We have built seamless remittance and investment products connecting you to the world effortlessly.",
     },
   ]);
 

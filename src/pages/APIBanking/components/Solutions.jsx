@@ -32,13 +32,17 @@ const Solutions = () => {
         <h4 className="text-lg font-medium" style={{ fontSize: "18px" }}>
           And that's not all we can offer
         </h4>
-        <h1 className="font-bold" style={{ fontSize: "45px" }}>
+        <h1
+          className="font-[700]"
+          style={{ fontSize: "45px", lineHeight: "45px" }}
+        >
           Meet out Global
         </h1>
         <h1
           className="font-bold"
           style={{
             fontSize: "45px",
+            lineHeight: "45px",
             backgroundImage:
               "linear-gradient(rgba(90,58,149,1), rgba(158,70,198,1))",
             WebkitBackgroundClip: "text",
@@ -101,7 +105,7 @@ const solutions = [
     title: "Fintech",
     description:
       "We empower fintech firms to rapidly deploy a wide range of services--including budgeting tools, credit solutions, payment processing, and international investment--through a straightforward API integration, typically within a matter of weeks.",
-    more: "Our API banking services provide enterprises with a robust global payments infrastructure that supports seamless multi-currency transactions.",
+    more: "We empower fintech firms to rapidly deploy a wide range of services--including budgeting tools, credit solutions, payment processing, and international investment--through a straightforward API integration, typically within a matter of weeks. By eliminating the burdensome expenses and intricate processes associated with building and upholding a banking framework, we enable our partners to focus on innovation and tailor their financial products to stand out in the market,",
   },
   {
     image: pic2,
@@ -109,8 +113,8 @@ const solutions = [
     icon: <LocalMallOutlined style={{ color: "#6043ED" }} size={20} />,
     title: "E-Commerce",
     description:
-      "We are committed to optimizing payment workflow for e-commerce platforms, enhancing the customer purchasing journey through a suite of advanced features.",
-    more: "We empower fintech firms to rapidly deploy a wide range of services--including budgeting tools, credit solutions, payment processing, and international investment--through a straightforward API integration, typically within a matter of weeks.",
+      "Our API suite allows e-commerce platforms to integrate direct bank payments, automate refunds, manage merchant fund settlements, and offer flexible financing options like Buy Now Pay Later (BNPL) at checkout. ",
+    more: "Our API suite allows e-commerce platforms to integrate direct bank payments, automate refunds, manage merchant fund settlements, and offer flexible financing options like Buy Now Pay Later (BNPL) at checkout. With real-time payment tracking and reconciliation, e-commerce businesses can enhance operational efficiency, reduce cart abandonment rates, and build customer trust. By streamlining financial operations, e-commerce sites can focus on expanding their product lines and improving user experience, driving growth and customer loyalty.",
   },
   {
     image: pic3,
@@ -118,8 +122,8 @@ const solutions = [
     icon: <ElectricalServicesOutlined style={{ color: "#6043ED" }} size={20} />,
     title: "Enterprise",
     description:
-      "Our API banking services provide enterprises with a robust global payments infrastructure that supports seamless multi-currency transactions.",
-    more: "We are committed to optimizing payment workflow for e-commerce platforms, enhancing the customer purchasing journey through a suite of advanced features.",
+      "Our comprehensive solution, including automated payroll services, expense tracking, and real-time financial reporting, is designed to integrate efforlessly with existing corporate' systems via API.",
+    more: "Our comprehensive solution, including automated payroll services, expense tracking, and real-time financial reporting, is designed to integrate efforlessly with existing corporate' systems via API. Our scalable services enable enterprises to facilitate B2B payments and access global markets with multi-currency accounts and FX services. We ensure compliance with regional and international regulations, minimizing legal risks while handling cross-border transactions. By leveraging our API banking services, enterprises can gain a competitive edge through enhanced financial agility and deliver superior value to their clients and stakeholders.",
   },
 ];
 
