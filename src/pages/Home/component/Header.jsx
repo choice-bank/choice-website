@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex-grow flex flex-col items-center md:flex-row md:items-center lg:justify-center justify-center">
         <div className="flex-shrink-0 mb-5 md:mb-0">
           <div className="items-center justify-center">
-            <h1 className="font-[700] text-3xl lg:text-9xl capitalize font-sans mb-10 leading-normal md:text-4xl md:leading-tight p-5">
+            <h1 className="font-[700] text-2xl lg:text-8xl capitalize font-sans mb-10 leading-normal md:text-4xl md:leading-tight p-5">
               <span
                 style={{
                   background:
@@ -35,11 +35,11 @@ const Header = () => {
             </h1>
 
             <p
-              className="mb-8 font-sans text-base lg:text-2xl font-[250] p-5"
+              className="mb-8 font-sans text-base lg:text-xl font-[250] p-5"
               style={{ color: "#0B0D2C", lineHeight: "29px" }}
             >
               A Bank built by bankers & techpreneurs for next-level private{" "}
-              <br className="hidden" />& API banking in Africa
+              <br />& API banking in Africa
             </p>
           </div>
         </div>
