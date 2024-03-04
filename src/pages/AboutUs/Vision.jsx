@@ -12,7 +12,7 @@ const Vision = () => {
         paddingRight: "200px",
       }}
     >
-      <div className="bg-white rounded" style={{ borderRadius: "10px" }}>
+      <div className="bg-white rounded mb-10" style={{ borderRadius: "10px" }}>
         <div
           className=" mx-auto w-1/2 h-1/2 bg-cover"
           style={{ paddingTop: "50px" }}
