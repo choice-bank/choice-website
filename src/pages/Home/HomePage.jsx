@@ -4,7 +4,7 @@ import HomeSectionOne from "./component/HomeSectionOne";
 import HomeSectionTwo from "./component/HomeSectionTwo";
 import SectionThree from "./component/SectionThree";
 import SectionFour from "./component/SectionFour";
-import ActionCard from "../../components/ActionCard";
+//import ActionCard from "../../components/ActionCard";
 
 const HomePage = () => {
   return (
@@ -14,11 +14,11 @@ const HomePage = () => {
       <HomeSectionTwo />
       <SectionThree />
       <SectionFour />
-      <ActionCard
+      {/* <ActionCard
         title="Get started?"
         subTitle="join us for future banking"
         button="Let's talk"
-      />
+      /> */}
     </div>
   );
 };

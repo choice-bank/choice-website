@@ -11,7 +11,7 @@ const HomeSectionOne = () => {
     >
       {/* Left Section */}
       <div className="p-8 items-center lg:w-1/2">
-        <div className="flex  mb-5">
+        <div className="flex mb-5">
           <div
             className="inline-block"
             style={{
@@ -22,12 +22,7 @@ const HomeSectionOne = () => {
               marginRight: "10px",
             }}
           >
-            <h1
-              className="capitalize text-white"
-              style={{
-                fontSize: "14px",
-              }}
-            >
+            <h1 className="capitalize text-white text-sm md:text-lg">
               personal private banking
             </h1>
           </div>
@@ -41,22 +36,21 @@ const HomeSectionOne = () => {
               marginRight: "10px",
             }}
           >
-            <h1
-              className="capitalize text-white"
-              style={{
-                fontSize: "14px",
-              }}
-            >
+            <h1 className="capitalize text-white text-sm md:text-lg">
               business private banking
             </h1>
           </div>
         </div>
+
         <div>
           <h2
             className="mb-4 font-[400] text-white"
-            style={{ fontSize: "50px", lineHeight: "46px" }}
+            style={{
+              fontSize: "clamp(40px, 5vw, 50px)",
+              lineHeight: "clamp(40px, 5vw, 46px)",
+            }}
           >
-            <span className="italic">We believe</span>{" "}
+            <span className="italic">We believe</span>
             <span
               className="font-bold"
               style={{
@@ -75,18 +69,9 @@ const HomeSectionOne = () => {
             style={{
               listStyleType: "none",
               marginLeft: "1.5rem",
-              fontSize: "17px",
+              fontSize: "clamp(16px, 1vw, 18px)",
             }}
           >
-            <style>
-              {`
-                .custom-bullet::before {
-                  content: '★';
-                  color: #BB4ADC;
-                  margin-right: 0.5rem;
-                }
-              `}
-            </style>
             <li className="text-lg font-aeonik mb-2 custom-bullet">
               Next-level digital banking experience
             </li>
@@ -103,9 +88,10 @@ const HomeSectionOne = () => {
         </div>
       </div>
 
-      {/* Right Section */}
-      <div className="mb-10 ">
-        <img src={image} alt="Image" className="h-full w-full object-contain" />
+      <div className="lg:flex mb-10">
+        {" "}
+        {/* Show only on large screens */}
+        <img src={image} alt="Image" className="h-full w-full object-fit" />
       </div>
     </div>
   );

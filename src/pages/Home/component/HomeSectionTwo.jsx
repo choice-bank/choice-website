@@ -72,18 +72,15 @@ const HomeSectionTwo = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
-      <h1
-        className=" font-semibold text-[0A1D2B] mb-6 text-center"
-        style={{ fontSize: "35px", lineHeight: "35px" }}
-      >
+      <h1 className=" font-semibold text-[0A1D2B] mb-6 text-center text-lg md:text-xl lg:text-2xl pt-5">
         Unparalleled Banking <br />
         Experience
       </h1>
 
       <div className=" justify-center">
-        <div className="flex">
+        <div className="flex flex-col lg:flex-row md:flex-row">
           {visibleIndices.map((index) => (
-            <div key={cards[index].id} className="w-3/4 p-4">
+            <div key={cards[index].id} className="w-full p-4 mb-4">
               <div
                 className="relative bg-cover h-[400px] w-[250px] rounded-lg shadow-md "
                 style={{ backgroundImage: `url(${cards[index].imageUrl})` }}
@@ -91,6 +88,7 @@ const HomeSectionTwo = () => {
                 <div className="absolute bottom-0 left-0 right-0 p-4">
                   <div className="inline-block">
                     <div
+                      className="mt-2"
                       style={{
                         background: "white",
                         borderRadius: "50px",
@@ -99,7 +97,7 @@ const HomeSectionTwo = () => {
                       }}
                     >
                       <h2
-                        className=" uppercase font-bold"
+                        className=" uppercase font-bold text-lg"
                         style={{
                           margin: "0",
                           fontSize: "10px",
@@ -118,7 +116,7 @@ const HomeSectionTwo = () => {
             </div>
           ))}
         </div>
-        <div className="mt-4 flex space-x-4 float-right">
+        <div className="mt-4 flex space-x-4 justify-center lg:float-right md:float-right mb-5">
           <div
             className="bg-purple-600 hover:bg-purple-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
             style={{ borderRadius: "50%", height: "30px", width: "30px" }}

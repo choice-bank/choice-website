@@ -3,8 +3,8 @@ import image from "../../../assets/image2.png";
 
 const SectionThree = () => {
   return (
-    <div className="bg-[#0A0534] min-h-screen flex flex-col md:flex-row md:items-center lg:items-center justify-center">
-      <div className="flex-shrink-0 md:mr-10 mb-5 md:mb-0">
+    <div className="bg-[#0A0534] min-h-screen flex flex-col md:flex-row md:items-center lg:items-center justify-center p-10">
+      <div className="flex-shrink-0 md:mr-10 mb-5 md:mb-0 ">
         <div
           className="bg-gradient-to-r from-[#D43A36] via-[#9C45C5] to-[#576BCD] rounded-full py-2 px-4 mb-4 inline-block"
           style={{ borderRadius: "50px", padding: "3px 8px" }}

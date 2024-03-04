@@ -5,15 +5,12 @@ import { Link } from "react-router-dom";
 
 const SectionFour = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-auto mx-auto">
-      <h3
-        className="font-normal text-[0A1D2B] mb-6 text-center"
-        style={{ fontSize: "35px", lineHeight: "51px" }}
-      >
+    <div className="min-h-screen flex flex-col items-center justify-center px-auto lg:mx-auto m-10">
+      <h3 className="font-normal text-lg lg:text-xl text-[0A1D2B] mb-6 text-center  ">
         Powerful API Banking <br />
         Solution
       </h3>
-      <div className="flex justify-around items-center">
+      <div className="flex justify-around items-center lg:flex-row flex-col">
         <div className="">
           <img
             src={image}
