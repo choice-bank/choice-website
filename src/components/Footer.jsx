@@ -1,35 +1,25 @@
 import logo from "../assets/logo.png";
 import { footerLinks, socialMedia } from "../constants";
-import { styles } from "../styles";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <section
-      className={`${styles.flexCenter} ${styles.paddingY} flex-col  `}
-      style={{ paddingLeft: "200px", paddingRight: "200px" }}
-    >
-      <div
-        className={`${styles.flexStart} md:flex-row flex flex-col mb-8 w-full`}
-      >
-        <div className="flex-1 mr-10">
-          <img
-            src={logo}
-            alt="logo"
-            className="w-[160px] h-[24] object-contain"
-          />
+    <section className="flex flex-col lg:px-16 p-6 lg:justify-center lg:items-center ">
+      <div className=" md:flex-row flex flex-col mb-8 w-full">
+        <div className="flex-1">
+          <img src={logo} alt="logo" className="object-contain" />
         </div>
-        <div className="flex-1 w-full flex flex-row justify-between  md:mt-0 mt-10">
+
+        <div className="flex-1 w-full flex lg:flex-row justify-between md:mt-0 mt-10">
           {footerLinks.map((footerLink, i) => (
-            <div key={i} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-              <h4 className="font-poppins font-medium text-[18px] leading-[27px]">
-                {footerLink.title}
-              </h4>
+            <div key={i} className={`flex flex-col s:my-0 my-4`}>
+              <h4 className="font-bold lg:text-2xl ">{footerLink.title}</h4>
+
               <ul className="list-none mt-4">
                 {footerLink.links.map((link, i) => (
                   <li
                     key={i}
-                    className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                    className={`font-normal text-sm lg:text-lg hover:text-secondary cursor-pointer ${
                       i !== footerLink.links.length - 1 ? "mb-4" : "mb-0"
                     }`}
                   >
@@ -41,8 +31,9 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6  ">
-        <p className="font-poppins font-normal text-center text-[14px] leading-[27px]">
+
+      <div className="w-full flex-col-reverse flex justify-between items-center md:flex-row  lg:flew-col pt-6 ">
+        <p className=" font-bold text-center text-sm lg:text-lg">
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
 
@@ -60,12 +51,13 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="mx-auto mt-10">
-        <div className="flex justify-between">
-          <p className="pr-5">Privacy Policy.</p>
-          <p className="pr-5">Terms of Service.</p>
-          <p className="pr-5">Data Privacy Statement.</p>
-          <p className="pr-5">Disclaimer.</p>
+
+      <div className=" mt-10">
+        <div className="flex justify-around sm:flex-wrap lg:justify-between">
+          <p className="text-sm lg:text-lg">Privacy Policy.</p>
+          <p className="text-sm lg:text-lg">Terms of Service.</p>
+          <p className="text-sm lg:text-lg">Data Privacy.</p>
+          <p className="text-sm lg:text-lg">Disclaimer.</p>
         </div>
       </div>
     </section>
