@@ -39,7 +39,7 @@ const About = () => {
               WebkitTextFillColor: "transparent",
             }}
           >
-            for the inernet economy
+            for the internet economy
           </span>
         </h1>
       </div>

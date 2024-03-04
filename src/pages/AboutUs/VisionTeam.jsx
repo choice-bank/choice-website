@@ -1,6 +1,5 @@
 import React from "react";
 import Vision from "./Vision";
-import Team from "./Team";
 
 const VisionTeam = () => {
   return (
@@ -10,7 +9,7 @@ const VisionTeam = () => {
         background: "linear-gradient(#EFEDFE, #EFECFE)",
       }}
     >
-      <Vision /> <Team />{" "}
+      <Vision />
     </div>
   );
 };

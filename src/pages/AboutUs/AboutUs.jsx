@@ -1,14 +1,12 @@
-import {} from "react";
 import About from "./About";
-
-import VisionTeam from "./VisionTeam";
 import ActionCard from "../../components/ActionCard";
+import Vision from "./Vision";
 
 const AboutUs = () => {
   return (
     <div>
       <About />
-      <VisionTeam />
+      <Vision />
       <ActionCard
         title="Ready to collaborate?"
         subTitle="Start building and get ahead of the curve before your competitors do"
