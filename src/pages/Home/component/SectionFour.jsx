@@ -1,12 +1,12 @@
 import React from "react";
-import image from "../../../assets/person1.png";
+import image from "../../../assets/home/stack.png";
 import { ArrowForward } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 
 const SectionFour = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-auto lg:mx-auto m-10">
-      <h3 className="font-normal text-lg lg:text-xl text-[0A1D2B] mb-6 text-center  ">
+      <h3 className="font-normal text-lg lg:text-xl text-[0A1D2B] mb-6 text-center">
         Powerful API Banking <br />
         Solution
       </h3>
