@@ -1,14 +1,11 @@
 import React from "react";
+import img from "../../../assets/api/bg.png";
 
 const Hero = () => {
   return (
     <div
-      className="min-h-screen px-10 pt-20 flex flex-col justify-center items-start    bg-[#0B0D2C]"
-      // style={{
-      //   paddingTop: "200px",
-      //   paddingLeft: "150px",
-      //   paddingRight: "200px",
-      // }}
+      className="min-h-screen px-10 pt-20 flex flex-col justify-center items-start lg:bg-cover bg-center bg-no-repeat lg:pl-40"
+      style={{ backgroundImage: `url(${img})` }}
     >
       <div
         className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-4 mb-4 inline-block"

@@ -39,13 +39,13 @@ const SectionSix = () => {
             And that's not all we can offer
           </h4>
           <h1
-            className="text-[#0A0534] text-4xl lg:text-6xl font-bold mb-2"
+            className="text-[#0A0534] text-2xl lg:text-5xl font-bold mb-2"
             style={{ lineHeight: "45px" }}
           >
             Explore Our Global
           </h1>
           <h1
-            className="text-4xl lg:text-6xl font-bold"
+            className="text-2xl lg:text-5xl font-bold"
             style={{ lineHeight: "45px" }}
           >
             <span
@@ -69,7 +69,7 @@ const SectionSix = () => {
               style={{ maxWidth: "250px", minWidth: "200px" }} // Fixed width for cards
             >
               <h2
-                className="text-2xl lg:text-4xl mb-2"
+                className="text-xl lg:text-2xl mb-2"
                 style={{ lineHeight: "27px" }}
               >
                 <span

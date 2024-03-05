@@ -47,7 +47,7 @@ const Navbar = ({ textColor, logo }) => {
           </button>
         </div>
         <div
-          className={`md:flex flex-wrap items-center ${
+          className={`md:flex  flex-wrap items-center ${
             showMenu ? "block" : "hidden"
           }`}
         >

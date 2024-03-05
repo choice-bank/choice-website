@@ -25,7 +25,7 @@ const SectionFive = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-16">
           <div className="text-left ">
             <h1
-              className="text-2xl lg:text-4xl font-bold mb-4"
+              className="text-xl lg:text-2xl font-bold mb-4"
               style={{ lineHeight: "25px" }}
             >
               Transparent <br />& Fair Pricing

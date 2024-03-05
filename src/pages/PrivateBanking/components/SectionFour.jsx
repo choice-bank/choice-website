@@ -6,7 +6,7 @@ const SectionFour = () => {
     <div className="min-h-screen flex items-center justify-center   py-16 px-8">
       <div className="max-w-4xl mx-auto">
         <h1
-          className="lg:text-6xl text-4xl font-bold mb-8"
+          className="lg:text-4xl text-xl font-bold mb-8"
           style={{ lineHeight: "35px" }}
         >
           Your Ideal Money <br />{" "}

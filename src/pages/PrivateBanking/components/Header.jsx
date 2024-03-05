@@ -1,8 +1,12 @@
 import React from "react";
+import img from "../../../assets/banking/bg.png";
 
 const Header = () => {
   return (
-    <div className="bg-[#0B0D2C] min-h-screen flex flex-col justify-center items-start pl-5 pt-20">
+    <div
+      className="bg-cover min-h-screen flex flex-col justify-center items-start pl-5 pt-20 lg:pl-40"
+      style={{ backgroundImage: `url(${img})` }}
+    >
       <div
         className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-4 mb-4 inline-block"
         style={{ borderRadius: "50px" }}

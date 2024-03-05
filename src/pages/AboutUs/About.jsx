@@ -7,7 +7,7 @@ const About = () => {
         background: "linear-gradient(#F1EEFF, #E6E4FF)",
       }}
     >
-      <div className="mt-20 px-10" style={{ marginBottom: "5rem" }}>
+      <div className="mt-20 px-10 lg:ml-36" style={{ marginBottom: "5rem" }}>
         <h4 className="uppercase font-bold lg:text-lg">about us</h4>
         <h1 className="capitalize font-bold text-2xl lg:text-7xl ">
           <span
@@ -32,7 +32,7 @@ const About = () => {
           </span>
         </h1>
       </div>
-      <div className="flex lg:justify-center lg:items-center flex-col lg:flex-row justify-center items-center lg:p-20">
+      <div className="flex lg:justify-center lg:items-center flex-col lg:flex-row justify-center items-center lg:p-40">
         <div className="flex-grow flex-shrink-1">
           <img
             src={image}
