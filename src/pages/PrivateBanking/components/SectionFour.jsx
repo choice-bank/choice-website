@@ -3,7 +3,7 @@ import img from "../../../assets/banking/pic3.png";
 
 const SectionFour = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center   py-16 px-8">
+    <div className="min-h-screen flex items-center justify-center lg:justify-around   py-16 px-8">
       <div className="max-w-4xl mx-auto">
         <h1
           className="lg:text-4xl text-xl font-bold mb-8"
@@ -38,7 +38,7 @@ const SectionFour = () => {
           <br /> partners ensure that your funds are transferred quickly and
           efficiently.
         </p>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+        {/* <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           <div className="">
             <h1
               className="text-[16px] font-[700] mb-3"
@@ -82,7 +82,7 @@ const SectionFour = () => {
               your preferred method.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="hidden md:block">
         <img src={img} alt="phone" className="max-w-sm" />

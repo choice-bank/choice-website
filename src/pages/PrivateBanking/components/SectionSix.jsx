@@ -33,7 +33,7 @@ const SectionSix = () => {
       <div className="max-w-4xl mx-auto">
         <div className="mb-10  text-center">
           <h4
-            className="text-[#0A0534] text-lg lg:text-4xl"
+            className="text-[#0A0534] text-lg lg:text-2xl"
             style={{ lineHeight: "22px" }}
           >
             And that's not all we can offer

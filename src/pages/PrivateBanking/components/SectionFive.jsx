@@ -6,7 +6,7 @@ const SectionFive = () => {
   return (
     <div className="min-h-screen flex items-center justify-center  py-16 px-8">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="mb-10">
+        {/* <div className="mb-10">
           <h1 className="text-4xl lg:text-6xl font-bold">Versatile Transfer</h1>
           <h2 className="text-2xl lg:text-6xl font-bold">
             <span
@@ -21,7 +21,7 @@ const SectionFive = () => {
               methods supported
             </span>
           </h2>
-        </div>
+        </div> */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-16">
           <div className="text-left ">
             <h1

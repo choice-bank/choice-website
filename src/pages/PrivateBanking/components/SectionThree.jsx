@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../assets/banking/pic1.png";
+import img from "../../../assets/banking/dashboard.png";
 
 const SectionThree = () => {
   return (
@@ -67,6 +67,22 @@ const SectionThree = () => {
                   sophisticated fraud detection.
                 </p>
               </div>
+            </div>
+          </div>
+          <div>
+            <h2>Transfer methods</h2>
+            <h3>supported;</h3>
+            <div className="flex">
+              <div>Choice Internal Transfer</div>
+              <div>Pesalink</div>
+              <div>RTGS</div>
+            </div>
+            <div className="flex">
+              <div>Mobile Money</div>
+              <div>Paybill</div>
+              <div>Till</div>
+              <div>EFT</div>
+              <div>SWIFT</div>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const About = () => {
         background: "linear-gradient(#F1EEFF, #E6E4FF)",
       }}
     >
-      <div className="mt-20 px-10 lg:ml-36" style={{ marginBottom: "5rem" }}>
+      <div className="mt-16 px-10 lg:ml-36 lg:mt-36">
         <h4 className="uppercase font-bold lg:text-lg">about us</h4>
         <h1 className="capitalize font-bold text-2xl lg:text-7xl ">
           <span
