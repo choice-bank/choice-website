@@ -2,22 +2,14 @@ import image from "../../assets/aboutUs/img1.png";
 const About = () => {
   return (
     <div
-      className="min-h-screen flex flex-col "
+      className="min-h-screen flex flex-col justify-center"
       style={{
         background: "linear-gradient(#F1EEFF, #E6E4FF)",
-        paddingTop: "200px",
-        paddingLeft: "150px",
-        paddingRight: "150px",
       }}
     >
-      <div className="self-start" style={{ marginBottom: "5rem" }}>
-        <h4 className="uppercase font-bold" style={{ fontSize: "11px" }}>
-          about us
-        </h4>
-        <h1
-          className="capitalize font-bold "
-          style={{ fontSize: "56px", lineHeight: 1 }}
-        >
+      <div className="mt-20 px-10" style={{ marginBottom: "5rem" }}>
+        <h4 className="uppercase font-bold lg:text-lg">about us</h4>
+        <h1 className="capitalize font-bold text-2xl lg:text-7xl ">
           <span
             style={{
               background: "linear-gradient(to right, #0A0534, #BB4ADC)",
@@ -28,10 +20,7 @@ const About = () => {
             we're building banking
           </span>
         </h1>
-        <h1
-          className="capitalize font-bold "
-          style={{ fontSize: "56px", lineHeight: 1 }}
-        >
+        <h1 className="capitalize font-bold text-2xl lg:text-7xl">
           <span
             style={{
               background: "linear-gradient(to right, #0A0534, #BB4ADC)",
@@ -43,31 +32,27 @@ const About = () => {
           </span>
         </h1>
       </div>
-      <div className="flex justify-around items-center">
-        <div>
+      <div className="flex lg:justify-center lg:items-center flex-col lg:flex-row justify-center items-center lg:p-20">
+        <div className="flex-grow flex-shrink-1">
           <img
             src={image}
             alt="pic"
-            className="h-full"
-            style={{ objectFit: "contain" }}
+            className="h-full max-w-full object-contain"
           />
         </div>
 
-        <div
-          className=" ml-10 flex justify-center flex-col mb-10 p-10"
-          style={{ width: "400px", height: "300px" }}
-        >
-          <h4 className="uppercase" style={{ fontSize: "11px" }}>
-            who we are
-          </h4>
-          <h1 className="capitalize font-bold" style={{ fontSize: "28px" }}>
+        <div className="flex justify-center flex-col mb-10 px-5 pt-5 ml-10 lg:ml-0 flex-grow flex-shrink-1 lg:w-2/5">
+          {" "}
+          {/* Added ml-10 and lg:ml-0 classes */}
+          <h4 className="uppercase text-sm lg:text-lg">who we are</h4>
+          <h1 className="capitalize font-bold text-xl lg:text-5xl">
             the ChoiceBank Story
           </h1>
-          <p className="mb-5" style={{ fontSize: "14px" }}>
+          <p className="mb-5 mt-5 text-lg lg:text-xl">
             We are a licensed banking institution based in Kenya, dedicated to
             fostering full financial inclusion.
           </p>
-          <p style={{ fontSize: "14px" }}>
+          <p className="mb-5 text-lg lg:text-xl">
             Being flexible and dynamic in business, adapting swiftly to market
             changes and addressing the evolving needs of our customers, are the
             key priorities for the development of our Bank.

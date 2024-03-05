@@ -36,7 +36,8 @@ const Navbar = ({ textColor, logo }) => {
           {/* Mobile menu icon */}
           <button
             onClick={toggleMenu}
-            className="text-gray-800 focus:outline-none"
+            className="focus:outline-none"
+            style={{ color: textColor }}
           >
             {showMenu ? (
               <KeyboardArrowDown className="h-6 w-6" />

@@ -49,30 +49,23 @@ const Tools = () => {
   };
 
   return (
-    <div className="min-h-screen pt-24 px-16">
-      <div className="text-center mb-20">
+    <div className="min-h-screen pt-5">
+      <div className="text-center lg:mb-10 mb-5">
         <div className="inline-block bg-[#6043EC] rounded-full px-10 py-3">
           <p className="text-white" style={{ fontSize: "12px" }}>
             API Banking
           </p>
         </div>
 
-        <h1 className="font-bold" style={{ fontSize: "45px" }}>
-          Add your own Tools
-        </h1>
-        <h1
-          className="font-bold"
-          style={{ fontSize: "45px", lineHeight: "45px" }}
-        >
-          With Our Business API
-        </h1>
-        <p className="text-center">
+        <h1 className="font-bold text-sm lg:text-6xl">Add your own Tools</h1>
+        <h1 className="font-bold lg:text-6xl text-lg">With Our Business API</h1>
+        <p className="lg:text-center">
           Connect your company's own applications to your Choice Business
           account for a personalized customer experience.
         </p>
       </div>
 
-      <div className="flex justify-center items-center space-x-6 mb-8">
+      <div className="flex justify-center items-center space-x-2 lg:space-x-6 lg:mb-8 ">
         {items.map((item) => (
           <ToolItem
             key={item.id}
@@ -85,22 +78,18 @@ const Tools = () => {
       {items.map((item) => (
         <div
           key={item.id}
-          className={`flex justify-center items-center mb-8 ${
+          className={`flex flex-col lg:flex-row md:flex-row p-5 justify-center items-center mb-8 ${
             activeItemId === item.id ? "" : "hidden"
           }`}
         >
-          <img src={item.image} alt="lmg" className="mr-6" />
+          <img src={item.image} alt="lmg" className="lg:mr-6" />
           <div>
             <div>
               <item.icon />
-              <p className="font-[500] text-[20px]">{item.title}</p>
+              <p className="font-[500] text-lg lg:text-2xl">{item.title}</p>
               <ul className="list-none">
                 {item.lists.map((list, i) => (
-                  <li
-                    key={i}
-                    className="flex items-center"
-                    style={{ fontSize: "17px", lineHeight: "26px" }}
-                  >
+                  <li key={i} className="flex lg:items-center text-lg">
                     <svg
                       className="w-4 h-4 text-[#9E4CE8] mr-2"
                       fill="none"
@@ -129,7 +118,7 @@ const Tools = () => {
         <p className="mx-4">Trusted By</p>
         <div className="flex-grow border-t border-[#E4E4E4]"></div>
       </div>
-      <img src={sponsor} alt="" className="mx-auto" />
+      <img src={sponsor} alt="" className="mx-auto object-fit" />
     </div>
   );
 };
@@ -144,9 +133,7 @@ const ToolItem = ({ item, isActive, onClick }) => {
       style={{ cursor: "pointer", padding: "2px 10px" }}
     >
       <item.icon />
-      <p className="ml-2" style={{ fontSize: "12px" }}>
-        {item.title}
-      </p>
+      <p className="ml-2 text-sm lg:text-lg">{item.title}</p>
     </div>
   );
 };

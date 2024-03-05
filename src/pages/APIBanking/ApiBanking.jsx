@@ -1,6 +1,6 @@
 import {} from "react";
 import Hero from "./components/Hero";
-import ActionCard from "../../components/ActionCard";
+//import ActionCard from "../../components/ActionCard";
 import Tools from "./components/Tools";
 import Solutions from "./components/Solutions";
 import Navbar from "../../components/Navbar";
@@ -13,11 +13,11 @@ const ApiBanking = () => {
       <Hero />
       <Tools />
       <Solutions />
-      <ActionCard
+      {/* <ActionCard
         title="Ready to collaborate?"
         subTitle="Start building and get ahead of the curve before your competitors do"
         button="Become a Partner"
-      />
+      /> */}
     </div>
   );
 };

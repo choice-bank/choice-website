@@ -91,7 +91,7 @@ const HomeSectionOne = () => {
       <div className="lg:flex mb-10">
         {" "}
         {/* Show only on large screens */}
-        <img src={image} alt="Image" className="h-full w-full object-fit" />
+        <img src={image} alt="Image" className="h-full w-full object-fill" />
       </div>
     </div>
   );

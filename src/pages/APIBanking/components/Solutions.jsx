@@ -25,24 +25,17 @@ const Solutions = () => {
 
   return (
     <div
-      className="min-h-screen pt-24 px-16"
+      className="min-h-screen lg:pt-24 lg:px-16 p-10"
       style={{ backgroundColor: "rgba(217,217,217,0.17)" }}
     >
       <div className="text-center mb-20">
-        <h4 className="text-lg font-medium" style={{ fontSize: "18px" }}>
+        <h4 className="text-lg lg:text-2xl font-medium">
           And that's not all we can offer
         </h4>
+        <h1 className="font-[700] text-4xl lg:text-8xl">Meet out Global</h1>
         <h1
-          className="font-[700]"
-          style={{ fontSize: "45px", lineHeight: "45px" }}
-        >
-          Meet out Global
-        </h1>
-        <h1
-          className="font-bold"
+          className="font-bold text-4xl lg:text-8xl"
           style={{
-            fontSize: "45px",
-            lineHeight: "45px",
             backgroundImage:
               "linear-gradient(rgba(90,58,149,1), rgba(158,70,198,1))",
             WebkitBackgroundClip: "text",
@@ -53,7 +46,7 @@ const Solutions = () => {
           Solutions
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-16 ">
         {solutions.map((solution, index) => (
           <div key={index} className="">
             <div className="mb-8">

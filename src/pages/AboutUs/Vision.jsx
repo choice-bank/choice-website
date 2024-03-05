@@ -4,24 +4,21 @@ import connection from "../../assets/aboutUs/img2.png";
 const Vision = () => {
   return (
     <div
-      className="min-h-screen flex"
+      className="lg:p-20"
       style={{
         background: "linear-gradient(#EFEDFE, #EFECFE)",
-        paddingTop: "50px",
-        paddingLeft: "200px",
-        paddingRight: "200px",
       }}
     >
-      <div className="bg-white rounded mb-10" style={{ borderRadius: "10px" }}>
+      <div className="bg-white h-full rounded mb-10 lg:mx-auto lg:w-3/4 lg:h-full  px-10">
         <div
-          className=" mx-auto w-1/2 h-1/2 bg-cover"
+          className=" lg:mx-auto w-full h-full bg-cover lg:w-1/2"
           style={{ paddingTop: "50px" }}
         >
           <img src={location} alt="location-icon" className="mx-auto" />
-          <h1 className="text-center font-bold" style={{ fontSize: "35px" }}>
+          <h1 className="text-center font-bold text-xl lg:text-2xl">
             Our Vision
           </h1>
-          <p className="text-center" style={{ fontSize: "14px" }}>
+          <p className="lg:text-center text-lg lg:text-xl">
             Our vision is to empower individuals and businesses with
             comprehensive, affordable, and high-quality financial services
             tailored to your specific needs, fostering economic growth and
@@ -29,10 +26,10 @@ const Vision = () => {
           </p>
         </div>
         <div
-          className="w-1/2 mx-auto mt-10 bg-cover"
+          className="w-full  mt-10 bg-cover lg:w-1/2 lg:mx-auto lg:py-10"
           style={{ backgroundImage: `url(${image})` }}
         >
-          <img src={connection} alt="connection" className="cover" />
+          <img src={connection} alt="connection" className="image-cover" />
         </div>
       </div>
     </div>
