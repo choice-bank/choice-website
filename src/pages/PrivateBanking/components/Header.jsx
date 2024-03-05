@@ -2,30 +2,24 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div
-      className="min-h-screen flex flex-col justify-end   bg-[#0B0D2C]"
-      style={{
-        paddingBottom: "100px",
-        paddingLeft: "150px",
-        paddingRight: "200px",
-      }}
-    >
-      <div className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] rounded-full py-2 px-4 mb-4 w-1/5">
+    <div className="bg-[#0B0D2C] min-h-screen flex flex-col justify-center items-start pl-5 pt-20">
+      <div
+        className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-4 mb-4 inline-block"
+        style={{ borderRadius: "50px" }}
+      >
         <h1
-          className="capitalize text-white text-center"
+          className="capitalize text-white text-lg"
           style={{
-            borderRadius: "50px",
             padding: "3px 5px",
-            fontSize: "17px",
           }}
         >
-          Private banking
+          private banking
         </h1>
       </div>
-      <div className="w-3/4 mb-10">
+      <div className="lg:w-3/4 w-full mb-5">
         <h1
-          className="text-white font-bold"
-          style={{ fontSize: "50px", lineHeight: 1 }}
+          className="text-white font-bold text-2xl lg:text-6xl"
+          style={{ lineHeight: 1 }}
         >
           Innovative Banking Services <br /> for Exclusive Clients
         </h1>

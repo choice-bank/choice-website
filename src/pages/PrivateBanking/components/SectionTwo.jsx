@@ -34,21 +34,18 @@ const SectionTwo = () => {
           "linear-gradient(180deg, #EFEDFE 0%, rgba(239, 236, 254, 0.00) 100%)",
       }}
     >
-      <h1
-        className=" font-semibold text-[0A1D2B] mb-6 text-center"
-        style={{ fontSize: "35px" }}
-      >
+      <h1 className="mt-5 font-semibold text-[0A1D2B] mb-6 text-center text-lg lg:text-6xl md:text-6xl">
         Bank the way you want
       </h1>
-      <p className="text-center w-[468px] mb-10">
+      <p className="text-center w-full lg:w-1/2 mb-10 text-lg">
         With its automated features and smart technology, ChoiceBank gives you
         control of your money to help you reach your money goals{" "}
       </p>
 
       <div className=" justify-center">
-        <div className="flex">
+        <div className="flex flex-col lg:flex-row md:flew-row">
           {cards.map((card, index) => (
-            <div key={index} className="w-3/4 p-4">
+            <div key={index} className="lg:w-3/4 md:w-3/4 p-4">
               <div
                 className="relative bg-cover h-[400px] w-[250px] shadow-md "
                 style={{

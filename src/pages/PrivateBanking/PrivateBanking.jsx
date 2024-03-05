@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Navbar from "../../components/Navbar";
 import logo from "../../assets/api/logo.png";
-import ActionCard from "../../components/ActionCard";
+//import ActionCard from "../../components/ActionCard";
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
@@ -23,11 +23,11 @@ const PrivateBanking = () => {
       <SectionFive />
       <SectionSix />
       <SectionSeven />
-      <ActionCard
+      {/* <ActionCard
         title="Get Started"
         subTitle="Open an account in minutes - no credit check and no minimum deposit"
         button="Open an Account"
-      />
+      /> */}
     </div>
   );
 };

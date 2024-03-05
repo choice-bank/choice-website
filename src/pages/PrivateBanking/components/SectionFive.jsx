@@ -7,8 +7,8 @@ const SectionFive = () => {
     <div className="min-h-screen flex items-center justify-center  py-16 px-8">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-10">
-          <h1 className="text-4xl font-bold">Versatile Transfer</h1>
-          <h2 className="text-3xl font-bold">
+          <h1 className="text-4xl lg:text-6xl font-bold">Versatile Transfer</h1>
+          <h2 className="text-2xl lg:text-6xl font-bold">
             <span
               style={{
                 background:
@@ -25,16 +25,16 @@ const SectionFive = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-16">
           <div className="text-left ">
             <h1
-              className="text-[25px] font-bold mb-4"
+              className="text-2xl lg:text-4xl font-bold mb-4"
               style={{ lineHeight: "25px" }}
             >
               Transparent <br />& Fair Pricing
             </h1>
-            <p className="text-[15px] font=[400] mb-4">
+            <p className="text-lg font=[400] mb-4">
               With competitive exchange rates and low fees, we strive to provide
               you with the best value for your money transfers.
             </p>
-            <p className="text-[15px] font=[400] mb-6">
+            <p className="text-lg font=[400] mb-6">
               Additionally, our transparent pricing approach allows you to know
               exactly what to expect when utilizing our services. In Choice,
               what you see is what you get.

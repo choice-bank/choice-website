@@ -33,18 +33,21 @@ const SectionSix = () => {
       <div className="max-w-4xl mx-auto">
         <div className="mb-10  text-center">
           <h4
-            className="text-[#0A0534] text-[19px]"
+            className="text-[#0A0534] text-lg lg:text-4xl"
             style={{ lineHeight: "22px" }}
           >
             And that's not all we can offer
           </h4>
           <h1
-            className="text-[#0A0534] text-[45px] font-bold mb-2"
+            className="text-[#0A0534] text-4xl lg:text-6xl font-bold mb-2"
             style={{ lineHeight: "45px" }}
           >
             Explore Our Global
           </h1>
-          <h1 className="text-[45px] font-bold" style={{ lineHeight: "45px" }}>
+          <h1
+            className="text-4xl lg:text-6xl font-bold"
+            style={{ lineHeight: "45px" }}
+          >
             <span
               style={{
                 background:
@@ -58,14 +61,17 @@ const SectionSix = () => {
             </span>
           </h1>
         </div>
-        <div className="flex justify-center gap-2">
+        <div className="flex justify-center gap-2 flex-col lg:flex-row md:flex-row">
           {items.map((item, index) => (
             <div
               key={index}
               className=" bg-white shadow-md rounded-lg p-2"
               style={{ maxWidth: "250px", minWidth: "200px" }} // Fixed width for cards
             >
-              <h2 className="text-[25px] mb-2" style={{ lineHeight: "27px" }}>
+              <h2
+                className="text-2xl lg:text-4xl mb-2"
+                style={{ lineHeight: "27px" }}
+              >
                 <span
                   style={{
                     background:
