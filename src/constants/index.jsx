@@ -6,18 +6,27 @@ import LinkedIn from "../assets/linkedin.png";
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Private Banking",
     links: [
       {
-        name: "Loans Business",
+        name: "Business Private Banking",
+        link: "/private-banking",
+      },
+      {
+        name: "Personal Private Banking",
+        link: "#",
+      },
+    ],
+  },
+  {
+    title: "API Banking",
+    links: [
+      {
+        name: "Our Solutions",
         link: "/#",
       },
       {
-        name: "Personal Foreign",
-        link: "#",
-      },
-      {
-        name: "Exchange",
+        name: "Use Cases",
         link: "#",
       },
     ],
@@ -33,34 +42,14 @@ export const footerLinks = [
         name: "Why Choice",
         link: "#",
       },
-      {
-        name: "Our team",
-        link: "#",
-      },
     ],
   },
-  {
-    title: "Products",
-    links: [
-      {
-        name: "Our solution",
-        link: "#",
-      },
-      {
-        name: "Partners we are seeking",
-        link: "#",
-      },
-    ],
-  },
+
   {
     title: "Support",
     links: [
       {
         name: "Get Help",
-        link: "#",
-      },
-      {
-        name: "FAQ",
         link: "#",
       },
     ],
@@ -70,15 +59,15 @@ export const footerLinks = [
 export const socialMedia = [
   {
     icon: X,
-    link: "#",
+    link: "https://twitter.com/choicemfbbank",
   },
   {
     icon: LinkedIn,
-    link: "#",
+    link: "https://www.linkedin.com/company/choice-microfinance-bank/mycompany/",
   },
   {
     icon: Instagram,
-    link: "#",
+    link: "https://www.instagram.com/choicemfbbank/",
   },
   {
     icon: appstore,

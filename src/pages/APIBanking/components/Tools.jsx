@@ -5,7 +5,7 @@ import {
   WorkspacePremiumOutlined,
 } from "@mui/icons-material";
 import img from "../../../assets/api/img1.png";
-import sponsor from "../../../assets/api/sponsors.png";
+//import sponsor from "../../../assets/api/sponsors.png";
 
 const items = [
   {
@@ -49,7 +49,7 @@ const Tools = () => {
   };
 
   return (
-    <div className="min-h-screen pt-5">
+    <div className=" pt-5">
       <div className="text-center lg:mb-10 mb-5">
         <div className="inline-block bg-[#6043EC] rounded-full px-10 py-3">
           <p className="text-white" style={{ fontSize: "12px" }}>
@@ -113,12 +113,12 @@ const Tools = () => {
         </div>
       ))}
 
-      <div className="flex items-center mb-8">
+      {/* <div className="flex items-center mb-8">
         <div className="flex-grow border-t border-[#E4E4E4]"></div>
         <p className="mx-4">Trusted By</p>
         <div className="flex-grow border-t border-[#E4E4E4]"></div>
       </div>
-      <img src={sponsor} alt="" className="mx-auto object-fit" />
+      <img src={sponsor} alt="" className="mx-auto object-fit" /> */}
     </div>
   );
 };
