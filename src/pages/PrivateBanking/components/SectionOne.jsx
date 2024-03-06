@@ -3,7 +3,7 @@ import image from "../../../assets/banking/image1.png";
 
 const SectionOne = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center min-h-screen bg-[#fff]">
+    <div className="flex flex-col lg:flex-row p-5 lg:justify-around min-h-screen bg-[#fff]">
       {/* Left Section */}
       <div className="p-8 lg:mr-10 lg:text-left">
         <h1
@@ -23,12 +23,12 @@ const SectionOne = () => {
           </span>
         </h1>
 
-        <p className="mb-10 mt-5 text-sm lg:text-base">
+        <p className="mb-10 mt-5 text-lg lg:text-base">
           With Choice's Private Banking, you gain access to an elite world of
           investment <br /> opportunities, innovative banking products, and a
           global network designed <br /> to empower your financial aspirations.
         </p>
-        <p className="text-sm lg:text-base">
+        <p className="text-lg lg:text-base">
           Whether you are looking to grow your investment portfolio, secure your{" "}
           <br /> family's future, or manage your personal and business finances
           with efficiency <br /> and foresight, our private banking service is

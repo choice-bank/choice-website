@@ -3,12 +3,9 @@ import img from "../../../assets/banking/pic3.png";
 
 const SectionFour = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center lg:justify-around   py-16 px-8">
+    <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-around   py-16 px-8">
       <div className="max-w-4xl mx-auto">
-        <h1
-          className="lg:text-4xl text-xl font-bold mb-8"
-          style={{ lineHeight: "35px" }}
-        >
+        <h1 className="lg:text-4xl text-2xl font-bold mb-8">
           Your Ideal Money <br />{" "}
           <span
             style={{
@@ -22,15 +19,12 @@ const SectionFour = () => {
             Transfer Partner
           </span>
         </h1>
-        <p
-          className="text-[13px] mb-8 text-[#738A97] font-[400px]"
-          style={{ lineHeight: "21px" }}
-        >
+        <p className="text-lg mb-8  font-[400px]">
           We offer a range of secure and reliable money transfer services <br />{" "}
           designed to meet your specific needs.
         </p>
         <p
-          className="text-[13px] mb-8 text-[#738A97] font-[400px]"
+          className="text-lg mb-8 ] font-[400px]"
           style={{ lineHeight: "21px" }}
         >
           Whether you are sending money to family overseas or making <br />{" "}
@@ -84,8 +78,8 @@ const SectionFour = () => {
           </div>
         </div> */}
       </div>
-      <div className="hidden md:block">
-        <img src={img} alt="phone" className="max-w-sm" />
+      <div className="md:block h-full">
+        <img src={img} alt="phone" className="object-contain" />
       </div>
     </div>
   );

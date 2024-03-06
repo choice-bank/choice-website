@@ -4,28 +4,12 @@ import { ArrowForward } from "@mui/icons-material";
 
 const SectionFive = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center  py-16 px-8">
+    <div className="min-h-screen flex items-center justify-center  py-5 px-8">
       <div className="max-w-4xl mx-auto text-center">
-        {/* <div className="mb-10">
-          <h1 className="text-4xl lg:text-6xl font-bold">Versatile Transfer</h1>
-          <h2 className="text-2xl lg:text-6xl font-bold">
-            <span
-              style={{
-                background:
-                  "linear-gradient(90deg, #5A3A95 1.43%, #9E46C6 84.6%)",
-                backgroundClip: "text",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
-              methods supported
-            </span>
-          </h2>
-        </div> */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-16">
           <div className="text-left ">
             <h1
-              className="text-xl lg:text-2xl font-bold mb-4"
+              className="text-2xl lg:text-4xl font-bold mb-4"
               style={{ lineHeight: "25px" }}
             >
               Transparent <br />& Fair Pricing
@@ -40,17 +24,14 @@ const SectionFive = () => {
               what you see is what you get.
             </p>
             <div className="inline-block">
-              <div
-                className="flex justify-center items-center bg-[#6043ED] py-2 px-4 text-white mt-4"
-                style={{ borderRadius: "50px" }}
-              >
+              <div className="flex justify-center rounded-full items-center bg-[#6043ED] py-2 px-4 text-white mt-4">
                 <p className="mr-2">View Pricings</p>
                 <ArrowForward />
               </div>
             </div>
           </div>
-          <div>
-            <img src={img} alt="phone" className="max-w-lg" />
+          <div className="w-full">
+            <img src={img} alt="phone" className="max-w-lg w-full" />
           </div>
         </div>
       </div>

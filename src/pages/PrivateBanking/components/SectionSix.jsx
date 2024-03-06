@@ -25,29 +25,20 @@ const items = [
 const SectionSix = () => {
   return (
     <div
-      className="min-h-screen flex items-center justify-center  py-16"
+      className="min-h-screen flex items-center justify-center  py-10"
       style={{
         background: "linear-gradient(180deg, #F8F8F8 0%, #F9F9F9 100%)",
       }}
     >
       <div className="max-w-4xl mx-auto">
         <div className="mb-10  text-center">
-          <h4
-            className="text-[#0A0534] text-lg lg:text-2xl"
-            style={{ lineHeight: "22px" }}
-          >
+          <h4 className="text-[#0A0534] text-xl lg:text-4xl">
             And that's not all we can offer
           </h4>
-          <h1
-            className="text-[#0A0534] text-2xl lg:text-5xl font-bold mb-2"
-            style={{ lineHeight: "45px" }}
-          >
+          <h1 className="text-[#0A0534] text-2xl lg:text-6xl font-bold mb-2">
             Explore Our Global
           </h1>
-          <h1
-            className="text-2xl lg:text-5xl font-bold"
-            style={{ lineHeight: "45px" }}
-          >
+          <h1 className="text-2xl lg:text-6xl font-bold">
             <span
               style={{
                 background:
@@ -65,13 +56,10 @@ const SectionSix = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className=" bg-white shadow-md rounded-lg p-2"
-              style={{ maxWidth: "250px", minWidth: "200px" }} // Fixed width for cards
+              className=" bg-white shadow-md rounded-lg m-3 p-3 w-10/12 lg:w-1/2 "
+              // Fixed width for cards
             >
-              <h2
-                className="text-xl lg:text-2xl mb-2"
-                style={{ lineHeight: "27px" }}
-              >
+              <h2 className="text-lg lg:text-2xl mb-2">
                 <span
                   style={{
                     background:
@@ -84,7 +72,7 @@ const SectionSix = () => {
                   {item.title}
                 </span>
               </h2>
-              <p className="text-gray-600">{item.description}</p>
+              <p className="text-gray-600 lg:text-lg">{item.description}</p>
             </div>
           ))}
         </div>

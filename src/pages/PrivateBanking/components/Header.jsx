@@ -8,23 +8,15 @@ const Header = () => {
       style={{ backgroundImage: `url(${img})` }}
     >
       <div
-        className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-4 mb-4 inline-block"
-        style={{ borderRadius: "50px" }}
+        className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-4 mb-4 inline-block rounded-full"
+        style={{ padding: "3px 8px" }}
       >
-        <h1
-          className="capitalize text-white text-lg"
-          style={{
-            padding: "3px 5px",
-          }}
-        >
+        <h1 className="capitalize text-white text-center text-sm md:text-base lg:text-lg">
           private banking
         </h1>
       </div>
-      <div className="lg:w-3/4 w-full mb-5">
-        <h1
-          className="text-white font-bold text-2xl lg:text-6xl"
-          style={{ lineHeight: 1 }}
-        >
+      <div className="w-full mb-10">
+        <h1 className="text-white font-bold text-2xl lg:text-7xl font-sans">
           Innovative Banking Services <br /> for Exclusive Clients
         </h1>
       </div>

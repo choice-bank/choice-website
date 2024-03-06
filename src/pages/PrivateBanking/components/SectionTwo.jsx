@@ -28,7 +28,7 @@ const SectionTwo = () => {
   ];
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center"
+      className="min-h-screen flex flex-col items-center justify-center p-5"
       style={{
         background:
           "linear-gradient(180deg, #EFEDFE 0%, rgba(239, 236, 254, 0.00) 100%)",
@@ -47,7 +47,7 @@ const SectionTwo = () => {
           {cards.map((card, index) => (
             <div key={index} className="lg:w-3/4 md:w-3/4 p-4">
               <div
-                className="relative bg-cover h-[400px] w-[250px] shadow-md "
+                className="relative bg-cover h-[400px] w-[300px] shadow-md "
                 style={{
                   backgroundImage: `url(${cards[index].imageUrl})`,
                   borderRadius: "10px",
@@ -63,13 +63,7 @@ const SectionTwo = () => {
                         display: "inline-block",
                       }}
                     >
-                      <h2
-                        className=" uppercase font-bold text-white"
-                        style={{
-                          margin: "0",
-                          fontSize: "10px",
-                        }}
-                      >
+                      <h2 className=" uppercase font-bold text-white text-lg">
                         {card.title}
                       </h2>
                     </div>

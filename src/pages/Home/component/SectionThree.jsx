@@ -9,7 +9,7 @@ const SectionThree = () => {
           className="bg-gradient-to-r from-[#D43A36] via-[#9C45C5] to-[#576BCD] rounded-full py-2 px-4 mb-4 inline-block"
           style={{ padding: "3px 8px" }}
         >
-          <h1 className="capitalize text-white text-center text-sm md:text-base">
+          <h1 className="capitalize text-white text-center text-sm md:text-base lg:text-lg">
             api banking
           </h1>
         </div>

@@ -9,11 +9,8 @@ const Vision = () => {
         background: "linear-gradient(#EFEDFE, #EFECFE)",
       }}
     >
-      <div className="bg-white h-full rounded mb-10 lg:mx-auto lg:w-3/4 lg:h-full  px-10">
-        <div
-          className=" lg:mx-auto w-full h-full bg-cover lg:w-1/2"
-          style={{ paddingTop: "50px" }}
-        >
+      <div className="bg-white h-full rounded mb-10 lg:mx-auto lg:w-3/4 lg:h-full  px-5">
+        <div className=" lg:mx-auto w-full h-full bg-cover lg:w-1/2 pt-10 lg:pt-34">
           <img src={location} alt="location-icon" className="mx-auto" />
           <h1 className="text-center font-bold text-xl lg:text-2xl">
             Our Vision
@@ -26,7 +23,7 @@ const Vision = () => {
           </p>
         </div>
         <div
-          className="w-full  mt-10 bg-cover lg:w-1/2 lg:mx-auto lg:py-10"
+          className="w-full  mt-10 bg-cover bg-no-repeat lg:w-1/2 lg:mx-auto lg:py-10"
           style={{ backgroundImage: `url(${image})` }}
         >
           <img src={connection} alt="connection" className="image-cover" />

@@ -49,17 +49,17 @@ const Tools = ({ id }) => {
   };
 
   return (
-    <div id={id} className="pt-5">
-      <div className="text-center lg:mb-10 mb-5">
-        <div className="inline-block bg-[#6043EC] rounded-full px-10 py-3">
-          <p className="text-white" style={{ fontSize: "12px" }}>
+    <div id={id} className="flex flex-col lg:items-center p-10">
+      <div className="text-center lg:mb-10 mb-5 lg:w-1/2 w-full">
+        <div className="inline-block bg-[#6043EC] rounded-full px-5 py-2">
+          <p className="text-white font-bold text-sm md:text-base lg:text-lg">
             API Banking
           </p>
         </div>
 
-        <h1 className="font-bold text-sm lg:text-6xl">Add your own Tools</h1>
-        <h1 className="font-bold lg:text-6xl text-lg">With Our Business API</h1>
-        <p className="lg:text-center">
+        <h1 className="font-bold text-sm lg:text-xl">Add your own Tools</h1>
+        <h1 className="font-bold lg:text-4xl text-xl">With Our Business API</h1>
+        <p className="lg:text-center text-lg lg:text-xl">
           Connect your company's own applications to your Choice Business
           account for a personalized customer experience.
         </p>
