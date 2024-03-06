@@ -10,7 +10,7 @@ import {
   LocalMallOutlined,
 } from "@mui/icons-material";
 
-const Solutions = () => {
+const Solutions = ({ id }) => {
   const [expandedItem, setExpandedItem] = useState(null);
 
   const handleToggleExpand = (index) => {
@@ -25,6 +25,7 @@ const Solutions = () => {
 
   return (
     <div
+      id={id}
       className="min-h-screen lg:pt-24 lg:px-16 p-10"
       style={{ backgroundColor: "rgba(217,217,217,0.17)" }}
     >

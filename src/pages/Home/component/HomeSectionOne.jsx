@@ -2,55 +2,41 @@ import image from "../../../assets/person1.png";
 
 const HomeSectionOne = () => {
   return (
-    <div
-      className="flex flex-col lg:flex-row justify-around min-h-screen bg-[#0A0534]"
-      style={{
-        paddingTop: "100px",
-        paddingBottom: "100px",
-      }}
-    >
+    <div className="flex flex-col lg:flex-row justify-around  bg-[#0A0534] lg:p-20">
       {/* Left Section */}
       <div className="p-8 items-center lg:w-1/2">
         <div className="flex mb-5">
           <div
-            className="inline-block"
+            className="inline-block rounded-full py-2 px-4 mr-5 "
             style={{
               background:
                 "linear-gradient(90deg, #D43A36 -10.29%, #6043EC 35.97%, #120670 91.38%)",
               borderRadius: "50px",
               padding: "3px 5px",
-              marginRight: "10px",
             }}
           >
-            <h1 className="capitalize text-white text-sm md:text-lg">
+            <h1 className="capitalize text-white text-center text-sm md:text-base">
               personal private banking
             </h1>
           </div>
           <div
-            className="inline-block"
+            className="inline-block  rounded-full py-2 px-"
             style={{
               background:
                 "linear-gradient(90deg, #D43A36 -10.29%, #6043EC 35.97%, #120670 91.38%)",
               borderRadius: "50px",
               padding: "3px 8px",
-              marginRight: "10px",
             }}
           >
-            <h1 className="capitalize text-white text-sm md:text-lg">
+            <h1 className="capitalize text-white text-center text-sm md:text-base">
               business private banking
             </h1>
           </div>
         </div>
 
         <div>
-          <h2
-            className="mb-4 font-[400] text-white"
-            style={{
-              fontSize: "clamp(40px, 5vw, 50px)",
-              lineHeight: "clamp(40px, 5vw, 46px)",
-            }}
-          >
-            <span className="italic">We believe</span>
+          <h2 className="mb-4 font-[400] text-white text-lg lg:text-6xl">
+            <span className="italic">We believe </span>
             <span
               className="font-bold"
               style={{

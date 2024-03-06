@@ -63,7 +63,7 @@ const SectionFour = () => {
         </div>
       </div>
       <Link
-        to="private-banking"
+        to="/api-banking"
         className="flex justify-center items-center bg-purple-500 py-2 px-4 text-white mt-4"
         style={{ borderRadius: "50px" }}
       >

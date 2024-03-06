@@ -10,11 +10,11 @@ export const footerLinks = [
     links: [
       {
         name: "Business Private Banking",
-        link: "/private-banking",
+        url: "/private-banking",
       },
       {
         name: "Personal Private Banking",
-        link: "#",
+        url: "/",
       },
     ],
   },
@@ -23,11 +23,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Solutions",
-        link: "/#",
+        url: "/api-banking#solution",
       },
       {
         name: "Use Cases",
-        link: "#",
+        url: "/api-banking#use-case",
       },
     ],
   },
@@ -36,11 +36,11 @@ export const footerLinks = [
     links: [
       {
         name: "Who we are",
-        link: "#",
+        url: "about-us",
       },
       {
         name: "Why Choice",
-        link: "#",
+        url: "/",
       },
     ],
   },
@@ -50,7 +50,7 @@ export const footerLinks = [
     links: [
       {
         name: "Get Help",
-        link: "#",
+        url: "#",
       },
     ],
   },

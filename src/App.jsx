@@ -1,4 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import { useEffect } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/Home/HomePage";
@@ -7,18 +13,28 @@ import ApiBanking from "./pages/APIBanking/ApiBanking";
 import logo from "./assets/logo.png";
 import PrivateBanking from "./pages/PrivateBanking/PrivateBanking";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
       <Navbar logo={logo} />
-
+      <ScrollToTop />{" "}
+      {/* ScrollToTop component to scroll to top on route change */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/private-banking" element={<PrivateBanking />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/api-banking" element={<ApiBanking />} />
       </Routes>
-
       <Footer />
     </Router>
   );

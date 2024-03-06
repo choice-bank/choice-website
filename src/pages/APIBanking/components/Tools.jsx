@@ -41,7 +41,7 @@ const items = [
   },
 ];
 
-const Tools = () => {
+const Tools = ({ id }) => {
   const [activeItemId, setActiveItemId] = useState(1);
 
   const handleItemClick = (id) => {
@@ -49,7 +49,7 @@ const Tools = () => {
   };
 
   return (
-    <div className=" pt-5">
+    <div id={id} className="pt-5">
       <div className="text-center lg:mb-10 mb-5">
         <div className="inline-block bg-[#6043EC] rounded-full px-10 py-3">
           <p className="text-white" style={{ fontSize: "12px" }}>

@@ -8,7 +8,7 @@ const Header = () => {
     >
       {/* Left section */}
       <div className="flex-shrink-0 mb-5 md:mb-0 lg:self-center lg:ml-40 md:ml-36 ">
-        <h1 className="font-[700] text-2xl lg:text-8xl capitalize font-sans mb-5 leading-normal md:text-4xl md:leading-tight p-5">
+        <h1 className="font-[700] text-2xl lg:text-8xl capitalize font-sans  leading-normal md:text-4xl md:leading-tight p-5">
           <span
             style={{
               background:
@@ -46,7 +46,7 @@ const Header = () => {
         <img
           src={image1}
           alt="Hero Image"
-          className="w-[250px] object-contain rounded-lg shadow-md"
+          className="w-[500px] object-contain rounded-lg shadow-md"
         />
       </div>
     </div>

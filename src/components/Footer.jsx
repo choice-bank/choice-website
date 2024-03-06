@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { footerLinks, socialMedia } from "../constants";
 
@@ -6,9 +7,9 @@ const Footer = () => {
   return (
     <section className="flex flex-col lg:px-16 p-6 lg:justify-center lg:items-center ">
       <div className=" md:flex-row flex flex-col mb-8 w-full">
-        <div className="flex-1">
+        <Link to="/" className="flex-1">
           <img src={logo} alt="logo" className="object-contain" />
-        </div>
+        </Link>
 
         <div className="flex-1 w-full flex lg:flex-row justify-between md:mt-0 mt-10">
           {footerLinks.map((footerLink, i) => (
@@ -23,7 +24,9 @@ const Footer = () => {
                       i !== footerLink.links.length - 1 ? "mb-4" : "mb-0"
                     }`}
                   >
-                    {link.name}
+                    <Link to={link.url} key={i}>
+                      {link.name}
+                    </Link>
                   </li>
                 ))}
               </ul>

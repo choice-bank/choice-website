@@ -11,8 +11,8 @@ const ApiBanking = () => {
     <div>
       <Navbar textColor="white" logo={logo} />
       <Hero />
-      <Tools />
-      <Solutions />
+      <Tools id="use-case" />
+      <Solutions id="solution" />
       {/* <ActionCard
         title="Ready to collaborate?"
         subTitle="Start building and get ahead of the curve before your competitors do"
