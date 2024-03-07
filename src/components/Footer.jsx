@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import { footerLinks, socialMedia } from "../constants";
+import { footerLinks } from "../constants";
+import { Facebook, Instagram, LinkedIn, X } from "@mui/icons-material";
+import playstore from "../assets/home/playstore.jpg";
+import appstore from "../assets/home/appstore.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -40,27 +43,60 @@ const Footer = () => {
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
 
-        <div className="flex flex-row md:mt-0 mt-6">
-          {socialMedia.map((social, i) => (
+        <div className="flex flex-row md:mt-0 mt-6 lg:justify-between">
+          <a
+            href="https://twitter.com/choicemfbbank"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <X />
+          </a>
+          <a
+            href="https://www.instagram.com/choicemfbbank/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Instagram />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/choice-microfinance-bank/mycompany/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedIn />
+          </a>
+          <a href="#" target="_blank" rel="noreferrer">
+            <Facebook />
+          </a>
+          <a href="#" target="_blank" rel="noreferrer">
             <img
-              src={social.icon}
-              alt="con"
-              key={i}
-              className={`w-[24px] h-[24px] object-contain cursor-pointer ${
-                i !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-              }`}
-              onClick={() => window.open(social.link)}
+              src={appstore}
+              className="w-[100px] h-[30px] object-contain cursor-pointer"
             />
-          ))}
+          </a>
+          <a href="#" target="_blank" rel="noreferrer">
+            <img
+              src={playstore}
+              className="w-[100px] h-[30px] object-contain cursor-pointer"
+            />
+          </a>
         </div>
       </div>
 
       <div className=" mt-10">
         <div className="flex justify-around sm:flex-wrap lg:justify-between">
-          <p className="text-sm lg:text-lg">Privacy Policy.</p>
-          <p className="text-sm lg:text-lg">Terms of Service.</p>
-          <p className="text-sm lg:text-lg">Data Privacy.</p>
-          <p className="text-sm lg:text-lg">Disclaimer.</p>
+          <Link to="#" className="text-sm lg:text-lg">
+            Privacy Policy.
+          </Link>
+          <Link to="#" className="text-sm lg:text-lg">
+            Terms of Service.
+          </Link>
+          <Link to="#" className="text-sm lg:text-lg">
+            Data Privacy.
+          </Link>
+          <Link to="#" className="text-sm lg:text-lg">
+            Disclaimer.
+          </Link>
         </div>
       </div>
     </section>

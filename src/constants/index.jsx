@@ -1,8 +1,6 @@
-import playstore from "../assets/playstore.png";
-import appstore from "../assets/playstore.png";
-import X from "../assets/X.png";
-import Instagram from "../assets/instagram.png";
-import LinkedIn from "../assets/linkedin.png";
+import playstore from "../assets/home/playstore.jpg";
+import appstore from "../assets/home/appstore.jpg";
+import { X, LinkedIn, Instagram } from "@mui/icons-material";
 
 export const footerLinks = [
   {
@@ -58,15 +56,15 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    icon: X,
+    icon: <X />,
     link: "https://twitter.com/choicemfbbank",
   },
   {
-    icon: LinkedIn,
+    icon: <LinkedIn />,
     link: "https://www.linkedin.com/company/choice-microfinance-bank/mycompany/",
   },
   {
-    icon: Instagram,
+    icon: <Instagram />,
     link: "https://www.instagram.com/choicemfbbank/",
   },
   {
