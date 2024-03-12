@@ -9,21 +9,27 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <section className="flex flex-col lg:px-16 p-6 lg:justify-center lg:items-center ">
-      <div className=" md:flex-row flex flex-col mb-8 w-full">
-        <Link to="/" className="flex-1">
-          <img src={logo} alt="logo" className="object-contain" />
-        </Link>
+      <div className=" md:flex-row lg:flex-row flex flex-col mb-8 w-full lg:justify-center ">
+        <div className="flex-1">
+          <Link to="/">
+            <img src={logo} alt="logo" className="object-contain" />
+          </Link>
+          <p>+254 203882206</p>
+          <p>+254 203882207</p>
+          <p>+254731225879</p>
+          <p>info@choice-bank.com</p>
+        </div>
 
-        <div className="flex-1 w-full flex lg:flex-row justify-between md:mt-0 mt-10">
+        <div className="flex-1 w-full flex lg:flex-row justify-around md:mt-0 mt-10">
           {footerLinks.map((footerLink, i) => (
             <div key={i} className={`flex flex-col s:my-0 my-4`}>
-              <h4 className="font-bold lg:text-2xl ">{footerLink.title}</h4>
+              <h4 className="font-bold lg:text-sm ">{footerLink.title}</h4>
 
               <ul className="list-none mt-4">
                 {footerLink.links.map((link, i) => (
                   <li
                     key={i}
-                    className={`font-normal text-sm lg:text-lg hover:text-secondary cursor-pointer ${
+                    className={`font-normal text-sm lg:text-sm hover:text-secondary cursor-pointer ${
                       i !== footerLink.links.length - 1 ? "mb-4" : "mb-0"
                     }`}
                   >
@@ -39,9 +45,18 @@ const Footer = () => {
       </div>
 
       <div className="w-full flex-col-reverse flex justify-between items-center md:flex-row  lg:flew-col pt-6 ">
-        <p className=" font-bold text-center text-sm lg:text-lg">
+        <p className=" text-center text-sm lg:text-sm">
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
+
+        <div className="flex justify-around sm:flex-wrap lg:justify-between">
+          <Link to="#" className="text-sm lg:text-sm">
+            Data Privacy Policy.
+          </Link>
+          <Link to="#" className="text-sm lg:text-sm">
+            General Terms & Conditions
+          </Link>
+        </div>
 
         <div className="flex flex-row md:mt-0 mt-6 lg:justify-between">
           <a
@@ -80,23 +95,6 @@ const Footer = () => {
               className="w-[100px] h-[30px] object-contain cursor-pointer"
             />
           </a>
-        </div>
-      </div>
-
-      <div className=" mt-10">
-        <div className="flex justify-around sm:flex-wrap lg:justify-between">
-          <Link to="#" className="text-sm lg:text-lg">
-            Privacy Policy.
-          </Link>
-          <Link to="#" className="text-sm lg:text-lg">
-            Terms of Service.
-          </Link>
-          <Link to="#" className="text-sm lg:text-lg">
-            Data Privacy.
-          </Link>
-          <Link to="#" className="text-sm lg:text-lg">
-            Disclaimer.
-          </Link>
         </div>
       </div>
     </section>

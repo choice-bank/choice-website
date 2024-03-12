@@ -24,15 +24,15 @@ const Navbar = ({ textColor, logo }) => {
 
   return (
     <nav className="p-4 z-30 absolute w-full font-sans">
-      <div className="max-w-7xl mx-auto flex justify-between">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex-shrink-0">
           <Link to="/" className="flex ">
             <img
               src={logo}
               alt="Logo"
               style={{
-                width: "160px",
-                height: "24px",
+                width: "150px",
+                height: "20px",
                 objectFit: "contain",
                 marginRight: "1rem",
               }}
@@ -62,7 +62,7 @@ const Navbar = ({ textColor, logo }) => {
             <div className="flex flex-col md:flex-row md:items-center w-full md:w-auto">
               <Link
                 to="/"
-                className="px-3 py-2 font-semibold text-sm uppercase whitespace-nowrap"
+                className="px-3 py-2  text-sm uppercase whitespace-nowrap lg:text-[14px] font-[500]"
                 style={{ color: textColor }}
                 onClick={hideMenu}
               >
@@ -70,7 +70,7 @@ const Navbar = ({ textColor, logo }) => {
               </Link>
               <Link
                 to="/private-banking"
-                className="px-3 py-2 font-semibold text-sm uppercase whitespace-nowrap"
+                className="px-3 py-2  text-sm uppercase whitespace-nowrap lg:text-[14px] font-[500]"
                 style={{ color: textColor }}
                 onClick={hideMenu}
               >
@@ -78,7 +78,7 @@ const Navbar = ({ textColor, logo }) => {
               </Link>
               <Link
                 to="/api-banking"
-                className="px-3 py-2 font-semibold text-sm uppercase whitespace-nowrap"
+                className="px-3 py-2  text-sm uppercase whitespace-nowrap lg:text-[14px] font-[500]"
                 style={{ color: textColor }}
                 onClick={hideMenu}
               >
@@ -86,25 +86,24 @@ const Navbar = ({ textColor, logo }) => {
               </Link>
               <Link
                 to="/about-us"
-                className="px-3 py-2 font-semibold text-sm uppercase whitespace-nowrap"
+                className="px-3 py-2  text-sm uppercase whitespace-nowrap lg:text-[14px] font-[500]"
                 style={{ color: textColor }}
                 onClick={hideMenu}
               >
                 About Us
               </Link>
-              <Link
+              {/* <Link
                 to="/"
-                className="px-3 py-2 font-semibold text-sm uppercase whitespace-nowrap"
-                style={{ color: textColor }}
+                className="px-3 py-2  text-sm uppercase whitespace-nowrap"
                 onClick={hideMenu}
               >
                 Contact Us
-              </Link>
+              </Link> */}
             </div>
             <div className="flex items-center ml-4 relative">
               <button
                 onClick={toggleLoginDropdown}
-                className="text-white bg-[#D43A36] px-3 py-2  text-sm font-semibold focus:outline-none rounded-full"
+                className="text-white bg-[#D43A36] px-10 py-2  text-sm  focus:outline-none rounded-full lg:text-[14px] font-[500]"
               >
                 <Login
                   className="h-5 w-5 inline-block -ml-1 mr-1"
@@ -116,18 +115,20 @@ const Navbar = ({ textColor, logo }) => {
               {showLoginDropdown && (
                 <div className="absolute top-full left-0 mt-2 w-full bg-white shadow-lg rounded-md py-1">
                   <Link
-                    to="/login-option1"
-                    className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200"
+                    to="https://baas-dashboard.choicedigitalbank.com/login?redirect=dashboard"
+                    target="_blank"
+                    className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200 lg:text-[14px] font-[500]"
                     onClick={hideLoginDropdown}
                   >
-                    Internet Banking
+                    BaaS Dashboard
                   </Link>
                   <Link
-                    to="/login-option2"
-                    className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200"
+                    to="https://business.choicedigitalbank.com/login"
+                    target="_blank"
+                    className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200 lg:text-[14px] font-[500]"
                     onClick={hideLoginDropdown}
                   >
-                    Dashboard
+                    Business Internet Banking
                   </Link>
                 </div>
               )}

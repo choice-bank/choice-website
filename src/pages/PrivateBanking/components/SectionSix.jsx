@@ -32,13 +32,13 @@ const SectionSix = () => {
     >
       <div className="max-w-4xl mx-auto">
         <div className="mb-10  text-center">
-          <h4 className="text-[#0A0534] text-xl lg:text-4xl">
+          <h4 className="text-[#0A0534] text-sm md:text-xl lg:text-2xl">
             And that's not all we can offer
           </h4>
-          <h1 className="text-[#0A0534] text-2xl lg:text-6xl font-bold mb-2">
+          <h1 className="text-[#0A0534] text-2xl md:text-4xl lg:text-6xl font-bold mb-2">
             Explore Our Global
           </h1>
-          <h1 className="text-2xl lg:text-6xl font-bold">
+          <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold">
             <span
               style={{
                 background:
@@ -52,14 +52,16 @@ const SectionSix = () => {
             </span>
           </h1>
         </div>
-        <div className="flex justify-center gap-2 flex-col lg:flex-row md:flex-row">
+        <div
+          className="flex justify-center lg:justify-between gap-2 flex-col lg:flex-row md:flex-row"
+          style={{ border: "1px solid red" }}
+        >
           {items.map((item, index) => (
             <div
               key={index}
-              className=" bg-white shadow-md rounded-lg m-3 p-3 w-10/12 lg:w-1/2 "
-              // Fixed width for cards
+              className="bg-white shadow-md rounded-lg md:m-3 p-3 w-full lg:w-1/4" // Set width for large screens
             >
-              <h2 className="text-lg lg:text-2xl mb-2">
+              <h2 className="text-lg md:text-xl lg:text-2xl mb-2">
                 <span
                   style={{
                     background:
@@ -72,7 +74,9 @@ const SectionSix = () => {
                   {item.title}
                 </span>
               </h2>
-              <p className="text-gray-600 lg:text-lg">{item.description}</p>
+              <p className="text-gray-600 text-sm md:text-sm lg:text-lg">
+                {item.description}
+              </p>
             </div>
           ))}
         </div>

@@ -48,7 +48,7 @@ const SectionTwo = () => {
         {cards.map((card, index) => (
           <div key={index} className="lg:w-3/4 md:w-full p-4">
             <div
-              className="relative bg-cover h-[300px] w-full shadow-md"
+              className="relative bg-cover h-[500px] w-full md:h-[300px] lg:h-[500px] shadow-md"
               style={{
                 backgroundImage: `url(${cards[index].imageUrl})`,
                 borderRadius: "10px",

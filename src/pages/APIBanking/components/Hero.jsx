@@ -7,31 +7,37 @@ const Hero = () => {
       className="min-h-screen px-10 pt-32 flex flex-col justify-center items-start lg:bg-cover bg-center bg-no-repeat lg:pl-40"
       style={{ backgroundImage: `url(${img})` }}
     >
-      <div
-        className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-4 mb-4 inline-block rounded-full"
-        style={{ padding: "3px 8px" }}
-      >
-        <h1 className="capitalize text-white text-center text-sm md:text-base lg:text-lg">
+      <div className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-2 mb-4 inline-block rounded-full">
+        <h1
+          className="capitalize text-white text-center text-sm md:text-base lg:text-[17px] font-[250]"
+          style={{ lineHeight: "22px" }}
+        >
           api banking
         </h1>
       </div>
       <div className="w-full mb-10">
-        <h1 className="text-white font-bold text-2xl lg:text-7xl font-sans">
+        <h1
+          className="text-white font-[700] text-2xl lg:text-[60px] font-sans"
+          style={{ lineHeight: "59px", letterSpacing: "-1.8px" }}
+        >
           One Platform <br /> Infinite Opportunities
         </h1>
       </div>
       <div className="w-full lg:w-1/2 font-sans">
-        <p className="text-white lg:font-lg">
+        <p
+          className="text-[#fff] lg:text-[17px] font-[250]"
+          style={{ lineHeight: "22px" }}
+        >
           Leverage Our Bank APIs to seamlessly integrate a comprehensive suite
           of financial products into your existing customer journey,
           encompassing accounts, payments, credit, investments, and more.
         </p>
       </div>
       <div
-        className="mt-5 mb-5 inline-block p-3 rounded-full"
+        className="mt-5 mb-5 inline-block py-1 px-2 rounded-full"
         style={{ border: "1px solid white" }}
       >
-        <h1 className="text-white text-center font-bold text-sm md:text-base lg:text-lg">
+        <h1 className="text-white text-center font-[500] text-sm md:text-base lg:text-[15px]">
           Talk to an Expert
         </h1>
       </div>

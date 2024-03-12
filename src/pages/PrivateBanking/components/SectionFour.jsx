@@ -3,9 +3,9 @@ import img from "../../../assets/banking/pic3.png";
 
 const SectionFour = () => {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center lg:justify-around   py-16 px-8">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="lg:text-4xl text-2xl font-bold mb-8">
+    <div className="min-h-screen flex flex-col md:flex-row lg:flex-row items-center justify-center lg:justify-center md:justify-center lg:items-center md:items-center   py-5 px-8">
+      <div className="">
+        <h1 className="lg:text-4xl md:text-2xl text-xl font-bold ">
           Your Ideal Money <br />{" "}
           <span
             style={{
@@ -23,10 +23,7 @@ const SectionFour = () => {
           We offer a range of secure and reliable money transfer services <br />{" "}
           designed to meet your specific needs.
         </p>
-        <p
-          className="text-lg mb-8 ] font-[400px]"
-          style={{ lineHeight: "21px" }}
-        >
+        <p className="text-lg mb-8 ] font-[400px]">
           Whether you are sending money to family overseas or making <br />{" "}
           business payments, our advanced technology and network of trusted{" "}
           <br /> partners ensure that your funds are transferred quickly and

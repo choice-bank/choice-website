@@ -13,7 +13,7 @@ const HomeSectionTwo = () => {
       title: "regulated bank & insured deposits",
       imageUrl: pic1,
       description:
-        "Security is our top priority. Our Bank is regulated by the Central Bank of Kenya (CBK) and deposits are insured by Kenya Deposit Insurance Corporation (KDIC)",
+        "Security is our top priority. Our Bank is regulated by the Central Bank of Kenya (CBK) and deposits are insured by Kenya Deposit Insurance Corporation (KDIC).",
     },
     {
       id: 2,
@@ -72,47 +72,51 @@ const HomeSectionTwo = () => {
 
   return (
     <div className="min-h-screen flex flex-col p-5 lg:p-20 md:p-10">
-      <h1 className=" font-semibold text-[0A1D2B] mb-6 text-center text-lg md:text-xl lg:text-2xl ">
+      <h1
+        className=" font-[500] text-[0A1D2B] mb-6 text-center text-lg md:text-xl lg:text-[35px] "
+        style={{ lineHeight: "35px" }}
+      >
         Unparalleled Banking <br />
         Experience
       </h1>
 
       <div className="flex flex-col md:justify-around md:items-center  lg:justify-around lg:items-center lg:flex-row md:flex-row">
         {visibleIndices.map((index) => (
-          <div key={cards[index].id} className="lg:w-full md:w-full md:m-3 m-5">
-            <div
-              className="relative bg-cover bg-no-repeat h-[400px]  rounded-lg shadow-md "
-              style={{ backgroundImage: `url(${cards[index].imageUrl})` }}
-            >
-              <div className="absolute bottom-0 left-0 right-0 p-4">
-                <div
-                  className="inline-block rounded-full py-2 px-2  md:py-2 md:px-2 "
-                  style={{
-                    background: "white",
-                  }}
-                >
-                  <h2 className=" uppercase lg:font-bold text-center text-sm md:text-sm ">
-                    {cards[index].title}
-                  </h2>
-                </div>
-
-                <p className="text-white" style={{ fontSize: "10px" }}>
-                  {cards[index].description}
-                </p>
+          <div
+            key={cards[index].id}
+            className="relative lg:w-[600px] md:w-full md:m-3 m-5 bg-cover bg-no-repeat rounded-lg h-[450px]"
+            style={{
+              backgroundImage: `url(${cards[index].imageUrl})`,
+            }}
+          >
+            <div className="absolute bottom-0 left-0 right-0 p-4">
+              <div
+                className="inline-block rounded-full py-2 px-2  md:py-2 md:px-2 "
+                style={{
+                  background: "white",
+                }}
+              >
+                <h2 className=" uppercase font-[500] text-center text-[11px] ">
+                  {cards[index].title}
+                </h2>
               </div>
+
+              <p className="text-white text-[12px]">
+                {cards[index].description}
+              </p>
             </div>
           </div>
         ))}
       </div>
-      <div className="mt-4 flex space-x-4 justify-center lg:float-right md:float-right mb-5">
+      <div className="mt-4 flex space-x-4 justify-center lg:justify-end md:justify-end ">
         <div
-          className="bg-purple-600 hover:bg-purple-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
+          className="bg-[#6043ED] hover:bg-purple-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
           style={{ borderRadius: "50%", height: "30px", width: "30px" }}
         >
           <ArrowBack onClick={showPreviousCard} />
         </div>
         <div
-          className="bg-purple-600 hover:bg-blue-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
+          className="bg-[#6043ED] hover:bg-blue-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
           style={{ borderRadius: "50%", height: "30px", width: "30px" }}
         >
           <ArrowForward onClick={showNextCard} />

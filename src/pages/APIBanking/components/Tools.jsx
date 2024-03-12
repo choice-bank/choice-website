@@ -51,7 +51,7 @@ const Tools = ({ id }) => {
   return (
     <div id={id} className="flex flex-col lg:items-center p-10">
       <div className="text-center lg:mb-10 mb-5 lg:w-1/2 w-full">
-        <div className="inline-block bg-[#6043EC] rounded-full px-5 py-2">
+        <div className="inline-block bg-[#6043EC] rounded-full px-2 py-1">
           <p className="text-white font-bold text-sm md:text-base lg:text-lg">
             API Banking
           </p>

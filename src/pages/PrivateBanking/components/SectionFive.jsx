@@ -8,10 +8,7 @@ const SectionFive = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex flex-col md:flex-row items-center justify-center gap-16">
           <div className="text-left ">
-            <h1
-              className="text-2xl lg:text-4xl font-bold mb-4"
-              style={{ lineHeight: "25px" }}
-            >
+            <h1 className="text-2xl lg:text-4xl font-bold mb-4">
               Transparent <br />& Fair Pricing
             </h1>
             <p className="text-lg font=[400] mb-4">
