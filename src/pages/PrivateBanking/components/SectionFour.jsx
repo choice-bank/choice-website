@@ -3,77 +3,35 @@ import img from "../../../assets/banking/pic3.png";
 
 const SectionFour = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row lg:flex-row items-center justify-center lg:justify-center md:justify-center lg:items-center md:items-center   py-5 px-8">
-      <div className="">
-        <h1 className="lg:text-4xl md:text-2xl text-xl font-bold ">
-          Your Ideal Money <br />{" "}
-          <span
-            style={{
-              background:
-                "linear-gradient(90deg, #5A3A95 1.43%, #9E46C6 84.6%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
-          >
-            Transfer Partner
-          </span>
+    <div className="min-h-screen flex flex-col md:flex-row lg:flex-row items-center justify-center lg:justify-center md:justify-center lg:items-center md:items-center ">
+      <div className="w-1/4">
+        <h1
+          className="lg:text-[35px] md:text-2xl text-xl font-[500]"
+          style={{ lineHeight: "36px" }}
+        >
+          Your Ideal Money
         </h1>
-        <p className="text-lg mb-8  font-[400px]">
-          We offer a range of secure and reliable money transfer services <br />{" "}
+        <h1
+          className="lg:text-[35px] md:text-2xl text-xl font-[500]"
+          style={{ lineHeight: "36px" }}
+        >
+          Transfer Partner
+        </h1>
+        <p
+          className="text-[15px] mb-4  font-[400]"
+          style={{ lineHeight: "22px" }}
+        >
+          We offer a range of secure and reliable money transfer services
           designed to meet your specific needs.
         </p>
-        <p className="text-lg mb-8 ] font-[400px]">
-          Whether you are sending money to family overseas or making <br />{" "}
-          business payments, our advanced technology and network of trusted{" "}
-          <br /> partners ensure that your funds are transferred quickly and
-          efficiently.
+        <p
+          className="text-[15px] mb-8 ] font-[400]"
+          style={{ lineHeight: "22px" }}
+        >
+          Whether you are sending money to family overseas or making business
+          payments, our advanced technology and network of trusted partners
+          ensure that your funds are transferred quickly and efficiently.
         </p>
-        {/* <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-          <div className="">
-            <h1
-              className="text-[16px] font-[700] mb-3"
-              style={{ lineHeight: "21px" }}
-            >
-              Enter Recipient Details
-            </h1>
-            <p
-              className="text-[13px] mb-8 text-[#738A97] font-[400px]"
-              style={{ lineHeight: "20px" }}
-            >
-              Enter the recipient's details and the amount you wish to send
-            </p>
-          </div>
-          <div className="">
-            <h1
-              className="text-[16px] font-[700] mb-3"
-              style={{ lineHeight: "20px" }}
-            >
-              Choose Transfer Method
-            </h1>
-            <p
-              className="text-[13px] mb-8 text-[#738A97] font-[400px]"
-              style={{ lineHeight: "20px" }}
-            >
-              Just select the transfer method that suits your need.
-            </p>
-          </div>
-          <div className="">
-            <h1
-              className="text-[16px] font-[700] mb-3"
-              style={{ lineHeight: "21px" }}
-            >
-              Confirm and Pay
-            </h1>
-            <p
-              className="text-[13px] mb-8 text-[#738A97] font-[400px]"
-              style={{ lineHeight: "21px" }}
-            >
-              Review your transaction details and make a secure payment using
-              your preferred method.
-            </p>
-          </div>
-        </div> */}
       </div>
       <div className="md:block h-full">
         <img src={img} alt="phone" className="object-contain" />

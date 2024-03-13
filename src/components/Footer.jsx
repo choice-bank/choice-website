@@ -49,13 +49,17 @@ const Footer = () => {
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
 
-        <div className="flex justify-around sm:flex-wrap lg:justify-between">
-          <Link to="#" className="text-sm lg:text-sm">
-            Data Privacy Policy.
-          </Link>
-          <Link to="#" className="text-sm lg:text-sm">
-            General Terms & Conditions
-          </Link>
+        <div className="flex justify-between sm:flex-wrap lg:justify-between">
+          <p>
+            <Link to="#" className="text-sm lg:text-sm">
+              Data Privacy Policy.
+            </Link>
+          </p>
+          <p>
+            <Link to="#" className="text-sm lg:text-sm">
+              General Terms & Conditions
+            </Link>
+          </p>
         </div>
 
         <div className="flex flex-row md:mt-0 mt-6 lg:justify-between">

@@ -30,12 +30,12 @@ const Solutions = ({ id }) => {
       style={{ backgroundColor: "rgba(217,217,217,0.17)" }}
     >
       <div className="text-center mb-20">
-        <h4 className="text-lg lg:text-2xl font-medium">
+        <h6 className="text-lg lg:text-[19px] font-[250]">
           And that's not all we can offer
-        </h4>
-        <h1 className="font-[700] text-4xl lg:text-8xl">Meet out Global</h1>
+        </h6>
+        <h1 className="font-[700] text-4xl lg:text-[45px]">Meet out Global</h1>
         <h1
-          className="font-bold text-4xl lg:text-8xl"
+          className="font-bold text-4xl lg:text-[45px]"
           style={{
             backgroundImage:
               "linear-gradient(rgba(90,58,149,1), rgba(158,70,198,1))",
@@ -47,16 +47,17 @@ const Solutions = ({ id }) => {
           Solutions
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-16 ">
+      <div className="flex  lg:justify-center gap-16">
         {solutions.map((solution, index) => (
-          <div key={index} className="">
-            <div className="mb-8">
-              <img src={solution.image} alt={solution.alt} />
+          <div key={index} className="w-[350px]">
+            <div className="mb-8 w-[350px]">
+              <img src={solution.image} alt={solution.alt} className="w-full" />
               <div className="flex items-center  mt-6">
                 {solution.icon}
                 <h1
-                  className="font-bold text-2xl ml-2"
+                  className="font-[700] text-[25px] ml-2"
                   style={{
+                    lineHeight: "19px",
                     backgroundImage:
                       "linear-gradient(rgba(90,58,149,1), rgba(158,70,198,1))",
                     WebkitBackgroundClip: "text",
@@ -68,14 +69,20 @@ const Solutions = ({ id }) => {
                 </h1>
               </div>
             </div>
-            <p className="text-lg ">
+            <p
+              className="text-[15px] font-[400]"
+              style={{ lineHeight: "19px" }}
+            >
               {isExpanded(index) ? solution.more : solution.description}
             </p>
             <div
               className="flex items-center mt-4"
               onClick={() => handleToggleExpand(index)}
             >
-              <p className="font-bold">
+              <p
+                className="font-[500] text-[14px]"
+                style={{ lineHeight: "16px" }}
+              >
                 {isExpanded(index) ? "Read Less" : "Read More"}
               </p>
               {isExpanded(index) ? (
