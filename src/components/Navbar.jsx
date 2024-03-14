@@ -92,13 +92,14 @@ const Navbar = ({ textColor, logo }) => {
               >
                 About Us
               </Link>
-              {/* <Link
-                to="/"
-                className="px-3 py-2  text-sm uppercase whitespace-nowrap"
+              <Link
+                to="/contact-us"
+                className="px-3 py-2  text-sm uppercase whitespace-nowrap lg:text-[14px] font-[500]"
+                style={{ color: textColor }}
                 onClick={hideMenu}
               >
                 Contact Us
-              </Link> */}
+              </Link>
             </div>
             <div className="flex items-center ml-4 relative">
               <button

@@ -12,6 +12,7 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import ApiBanking from "./pages/APIBanking/ApiBanking";
 import logo from "./assets/logo.png";
 import PrivateBanking from "./pages/PrivateBanking/PrivateBanking";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ function App() {
         <Route path="/private-banking" element={<PrivateBanking />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/api-banking" element={<ApiBanking />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />
     </Router>

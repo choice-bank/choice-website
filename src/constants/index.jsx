@@ -1,5 +1,5 @@
 import playstore from "../assets/home/playstore.jpg";
-import appstore from "../assets/home/appstore.jpg";
+import appstore from "../assets/home/appstore.png";
 import { X, LinkedIn, Instagram } from "@mui/icons-material";
 
 export const footerLinks = [
