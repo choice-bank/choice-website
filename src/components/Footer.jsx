@@ -23,25 +23,25 @@ const Footer = () => {
             <img src={logo} alt="logo" className="object-contain mb-4" />
           </Link>
           <div className="flex mb-1">
-            <SupportAgentTwoTone style={{ color: "red" }} />
-            <p className="text-[14px]">+254 203882206</p>
+            <SupportAgentTwoTone style={{ color: "#0A0534" }} />
+            <p className="text-[14px] font-[500]">+254 203882206</p>
           </div>
 
           <div className="flex mb-1">
-            <SupportAgentTwoTone style={{ color: "red" }} />
-            <p className="text-[14px]">+254 203882207</p>
+            <SupportAgentTwoTone style={{ color: "#0A0534" }} />
+            <p className="text-[14px] font-[500]">+254 203882207</p>
           </div>
 
           <div className="flex mb-1">
-            <LocalPhone style={{ color: "red" }} />
-            <p className="text-[14px]">+254731225879</p>
+            <LocalPhone style={{ color: "#0A0534" }} />
+            <p className="text-[14px] font-[500]">+254731225879</p>
           </div>
 
           <div className="flex mb-1">
-            <Email style={{ color: "red" }} />
-            <p className="text-[14px]">info@choice-bank.com</p>
+            <Email style={{ color: "#0A0534" }} />
+            <p className="text-[14px] font-[500]">info@choice-bank.com</p>
           </div>
-          <p className="text-red-500 font-bold text-[15px]">
+          <p className=" font-[700] text-[15px] mt-3">
             Choice Bank is regulated by the Central Bank of Kenya
           </p>
         </div>
@@ -64,9 +64,9 @@ const Footer = () => {
                       i !== footerLink.links.length - 1 ? "mb-2" : "mb-0"
                     }`}
                   >
-                    <Link to={link.url} key={i}>
+                    <a href={link.url} key={i}>
                       {link.name}
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -76,25 +76,25 @@ const Footer = () => {
       </div>
 
       <div className="w-full flex-col-reverse flex justify-between items-center md:flex-row  lg:flew-col pt-6 ">
-        <p className=" text-center text-sm lg:text-sm">
+        <p className=" text-center text-sm lg:text-sm font-[700]">
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
 
         <div className="flex justify-between sm:flex-wrap lg:justify-between gap-5">
           <div>
             <Link
-              to="https://drive.google.com/file/d/1X3ptbMT795y1jVTDZUryhoNU2sMDqtZh/view?usp=sharing"
+              to="https://app.choicedigitalbank.com/#/privacypolicy"
               target="_blank"
-              className="text-sm lg:text-sm text-blue-700"
+              className="text-sm lg:text-sm font-[700]"
             >
               Data Privacy Policy.
             </Link>
           </div>
           <div>
             <Link
-              to="https://drive.google.com/file/d/1lWWKCKLeWcLms5nhqxzZBMkJlBCi1Tnu/view?usp=sharing"
+              to="https://app.choicedigitalbank.com/#/conditions"
               target="_blank"
-              className="text-sm lg:text-sm text-blue-700"
+              className="text-sm lg:text-sm font-[700]"
             >
               General Terms & Conditions
             </Link>

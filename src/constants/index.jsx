@@ -21,11 +21,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Solutions",
-        url: "/api-banking#solution",
+        url: "/api-banking/#solution",
       },
       {
         name: "Use Cases",
-        url: "/api-banking#use-case",
+        url: "/api-banking/#use-case",
       },
     ],
   },
