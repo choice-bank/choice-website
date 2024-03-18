@@ -46,7 +46,7 @@ const SectionSix = () => {
             className="text-[#0A0534] text-sm md:text-4xl lg:text-[45px] font-[700] mb-1"
             style={{ lineHeight: "45px" }}
           >
-            Meet Out Global
+            Meet Our Global
           </h1>
           <h1 className="text-2xl md:text-4xl lg:text-[45px] font-[700]">
             <span

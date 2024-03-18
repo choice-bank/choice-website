@@ -3,9 +3,9 @@ import icon from "../../../assets/icon.svg";
 
 const HomeSectionOne = () => {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row justify-around   bg-[#0A0534] lg:p-20 md:flex-row md:p-5">
+    <div className="min-h-screen flex flex-col lg:flex-row justify-around   bg-[#0A0534] p-5 lg:p-20 md:flex-row md:p-5">
       {/* Left Section */}
-      <div className="flex flex-col lg:justify-center lg:w-1/2">
+      <div className="flex flex-col lg:justify-center md:justify-center lg:w-1/2">
         <div className="flex mb-5">
           <div
             className="inline-block rounded-full py-2 px-2 mr-1 md:py-2 md:px-2 "

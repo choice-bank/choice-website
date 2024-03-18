@@ -35,7 +35,7 @@ const SectionOne = () => {
             </span>
           </h1>
         </div>
-        <div className="self-center flex justify-center items-center w-[950px]">
+        <div className="self-center flex flex-col lg:flex-row md:flex-row justify-center items-center w-[950px]">
           <div className="w-2/5">
             <p
               className="mb-10 mt-5 text-sm md:text-lg lg:text-[13px] font-[400]"

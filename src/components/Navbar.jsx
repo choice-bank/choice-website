@@ -24,7 +24,7 @@ const Navbar = ({ textColor, logo }) => {
 
   return (
     <nav className="p-4 z-30 absolute w-full font-sans">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="max-w-7xl mx-auto flex justify-between lg:items-center md:items-center">
         <div className="flex-shrink-0">
           <Link to="/" className="flex ">
             <img

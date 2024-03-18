@@ -4,7 +4,7 @@ import img from "../../../assets/banking/bg.jpeg";
 const Header = () => {
   return (
     <div
-      className="bg-cover min-h-screen flex flex-col lg:justify-end items-start pl-5 pb-32 lg:pl-40"
+      className="bg-cover min-h-screen flex flex-col lg:justify-end md:justify-end items-start pl-5 md:pb-32 lg:pb-32 lg:pl-40 justify-center"
       style={{ backgroundImage: `url(${img})` }}
     >
       <div className="flex mb-5">

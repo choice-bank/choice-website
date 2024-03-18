@@ -58,7 +58,7 @@ const SectionTwo = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row md:flex-row mx-20">
+      <div className="flex flex-col lg:flex-row md:flex-row">
         {cards.map((card, index) => (
           <div key={index} className="lg:w-2/4 md:w-full p-4 ">
             <div

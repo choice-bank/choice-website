@@ -3,15 +3,12 @@ import image1 from "../../../assets/image1.png";
 const Header = () => {
   return (
     <div
-      className="min-h-screen flex font-sans flex-col pt-20 lg:pt-72 mx-auto lg:justify-center"
+      className="min-h-screen flex font-sans flex-col pt-20 px-10 lg:pt-72 md:pt-72 mx-auto lg:justify-center"
       style={{ background: "linear-gradient(#778BB0, #F1ECE9)" }}
     >
       {/* Left section */}
       <div className="flex-shrink-0 md:mb-0  lg:ml-40 md:ml-10 ">
-        <h1
-          className="font-[700] text-2xl  lg:text-[90px] capitalize font-sans  leading-normal md:text-4xl md:leading-tight "
-          style={{ lineHeight: "76px", letterSpacing: "-2.76px" }}
-        >
+        <h1 className="font-[700] text-2xl  lg:text-[90px] capitalize font-sans  leading-normal md:text-4xl md:leading-tight lg:leading-[76px] lg:tracking-[-2.76px]">
           <span
             style={{
               background:

@@ -16,7 +16,7 @@ import appstore from "../assets/home/appstore.png";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <section className="flex flex-col lg:px-16 pb-24 pt-10 lg:justify-center lg:items-center ">
+    <section className="flex flex-col lg:px-16 pb-24 pt-10 lg:justify-center lg:items-center px-5">
       <div className=" md:flex-row lg:flex-row flex flex-col mb-8 w-full lg:justify-between ">
         <div className="flex-1">
           <Link to="/">

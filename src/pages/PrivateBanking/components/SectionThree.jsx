@@ -3,7 +3,7 @@ import img from "../../../assets/banking/dashboard.png";
 
 const SectionThree = () => {
   return (
-    <div className="bg-white min-h-screen flex text-white">
+    <div className="bg-white min-h-screen flex flex-col lg:flex-row md:flex-row text-white">
       {/* left side */}
       <div className="flex flex-col bg-[#0A0534] flex-grow p-20">
         <h3
