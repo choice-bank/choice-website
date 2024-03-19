@@ -10,13 +10,13 @@ import {
   SupportAgentTwoTone,
   Email,
 } from "@mui/icons-material";
-import playstore from "../assets/home/playstore.jpg";
-import appstore from "../assets/home/appstore.png";
+import playstore from "../assets/footer/playstore.jpg";
+import appstore from "../assets/footer/appstore.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <section className="flex flex-col lg:px-16 pb-24 pt-10 lg:justify-center lg:items-center px-5">
+    <section className="flex flex-col lg:px-16 pb-10 pt-10 lg:justify-center lg:items-center px-5">
       <div className=" md:flex-row lg:flex-row flex flex-col mb-8 w-full lg:justify-between ">
         <div className="flex-1">
           <Link to="/">
@@ -134,13 +134,13 @@ const Footer = () => {
           <a href="#" target="_blank" rel="noreferrer">
             <img
               src={appstore}
-              className="w-[100px] h-[30px] object-contain cursor-pointer"
+              className="w-[150px] h-[50px] object-contain cursor-pointer"
             />
           </a>
           <a href="#" target="_blank" rel="noreferrer">
             <img
               src={playstore}
-              className="w-[100px] h-[30px] object-contain cursor-pointer"
+              className="w-[150px] h-[50px] object-contain cursor-pointer"
             />
           </a>
         </div>

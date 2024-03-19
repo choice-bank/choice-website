@@ -62,11 +62,12 @@ const SectionSix = () => {
             </span>
           </h1>
         </div>
-        <div className="flex gap-2 flex-col lg:flex-row md:flex-row  lg:mx-32 h-[240px]">
+        <div className="flex gap-7 flex-col lg:flex-row md:flex-row  lg:mx-32 h-[240px]">
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg  p-3 lg:w-full w-full md:w-full"
+              className="bg-white  rounded-lg  lg:p-9 md:p-4 p-2 lg:w-full w-full md:w-full"
+              style={{ boxShadow: "0px 7px 34px 0px rgba(25, 5, 121, 0.07)" }}
             >
               <h2
                 className="font-sans text-lg md:text-xl lg:text-[25px] font-[700]"
