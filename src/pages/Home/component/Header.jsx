@@ -46,7 +46,7 @@ const Header = () => {
         <img
           src={image1}
           alt="Hero Image"
-          className="lg:w-[400px] md:w-[400px] object-contain rounded-lg shadow-md"
+          className="lg:w-[400px] md:w-[400px] object-contain"
         />
       </div>
     </div>
