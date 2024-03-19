@@ -4,25 +4,25 @@ import { ArrowForward } from "@mui/icons-material";
 
 const SectionFive = () => {
   return (
-    <div className="flex items-center justify-center  py-5 px-8">
+    <div className="flex items-center justify-center  p-32">
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex flex-col md:flex-row items-center justify-center gap-16">
           <div className="text-left ">
             <h1
-              className="text-2xl lg:text-[25px] font-[700] mb-4"
+              className="font-sans text-2xl lg:text-[25px] font-[700] mb-4"
               style={{ lineHeight: "25px" }}
             >
               Transparent <br />& Fair Pricing
             </h1>
             <p
-              className="text-[15px] font=[400] mb-4"
+              className="font-sans text-[15px] font=[400] mb-4"
               style={{ lineHeight: "22px" }}
             >
               With competitive exchange rates and low fees, we strive to provide
               you with the best value for your money transfers.
             </p>
             <p
-              className="text-[15px] font=[400] mb-4"
+              className="font-sans text-[15px] font=[400] mb-4"
               style={{ lineHeight: "22px" }}
             >
               Additionally, our transparent pricing approach allows you to know
@@ -32,7 +32,7 @@ const SectionFive = () => {
             <div className="inline-block">
               <div className="flex justify-center rounded-full items-center bg-[#6043ED] py-2 px-4 text-white mt-4">
                 <p
-                  className="mr-2 text-[16px] font-[400]"
+                  className="font-sans mr-2 text-[16px] font-[400]"
                   style={{ lineHeight: "16px" }}
                 >
                   View Pricings

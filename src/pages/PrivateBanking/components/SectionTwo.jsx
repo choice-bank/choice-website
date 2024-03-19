@@ -36,21 +36,21 @@ const SectionTwo = () => {
   ];
   return (
     <div
-      className="lg:pb-10 p-5"
+      className="lg:pt-20 md:pt-20 p-5 min-h-screen"
       style={{
         background:
           "linear-gradient(180deg, #EFEDFE 0%, rgba(239, 236, 254, 0.00) 100%)",
       }}
     >
       <h1
-        className="mt-5 font-[700] text-[0A1D2B] mb-6 text-center text-lg lg:text-[35px] md:text-xl"
+        className="font-sans font-[700] text-[0A1D2B] mb-6 text-center text-lg lg:text-[35px] md:text-xl"
         style={{ lineHeight: "51px" }}
       >
         Bank the way you want
       </h1>
       <div className="lg:w-[550px] lg:mx-auto md:w-[700px] md:mx-auto flex lg:items-center lg:justify-center">
         <p
-          className="text-center  mb-10 text-sm lg:text-[14px] md:text-lg font-[400]"
+          className="font-sans text-center  mb-10 text-sm lg:text-[14px] md:text-lg font-[400]"
           style={{ lineHeight: "22px" }}
         >
           With its automated features and smart technology, ChoiceBank gives you
@@ -78,10 +78,10 @@ const SectionTwo = () => {
               >
                 <img src={card.icon} className="object-contain" />
                 <div>
-                  <h2 className="uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
+                  <h2 className="font-sans uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
                     {card.h1}
                   </h2>
-                  <h2 className="uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
+                  <h2 className="font-sans uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
                     {card.h2}
                   </h2>
                 </div>

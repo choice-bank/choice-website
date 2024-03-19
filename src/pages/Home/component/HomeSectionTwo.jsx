@@ -73,7 +73,7 @@ const HomeSectionTwo = () => {
   return (
     <div className="min-h-screen flex flex-col p-5 lg:p-20 md:p-10">
       <h1
-        className=" font-[500] text-[0A1D2B] mb-6 text-center text-lg md:text-xl lg:text-[35px] "
+        className="font-sans font-[500] text-[0A1D2B] mb-6 text-center text-lg md:text-xl lg:text-[35px] "
         style={{ lineHeight: "35px" }}
       >
         Unparalleled Banking <br />
@@ -91,17 +91,20 @@ const HomeSectionTwo = () => {
           >
             <div className="absolute bottom-0 left-0 right-0 p-4">
               <div
-                className="inline-block rounded-full py-2 px-2  md:py-2 md:px-2 "
+                className="inline-block rounded-full py-2 px-2  md:py-2 md:px-2 mb-2"
                 style={{
                   background: "white",
                 }}
               >
-                <h2 className=" uppercase font-[500] text-center text-[11px] ">
+                <h2 className="font-sans uppercase font-[500] text-center text-[11px] ">
                   {cards[index].title}
                 </h2>
               </div>
 
-              <p className="text-white text-[12px]">
+              <p
+                className="font-sans text-white text-[12px] font-[400]"
+                style={{ lineHeight: "16px" }}
+              >
                 {cards[index].description}
               </p>
             </div>

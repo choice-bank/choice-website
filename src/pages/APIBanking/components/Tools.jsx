@@ -59,27 +59,27 @@ const Tools = ({ id }) => {
       <div className="flex flex-col items-center lg:mb-10 mb-5 lg:w-1/2 w-full">
         <div>
           <div className="inline-block bg-[#6043EC] rounded-full px-3 py-1">
-            <p className="text-white font-[500] text-sm md:text-base lg:text-[12px]">
+            <p className="font-sans text-white font-[500] text-sm md:text-base lg:text-[12px]">
               API Banking
             </p>
           </div>
         </div>
 
         <h1
-          className="font-[700] text-sm lg:text-[45px]"
+          className="font-sans font-[700] text-sm lg:text-[45px]"
           style={{ lineHeight: "45px" }}
         >
           Add your own Tools
         </h1>
         <h1
-          className="font-[700] text-sm lg:text-[45px]"
+          className="font-sans font-[700] text-sm lg:text-[45px]"
           style={{ lineHeight: "45px" }}
         >
           With Our Business API
         </h1>
 
         <p
-          className="text-center text-lg lg:text-[14px] font-[400]"
+          className="font-sans text-center text-lg lg:text-[14px] font-[400]"
           style={{ lineHeight: "18px" }}
         >
           Connect your company's own applications to your Choice Business
@@ -109,13 +109,15 @@ const Tools = ({ id }) => {
           <div>
             <div>
               <img src={item.icon_2} />
-              <p className="font-[500] text-lg lg:text-[20px]">{item.title}</p>
+              <p className="font-sans font-[500] text-lg lg:text-[20px]">
+                {item.title}
+              </p>
 
               {item.lists.map((list, i) => (
                 <div className="flex" key={i}>
                   <img src={icon} className="mr-2" />
                   <p
-                    className="flex font-[250] lg:items-center text-[17px] text-[#0A0534]"
+                    className="flex font-sans font-[250] lg:items-center text-[17px] text-[#0A0534]"
                     style={{ lineHeight: "26px" }}
                   >
                     {list}
@@ -139,7 +141,7 @@ const ToolItem = ({ item, isActive, onClick }) => {
       onClick={onClick}
     >
       <item.icon />
-      <p className="ml-2 text-sm lg:text-[12px]">{item.title}</p>
+      <p className="ml-2 font-sans text-sm lg:text-[12px]">{item.title}</p>
     </div>
   );
 };

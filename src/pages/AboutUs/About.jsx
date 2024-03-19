@@ -9,13 +9,13 @@ const About = () => {
     >
       <div className="mt-16 px-5 lg:ml-36 lg:mt-36 pt-10">
         <h4
-          className="uppercase font-[500] lg:text-[11px] text-sm"
+          className="font-sans uppercase font-[500] lg:text-[11px] text-sm"
           style={{ lineHeight: "51px" }}
         >
           about us
         </h4>
         <h1
-          className="capitalize font-[700] text-xl lg:text-[60px] "
+          className="font-sans capitalize font-[700] text-xl lg:text-[60px] "
           style={{ lineHeight: "56px", letterSpacing: "-1.8px" }}
         >
           <span
@@ -29,7 +29,7 @@ const About = () => {
           </span>
         </h1>
         <h1
-          className="capitalize font-[700] text-xl lg:text-[60px]"
+          className="font-sans capitalize font-[700] text-xl lg:text-[60px]"
           style={{ lineHeight: "56px", letterSpacing: "-1.8px" }}
         >
           <span
@@ -56,26 +56,26 @@ const About = () => {
           {" "}
           {/* Added ml-10 and lg:ml-0 classes */}
           <h4
-            className="uppercase text-sm lg:text-[11px] font-[500]"
+            className="font-sans uppercase text-sm lg:text-[11px] font-[500]"
             style={{ lineHeight: "51px" }}
           >
             who we are
           </h4>
           <h1
-            className="capitalize font-[700] text-xl lg:text-[35px]"
+            className="font-sans capitalize font-[700] text-xl lg:text-[35px]"
             style={{ lineHeight: "45px" }}
           >
             the ChoiceBank Story
           </h1>
           <p
-            className="mb-5 mt-5 text-lg lg:text-[14px] font-[400]"
+            className="font-sans mb-5 mt-5 text-lg lg:text-[14px] font-[400]"
             style={{ lineHeight: "22px" }}
           >
             We are a licensed banking institution based in Kenya, dedicated to
             fostering full financial inclusion.
           </p>
           <p
-            className="mb-5 text-lg lg:text-[14px] font-[400]"
+            className="font-sans mb-5 text-lg lg:text-[14px] font-[400]"
             style={{ lineHeight: "22px" }}
           >
             Being flexible and dynamic in business, adapting swiftly to market

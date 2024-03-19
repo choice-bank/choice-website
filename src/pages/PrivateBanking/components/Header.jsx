@@ -16,7 +16,7 @@ const Header = () => {
           }}
         >
           <h1
-            className="capitalize text-white text-center text-sm md:text-sm lg:text-[17px] font-[250] md:whitespace-nowrap whitespace-nowrap"
+            className="font-sans capitalize text-white text-center text-sm md:text-sm lg:text-[17px] font-[250] md:whitespace-nowrap whitespace-nowrap"
             style={{ lineHeight: "22px" }}
           >
             personal private banking
@@ -30,7 +30,7 @@ const Header = () => {
           }}
         >
           <h1
-            className="capitalize text-white text-center text-sm md:text-sm md:whitespace-nowrap whitespace-nowrap lg:text-[17px] font-[250]"
+            className="font-sans capitalize text-white text-center text-sm md:text-sm md:whitespace-nowrap whitespace-nowrap lg:text-[17px] font-[250]"
             style={{ lineHeight: "22px" }}
           >
             business private banking

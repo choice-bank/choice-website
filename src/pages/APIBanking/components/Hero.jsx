@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-2 mb-4 inline-block rounded-full">
         <h1
-          className="capitalize text-white text-center text-sm md:text-base lg:text-[17px] font-[250]"
+          className="font-sans capitalize text-white text-center text-sm md:text-base lg:text-[17px] font-[250]"
           style={{ lineHeight: "22px" }}
         >
           api banking
@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
       <div className="w-full lg:w-1/2 font-sans">
         <p
-          className="text-[#fff] lg:text-[17px] font-[250]"
+          className="font-sans text-[#fff] lg:text-[17px] font-[250]"
           style={{ lineHeight: "22px" }}
         >
           Leverage Our Bank APIs to seamlessly integrate a comprehensive suite
@@ -37,7 +37,7 @@ const Hero = () => {
         className="mt-5 mb-5 inline-block py-1 px-2 rounded-full"
         style={{ border: "1px solid white" }}
       >
-        <h1 className="text-white text-center font-[500] text-sm md:text-base lg:text-[15px]">
+        <h1 className="font-sans text-white text-center font-[500] text-sm md:text-base lg:text-[15px]">
           Talk to an Expert
         </h1>
       </div>

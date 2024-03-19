@@ -37,18 +37,18 @@ const SectionSix = () => {
       <div className="max-w-full lg:mx-auto">
         <div className="mb-10  text-center">
           <h4
-            className="text-[#0A0534] text-sm md:text-xl lg:text-[19px] font-[250]"
+            className="font-sans text-[#0A0534] text-sm md:text-xl lg:text-[19px] font-[250]"
             style={{ lineHeight: "22px" }}
           >
             And that's not all we can offer
           </h4>
           <h1
-            className="text-[#0A0534] text-2xl md:text-4xl lg:text-[45px] font-[700] mb-1"
+            className="font-sans text-[#0A0534] text-2xl md:text-4xl lg:text-[45px] font-[700] mb-1"
             style={{ lineHeight: "45px" }}
           >
             Meet Our Global
           </h1>
-          <h1 className="text-2xl md:text-4xl lg:text-[45px] font-[700]">
+          <h1 className="font-sans text-2xl md:text-4xl lg:text-[45px] font-[700]">
             <span
               style={{
                 background:
@@ -66,10 +66,10 @@ const SectionSix = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg  p-2 lg:w-full w-full md:w-full"
+              className="bg-white shadow-md rounded-lg  p-3 lg:w-full w-full md:w-full"
             >
               <h2
-                className="text-lg md:text-xl lg:text-[25px] font-[700]"
+                className="font-sans text-lg md:text-xl lg:text-[25px] font-[700]"
                 style={{ lineHeight: "27px" }}
               >
                 <span
@@ -85,7 +85,7 @@ const SectionSix = () => {
                 </span>
               </h2>
               <h2
-                className="text-lg md:text-xl lg:text-[25px] font-[700] mb-5"
+                className="font-sans text-lg md:text-xl lg:text-[25px] font-[700] mb-5"
                 style={{ lineHeight: "27px" }}
               >
                 <span
@@ -101,7 +101,7 @@ const SectionSix = () => {
                 </span>
               </h2>
               <p
-                className="text-[#273740] text-sm md:text-sm lg:text-[14px] font-[400]"
+                className="font-sans text-[#273740] text-sm md:text-sm lg:text-[14px] font-[400]"
                 style={{ lineHeight: "17px" }}
               >
                 {item.description}

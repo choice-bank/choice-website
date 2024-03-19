@@ -34,8 +34,8 @@ const Header = () => {
         </h1>
 
         <p
-          className="mb-8 font-sans text-sm md:text-lg lg:text-[25px] font-[250] mt-6"
-          style={{ color: "#0B0D2C", lineHeight: "29px" }}
+          className="mb-8 font-sans font-[250] text-sm md:text-lg lg:text-[20px]  mt-6"
+          style={{ color: "", lineHeight: "29px" }}
         >
           A Bank built by bankers & techpreneurs for next-level private <br />&
           API banking in Africa

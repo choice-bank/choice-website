@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../assets/image2.png";
+import image from "../../../assets/home/Image2.png";
 
 const SectionThree = () => {
   return (
@@ -16,13 +16,13 @@ const SectionThree = () => {
           </div>
         </div>
         <p
-          className="italic text-white font-[400] text-lg md:text-2xl lg:text-[50px] leading-normal md:leading-tight"
+          className="italic font-playfair text-white font-[400] text-lg md:text-2xl lg:text-[50px] leading-normal md:leading-tight"
           style={{ lineHeight: "51px" }}
         >
           We believe in a future where
           <br />
           <span
-            className="not-italic text-[#794EF7] font-[700]"
+            className="not-italic font-sans text-[#794EF7] font-[700]"
             style={{ lineHeight: "51px", letterSpacing: "-1.5px" }}
           >
             finance comes to you, no <br />

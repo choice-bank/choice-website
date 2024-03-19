@@ -76,7 +76,10 @@ const Footer = () => {
       </div>
 
       <div className="w-full flex-col-reverse flex justify-between items-center md:flex-row  lg:flew-col pt-6 ">
-        <p className=" text-center text-sm lg:text-sm font-[700]">
+        <p
+          className="font-[500] lg:text-[13px] text-[#0A0534]"
+          style={{ lineHeight: "24px" }}
+        >
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
 
@@ -85,7 +88,8 @@ const Footer = () => {
             <Link
               to="https://app.choicedigitalbank.com/#/privacypolicy"
               target="_blank"
-              className="text-sm lg:text-sm font-[700]"
+              className="font-[500] lg:text-[13px] text-[#0A0534]"
+              style={{ lineHeight: "24px" }}
             >
               Data Privacy Policy.
             </Link>
@@ -94,7 +98,8 @@ const Footer = () => {
             <Link
               to="https://app.choicedigitalbank.com/#/conditions"
               target="_blank"
-              className="text-sm lg:text-sm font-[700]"
+              className="font-[500] lg:text-[13px] text-[#0A0534]"
+              style={{ lineHeight: "24px" }}
             >
               General Terms & Conditions
             </Link>
