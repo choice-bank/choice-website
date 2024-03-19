@@ -4,7 +4,7 @@ import img from "../../../assets/banking/pic3.png";
 const SectionFour = () => {
   return (
     <div className="min-h-screen flex flex-col md:flex-row lg:flex-row items-center justify-center lg:justify-center md:justify-center lg:items-center md:items-center ">
-      <div className="w-1/4">
+      <div className="lg:w-1/4 md:w-3/4 w-full p-5">
         <h1
           className="lg:text-[35px] md:text-2xl text-xl font-[500]"
           style={{ lineHeight: "36px" }}

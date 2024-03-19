@@ -3,9 +3,9 @@ import img from "../../../assets/banking/dashboard.png";
 
 const SectionThree = () => {
   return (
-    <div className="bg-white min-h-screen flex flex-col lg:flex-row md:flex-row text-white">
+    <div className="bg-white min-h-screen flex flex-col lg:flex-row md:flex-col text-white">
       {/* left side */}
-      <div className="flex flex-col bg-[#0A0534] flex-grow p-20">
+      <div className="flex flex-col bg-[#0A0534] lg:flex-grow lg:p-20 md:p-20 p-5">
         <h3
           className="lg:text-[45px] text-xl md:text-2xl font-[700] mb-4"
           style={{ lineHeight: "39px" }}
@@ -196,7 +196,7 @@ const SectionThree = () => {
         </div>
       </div>
       {/* right side */}
-      <div className="bg-[#F2F1FF] flex-shrink-0 flex">
+      <div className="bg-[#F2F1FF] lg:flex-shrink-0 flex">
         <img src={img} alt="bg" className="object-contain " />
       </div>
     </div>

@@ -4,7 +4,7 @@ import { ArrowForward } from "@mui/icons-material";
 
 const SectionFive = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center  py-5 px-8">
+    <div className="flex items-center justify-center  py-5 px-8">
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex flex-col md:flex-row items-center justify-center gap-16">
           <div className="text-left ">

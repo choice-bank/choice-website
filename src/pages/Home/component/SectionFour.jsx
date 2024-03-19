@@ -18,7 +18,7 @@ const SectionFour = () => {
           <img
             src={image}
             alt="Image"
-            className="h-full w-[362px] object-contain"
+            className="h-[400px] w-[400px] object-contain"
           />
         </div>
         <div className="w-full sm:w-1/2 md:w-2/3 lg:w-[400px] mx-4">

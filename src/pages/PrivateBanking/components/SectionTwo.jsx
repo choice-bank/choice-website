@@ -58,33 +58,32 @@ const SectionTwo = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row md:flex-row">
+      <div className="flex flex-col lg:flex-row md:flex-row justify-center gap-6 items-center">
         {cards.map((card, index) => (
-          <div key={index} className="lg:w-2/4 md:w-full p-4 ">
-            <div
-              className="relative bg-cover bg-no-repeat h-[500px] w-[300px] md:h-[300px] lg:h-[400px] shadow-md"
-              style={{
-                backgroundImage: `url(${cards[index].imageUrl})`,
-                borderRadius: "10px",
-              }}
-            >
-              <div className="absolute bottom-0 left-0 right-0 p-4">
-                <div
-                  className="p-2 flex gap-2"
-                  style={{
-                    background: "rgba(255, 255, 255, 0.20)",
-                    borderRadius: "13px",
-                  }}
-                >
-                  <img src={card.icon} className="object-contain" />
-                  <div>
-                    <h2 className="uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
-                      {card.h1}
-                    </h2>
-                    <h2 className="uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
-                      {card.h2}
-                    </h2>
-                  </div>
+          <div
+            key={index}
+            className="relative bg-cover bg-no-repeat h-[500px] w-[300px] md:h-[300px] lg:h-[400px] shadow-md"
+            style={{
+              backgroundImage: `url(${cards[index].imageUrl})`,
+              borderRadius: "10px",
+            }}
+          >
+            <div className="absolute bottom-0 left-0 right-0 p-4">
+              <div
+                className="lg:p-2 flex lg:gap-2"
+                style={{
+                  background: "rgba(255, 255, 255, 0.20)",
+                  borderRadius: "13px",
+                }}
+              >
+                <img src={card.icon} className="object-contain" />
+                <div>
+                  <h2 className="uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
+                    {card.h1}
+                  </h2>
+                  <h2 className="uppercase text-white text-sm md:text-sm lg:text-[14px] font-[500]">
+                    {card.h2}
+                  </h2>
                 </div>
               </div>
             </div>

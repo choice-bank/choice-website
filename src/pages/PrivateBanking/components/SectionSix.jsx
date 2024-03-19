@@ -29,12 +29,12 @@ const items = [
 const SectionSix = () => {
   return (
     <div
-      className="min-h-screen flex items-center justify-center  py-10"
+      className="min-h-screen flex lg:items-center justify-center  py-10"
       style={{
         background: "linear-gradient(180deg, #F8F8F8 0%, #F9F9F9 100%)",
       }}
     >
-      <div className="max-w-full mx-auto">
+      <div className="max-w-full lg:mx-auto">
         <div className="mb-10  text-center">
           <h4
             className="text-[#0A0534] text-sm md:text-xl lg:text-[19px] font-[250]"
@@ -43,7 +43,7 @@ const SectionSix = () => {
             And that's not all we can offer
           </h4>
           <h1
-            className="text-[#0A0534] text-sm md:text-4xl lg:text-[45px] font-[700] mb-1"
+            className="text-[#0A0534] text-2xl md:text-4xl lg:text-[45px] font-[700] mb-1"
             style={{ lineHeight: "45px" }}
           >
             Meet Our Global
@@ -62,11 +62,11 @@ const SectionSix = () => {
             </span>
           </h1>
         </div>
-        <div className="flex gap-2 flex-col lg:flex-row md:flex-row self-center mx-32 h-[240px]">
+        <div className="flex gap-2 flex-col lg:flex-row md:flex-row  lg:mx-32 h-[240px]">
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg md:m-3 p-7 lg:w-[500px]"
+              className="bg-white shadow-md rounded-lg  p-2 lg:w-full w-full md:w-full"
             >
               <h2
                 className="text-lg md:text-xl lg:text-[25px] font-[700]"

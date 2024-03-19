@@ -3,7 +3,7 @@ import image from "../../../assets/banking/image1.png";
 
 const SectionOne = () => {
   return (
-    <div className="min-h-screen">
+    <div className="">
       <div className="flex flex-col mt-32">
         <div className="self-center flex flex-col items-center  mb-5 lg:w-1/2 w-full">
           <div className="inline-block bg-[#6043EC] rounded-full px-3 py-1">
