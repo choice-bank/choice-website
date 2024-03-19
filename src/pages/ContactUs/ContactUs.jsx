@@ -32,7 +32,7 @@ const ContactUs = () => {
     });
   };
   return (
-    <div className=" flex flex-row  p-32">
+    <div className=" flex flex-col lg:flex-row  lg:p-32 p-5">
       <div className="flex-grow max-w-md mx-auto my-8 p-6 bg-gray-100 rounded-lg shadow-lg">
         <h2 className="text-xl font-semibold mb-4">
           Get in touch by filling out the form below & we will get back to you.

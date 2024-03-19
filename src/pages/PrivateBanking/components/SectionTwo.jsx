@@ -36,7 +36,7 @@ const SectionTwo = () => {
   ];
   return (
     <div
-      className="min-h-screen p-5"
+      className="lg:pb-10 p-5"
       style={{
         background:
           "linear-gradient(180deg, #EFEDFE 0%, rgba(239, 236, 254, 0.00) 100%)",

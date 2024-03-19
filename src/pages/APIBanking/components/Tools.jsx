@@ -55,7 +55,7 @@ const Tools = ({ id }) => {
   };
 
   return (
-    <div id={id} className="flex flex-col lg:items-center p-10">
+    <div id={id} className="flex flex-col lg:items-center p-5">
       <div className="flex flex-col items-center lg:mb-10 mb-5 lg:w-1/2 w-full">
         <div>
           <div className="inline-block bg-[#6043EC] rounded-full px-3 py-1">
@@ -88,7 +88,7 @@ const Tools = ({ id }) => {
         </p>
       </div>
 
-      <div className="flex justify-center items-center space-x-2 lg:space-x-6 lg:mb-8 ">
+      <div className="flex justify-center items-center gap-2  lg:space-x-6 lg:mb-8 ">
         {items.map((item) => (
           <ToolItem
             key={item.id}
@@ -126,13 +126,6 @@ const Tools = ({ id }) => {
           </div>
         </div>
       ))}
-
-      {/* <div className="flex items-center mb-8">
-        <div className="flex-grow border-t border-[#E4E4E4]"></div>
-        <p className="mx-4">Trusted By</p>
-        <div className="flex-grow border-t border-[#E4E4E4]"></div>
-      </div>
-      <img src={sponsor} alt="" className="mx-auto object-fit" /> */}
     </div>
   );
 };
@@ -140,7 +133,7 @@ const Tools = ({ id }) => {
 const ToolItem = ({ item, isActive, onClick }) => {
   return (
     <div
-      className={`items-center flex rounded-full py-3 px-5 cursor-pointer  ${
+      className={`items-center flex rounded-full md:py-3 md:px-5 lg:py-3 lg:px-5 cursor-pointer  ${
         isActive ? "bg-black text-white" : "bg-white border border-black"
       }`}
       onClick={onClick}

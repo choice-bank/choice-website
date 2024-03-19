@@ -33,7 +33,7 @@ const Solutions = ({ id }) => {
         <h6 className="text-lg lg:text-[19px] font-[250]">
           And that's not all we can offer
         </h6>
-        <h1 className="font-[700] text-4xl lg:text-[45px]">Meet out Global</h1>
+        <h1 className="font-[700] text-4xl lg:text-[45px]">Meet our Global</h1>
         <h1
           className="font-bold text-4xl lg:text-[45px]"
           style={{
@@ -47,10 +47,10 @@ const Solutions = ({ id }) => {
           Solutions
         </h1>
       </div>
-      <div className="flex  lg:justify-center gap-16">
+      <div className="flex flex-col lg:flex-row md:flex-row  lg:justify-center gap-6">
         {solutions.map((solution, index) => (
-          <div key={index} className="w-[350px]">
-            <div className="mb-8 w-[350px]">
+          <div key={index} className="lg:w-[350px] w-full">
+            <div className="mb-8 lg:w-[350px] w-full">
               <img src={solution.image} alt={solution.alt} className="w-full" />
               <div className="flex items-center  mt-6">
                 {solution.icon}
