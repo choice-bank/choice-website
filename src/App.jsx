@@ -33,8 +33,8 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/private-banking" element={<PrivateBanking />} />
-        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/api-banking" element={<ApiBanking />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
       <Footer />

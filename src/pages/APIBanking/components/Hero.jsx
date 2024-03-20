@@ -4,7 +4,7 @@ import img from "../../../assets/api/bg.jpeg";
 const Hero = () => {
   return (
     <div
-      className="min-h-screen px-10 pt-32 flex flex-col justify-center items-start lg:bg-cover bg-center bg-no-repeat lg:pl-40"
+      className="min-h-screen px-10 pt-32 flex flex-col justify-center items-start bg-cover bg-center bg-no-repeat lg:pl-40"
       style={{ backgroundImage: `url(${img})` }}
     >
       <div className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-2 mb-4 inline-block rounded-full">
