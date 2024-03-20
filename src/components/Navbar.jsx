@@ -24,15 +24,15 @@ const Navbar = ({ textColor, logo }) => {
 
   return (
     <nav className="p-4 z-30 absolute w-full font-sans">
-      <div className="max-w-7xl mx-auto flex justify-between lg:items-center md:items-center">
+      <div className="max-w-7xl  flex justify-between lg:items-center md:items-center lg:mx-40 md:ml-10">
         <div className="flex-shrink-0">
           <Link to="/" className="flex ">
             <img
               src={logo}
               alt="Logo"
               style={{
-                width: "150px",
-                height: "20px",
+                width: "160px",
+                height: "24px",
                 objectFit: "contain",
                 marginRight: "1rem",
               }}
