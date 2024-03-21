@@ -3,10 +3,10 @@ import image from "../../../assets/banking/image1.png";
 
 const SectionOne = () => {
   return (
-    <div className="">
+    <div className="p-3">
       <div className="flex flex-col lg:mt-28 lg:mb-20 md:mt-28 md:mb-20">
         <div className="self-center flex flex-col items-center  mb-5 lg:w-1/2 w-full">
-          <div className="inline-block bg-[#6043EC] rounded-full px-3 py-1">
+          <div className="inline-block bg-[#6043EC] rounded-full px-3 py-1 mb-3">
             <p className="font-sans text-white font-[500] text-sm md:text-base lg:text-[12px]">
               Private Banking
             </p>
@@ -36,7 +36,7 @@ const SectionOne = () => {
           </h1>
         </div>
         <div className="self-center flex flex-col lg:flex-row md:flex-row justify-center items-center w-[950px]">
-          <div className="w-2/5">
+          <div className="w-1/4 lg:w-2/5">
             <p
               className="font-sans mb-10 mt-5 text-sm md:text-lg lg:text-[13px] font-[400]"
               style={{ lineHeight: "21px" }}

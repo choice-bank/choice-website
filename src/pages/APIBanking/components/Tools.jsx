@@ -4,7 +4,9 @@ import {
   RocketLaunchOutlined,
   WorkspacePremiumOutlined,
 } from "@mui/icons-material";
-import img from "../../../assets/api/img1.png";
+import img1 from "../../../assets/api/img1.png";
+import img2 from "../../../assets/api/img2.png";
+import img3 from "../../../assets/api/img3.png";
 import icon from "../../../assets/icon.svg";
 import icon1 from "../../../assets/icons/icon1.png";
 import icon2 from "../../../assets/icons/icon2.png";
@@ -15,7 +17,7 @@ const items = [
     id: 1,
     icon: WorkspacePremiumOutlined,
     icon_2: icon1,
-    image: img,
+    image: img1,
     title: "Compliant from Day 1",
     lists: [
       "Fully licensed Kenyan bank",
@@ -28,7 +30,7 @@ const items = [
     id: 2,
     icon: LoopOutlined,
     icon_2: icon2,
-    image: img,
+    image: img2,
     title: "An All-in-One Platform",
     lists: ["Bank Accounts", "Payments", "Credit", "FX Investments and more"],
   },
@@ -36,7 +38,7 @@ const items = [
     id: 3,
     icon: RocketLaunchOutlined,
     icon_2: icon3,
-    image: img,
+    image: img3,
     title: "Easy Quick Launch",
     lists: [
       "Clear and well documented API",
@@ -58,7 +60,7 @@ const Tools = ({ id }) => {
     <div id={id} className="flex flex-col lg:items-center p-5">
       <div className="flex flex-col items-center lg:mb-10 mb-5 lg:w-1/2 w-full">
         <div>
-          <div className="lg:mt-9 md:mt-9 inline-block bg-[#6043EC] rounded-full px-3 py-1">
+          <div className="lg:mt-9 md:mt-9 inline-block bg-[#6043EC] rounded-full px-3 py-1 mb-5">
             <p className="font-sans text-white font-[500] text-sm md:text-base lg:text-[12px]">
               API Banking
             </p>
@@ -72,7 +74,7 @@ const Tools = ({ id }) => {
           Add your own Tools
         </h1>
         <h1
-          className="font-sans font-[700] text-sm lg:text-[45px]"
+          className="font-sans font-[700] text-sm lg:text-[45px] mb-3"
           style={{ lineHeight: "45px" }}
         >
           With Our Business API
