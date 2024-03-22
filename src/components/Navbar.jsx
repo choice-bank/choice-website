@@ -40,7 +40,7 @@ const Navbar = ({ textColor, logo }) => {
           </Link>
         </div>
 
-        <div className="p-2">
+        <div className="p-2 bg-slate-500 lg:bg-transparent ">
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
@@ -101,18 +101,22 @@ const Navbar = ({ textColor, logo }) => {
                 Contact Us
               </Link>
             </div>
-            <div className="flex items-center ml-4 relative">
-              <button
+            <div className="flex justify-between ml-2 relative">
+              <div
                 onClick={toggleLoginDropdown}
-                className="text-white bg-[#D43A36] px-10 py-2  text-sm  focus:outline-none rounded-full lg:text-[14px] font-[500]"
+                className="text-white bg-[#D43A36] px-2 py-2  text-[11px]  focus:outline-none rounded-full lg:text-[14px] font-[500] flex items-center"
               >
                 <Login
-                  className="h-5 w-5 inline-block -ml-1 mr-1"
+                  className=" inline-block -ml-1 mr-1 "
                   color="white"
+                  style={{ width: "15px" }}
                 />
                 LOG IN
-                <KeyboardArrowDown className="h-5 w-5 inline-block ml-1" />
-              </button>
+                <KeyboardArrowDown
+                  className="inline-block ml-1"
+                  style={{ width: "20px" }}
+                />
+              </div>
               {showLoginDropdown && (
                 <div className="absolute top-full left-0 mt-2 w-full bg-white shadow-lg rounded-md py-1">
                   <Link

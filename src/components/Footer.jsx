@@ -46,11 +46,11 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex-1 w-full flex lg:flex-row justify-center gap-10 md:mt-0 mt-10">
+        <div className="flex-1 flex-col w-full flex lg:flex-row justify-center lg:gap-10 md:gap-10 md:mt-0 mt-10">
           {footerLinks.map((footerLink, i) => (
             <div key={i} className={`flex flex-col s:my-0 my-2`}>
               <h4
-                className="font-[500] lg:text-[13px] text-[#0A0534]"
+                className="font-[500] lg:text-[13px] text-[#0A0534] text"
                 style={{ lineHeight: "24px" }}
               >
                 {footerLink.title}
@@ -75,9 +75,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full flex-col-reverse flex justify-between items-center md:flex-row  lg:flew-col pt-6 ">
+      <div className="w-full flex-col-reverse flex justify-between items-center md:flex-row  lg:flew-col pt-2 ">
         <p
-          className="font-[500] lg:text-[13px] text-[#0A0534]"
+          className="font-[500] lg:text-[13px] text-[#0A0534] text-[11px]"
           style={{ lineHeight: "24px" }}
         >
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
@@ -88,20 +88,21 @@ const Footer = () => {
             <Link
               to="https://app.choicedigitalbank.com/#/privacypolicy"
               target="_blank"
-              className="font-[500] lg:text-[13px] text-[#0A0534]"
               style={{ lineHeight: "24px" }}
             >
-              Data Privacy Policy.
+              <p className="font-[500] lg:text-[13px] text-[#0A0534] text-[11px]">
+                Data Privacy Policy.
+              </p>
             </Link>
           </div>
           <div>
             <Link
               to="https://app.choicedigitalbank.com/#/conditions"
               target="_blank"
-              className="font-[500] lg:text-[13px] text-[#0A0534]"
-              style={{ lineHeight: "24px" }}
             >
-              General Terms & Conditions
+              <p className="font-[500] lg:text-[13px] text-[#0A0534] text-[11px]">
+                General Terms & Conditions
+              </p>
             </Link>
           </div>
         </div>
