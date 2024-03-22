@@ -3,10 +3,10 @@ import icon from "../../../assets/icon.svg";
 
 const HomeSectionOne = () => {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row justify-around   bg-[#0A0534] p-5 lg:p-20 md:flex-row md:p-5">
+    <div className="min-h-screen flex flex-col lg:flex-row justify-around   bg-[#0A0534] lg:p-20 md:flex-row md:p-5">
       {/* Left Section */}
       <div className="flex flex-col lg:justify-center md:justify-center lg:w-1/2">
-        <div className="flex mb-5">
+        <div className="flex mb-5 px-5 pt-2">
           <div
             className="inline-block rounded-full py-2 px-2 mr-1 md:py-2 md:px-2 "
             style={{
@@ -15,7 +15,7 @@ const HomeSectionOne = () => {
             }}
           >
             <h1
-              className="capitalize font-sans text-white text-center text-sm md:text-sm lg:text-[17px] font-[250] md:whitespace-nowrap whitespace-nowrap"
+              className="capitalize font-sans text-white text-center text-[11px] md:text-sm lg:text-[17px] font-[250] md:whitespace-nowrap whitespace-nowrap"
               style={{ lineHeight: "22px" }}
             >
               personal private banking
@@ -29,7 +29,7 @@ const HomeSectionOne = () => {
             }}
           >
             <h1
-              className="capitalize font-sans text-white text-center text-sm md:text-sm md:whitespace-nowrap whitespace-nowrap lg:text-[17px] font-[250]"
+              className="capitalize font-sans text-white text-center text-[11px] md:text-sm md:whitespace-nowrap whitespace-nowrap lg:text-[17px] font-[250]"
               style={{ lineHeight: "22px" }}
             >
               business private banking
@@ -37,7 +37,7 @@ const HomeSectionOne = () => {
           </div>
         </div>
 
-        <div>
+        <div className="px-5">
           <h2 className="mb-4 text-white text-lg lg:text-[50px]">
             <span
               className="font-playfair italic font-[400]"
@@ -99,7 +99,7 @@ const HomeSectionOne = () => {
         </div>
       </div>
 
-      <div className="lg:flex mb-10">
+      <div className="lg:flex mb-10 px-5">
         <img src={image} alt="Image" className="h-full w-full object-contain" />
       </div>
     </div>

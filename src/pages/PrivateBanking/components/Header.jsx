@@ -4,7 +4,7 @@ import img from "../../../assets/banking/bg.jpeg";
 const Header = () => {
   return (
     <div
-      className="bg-cover min-h-screen flex flex-col lg:justify-end md:justify-end items-start pl-5 md:pb-32 lg:pb-32 lg:pl-40 justify-center"
+      className="bg-cover px-5 min-h-screen flex flex-col lg:justify-end md:justify-end items-start pt-20 md:pb-32 lg:pb-32 lg:pl-40 justify-center"
       style={{ backgroundImage: `url(${img})` }}
     >
       <div className="flex mb-5">
@@ -16,7 +16,7 @@ const Header = () => {
           }}
         >
           <h1
-            className="font-sans capitalize text-white text-center text-sm md:text-sm lg:text-[17px] font-[250] md:whitespace-nowrap whitespace-nowrap"
+            className="font-sans capitalize text-white text-center text-[11px] md:text-sm lg:text-[17px] font-[250] md:whitespace-nowrap whitespace-nowrap"
             style={{ lineHeight: "22px" }}
           >
             personal private banking
@@ -30,7 +30,7 @@ const Header = () => {
           }}
         >
           <h1
-            className="font-sans capitalize text-white text-center text-sm md:text-sm md:whitespace-nowrap whitespace-nowrap lg:text-[17px] font-[250]"
+            className="font-sans capitalize text-white text-center text-[11px] md:text-sm md:whitespace-nowrap whitespace-nowrap lg:text-[17px] font-[250]"
             style={{ lineHeight: "22px" }}
           >
             business private banking
@@ -39,13 +39,13 @@ const Header = () => {
       </div>
       <div className="w-full mb-10">
         <h1
-          className="text-white font-[700] text-2xl lg:text-[60px] font-sans"
+          className="text-white font-[700] text-xl lg:text-[60px] font-sans"
           style={{ lineHeight: "60px" }}
         >
           Innovative Banking Services
         </h1>
         <h1
-          className="text-white font-[700] text-2xl lg:text-[60px] font-sans"
+          className="text-white font-[700] text-xl lg:text-[60px] font-sans"
           style={{ lineHeight: "60px" }}
         >
           for Exclusive Clients

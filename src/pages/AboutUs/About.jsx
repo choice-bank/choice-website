@@ -43,7 +43,7 @@ const About = () => {
           </span>
         </h1>
       </div>
-      <div className="flex lg:justify-center lg:items-center flex-col lg:flex-row justify-center items-center lg:p-40">
+      <div className="flex md:justify-center md:items-center lg:justify-center lg:items-center flex-col lg:flex-row md:flex-row justify-center items-center lg:p-40">
         <div className="flex-grow flex-shrink-1 p-5">
           <img
             src={image}
@@ -52,9 +52,8 @@ const About = () => {
           />
         </div>
 
-        <div className="flex justify-center flex-col mb-10  lg:ml-0 flex-grow flex-shrink-1 lg:w-2/5">
+        <div className="flex justify-center flex-col mb-10  lg:ml-0 flex-grow flex-shrink-1 lg:w-2/5 md:w-2/5 p-5">
           {" "}
-          {/* Added ml-10 and lg:ml-0 classes */}
           <h4
             className="font-sans uppercase text-sm lg:text-[11px] font-[500]"
             style={{ lineHeight: "51px" }}

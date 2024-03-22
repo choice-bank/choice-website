@@ -3,7 +3,7 @@ import image from "../../../assets/home/Image2.png";
 
 const SectionThree = () => {
   return (
-    <div className="min-h-screen  bg-[#0A0534]  flex flex-col lg:flex-row md:flex-row lg:justify-around  lg:p-20 p-10">
+    <div className="lg:min-h-screen  bg-[#0A0534]  flex flex-col lg:flex-row md:flex-row md:justify-between md:p-10 lg:justify-around  lg:p-20 p-5">
       <div className=" md:mr-10 mb-5 md:mb-0 flex flex-col lg:justify-center">
         <div>
           <div className="bg-gradient-to-r from-[#D43A36] via-[#9C45C5] to-[#576BCD] inline-block rounded-full py-2 px-2 mr-1 md:py-2 md:px-2">
@@ -30,11 +30,11 @@ const SectionThree = () => {
           </span>
         </p>
       </div>
-      <div className="lg:flex mb-10">
+      <div className="lg:flex">
         <img
           src={image}
           alt="Image"
-          className="object-contain max-w-full h-auto md:max-w-[500px]"
+          className="object-contain max-w-full h-auto"
         />
       </div>
     </div>

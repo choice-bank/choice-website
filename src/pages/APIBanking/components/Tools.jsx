@@ -57,9 +57,9 @@ const Tools = ({ id }) => {
   };
 
   return (
-    <div id={id} className="flex flex-col lg:items-center p-5">
+    <div id={id} className="flex flex-col lg:items-center">
       <div className="flex flex-col items-center lg:mb-10 mb-5 lg:w-1/2 w-full">
-        <div>
+        <div className="pt-5">
           <div className="lg:mt-9 md:mt-9 inline-block bg-[#6043EC] rounded-full px-3 py-1 mb-5">
             <p className="font-sans text-white font-[500] text-sm md:text-base lg:text-[12px]">
               API Banking
@@ -81,7 +81,7 @@ const Tools = ({ id }) => {
         </h1>
 
         <p
-          className="font-sans text-center text-lg lg:text-[14px] font-[400]"
+          className="font-sans text-center text-sm lg:text-[14px] font-[400] p-5"
           style={{ lineHeight: "18px" }}
         >
           Connect your company's own applications to your Choice Business
@@ -143,7 +143,7 @@ const ToolItem = ({ item, isActive, onClick }) => {
       onClick={onClick}
     >
       <item.icon />
-      <p className="ml-2 font-sans text-sm lg:text-[12px]">{item.title}</p>
+      <p className="ml-2 font-sans text-[11px] lg:text-[12px]">{item.title}</p>
     </div>
   );
 };

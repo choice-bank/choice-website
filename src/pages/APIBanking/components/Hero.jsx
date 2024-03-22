@@ -4,7 +4,7 @@ import img from "../../../assets/api/bg.jpeg";
 const Hero = () => {
   return (
     <div
-      className="min-h-screen px-10 pt-32 flex flex-col justify-center items-start bg-cover bg-center bg-no-repeat lg:pl-40"
+      className="min-h-screen px-5 pt-32 flex flex-col justify-center items-start bg-cover bg-center bg-no-repeat lg:pl-40"
       style={{ backgroundImage: `url(${img})` }}
     >
       <div className="bg-gradient-to-r from-[#0C0E2D] via-[#6043EC] to-[#D43A36] py-2 px-2 mb-4 inline-block rounded-full">
@@ -15,9 +15,9 @@ const Hero = () => {
           api banking
         </h1>
       </div>
-      <div className="w-full mb-10">
+      <div className="w-full mb-5">
         <h1
-          className="text-white font-[700] text-2xl lg:text-[60px] font-sans"
+          className="text-white font-[700] text-xl lg:text-[60px] font-sans"
           style={{ lineHeight: "59px", letterSpacing: "-1.8px" }}
         >
           One Platform <br /> Infinite Opportunities
@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
       <div className="w-full lg:w-1/2 font-sans">
         <p
-          className="font-sans text-[#fff] lg:text-[17px] font-[250]"
+          className="font-sans text-[#fff] text-[14px] lg:text-[17px] font-[250]"
           style={{ lineHeight: "22px" }}
         >
           Leverage Our Bank APIs to seamlessly integrate a comprehensive suite

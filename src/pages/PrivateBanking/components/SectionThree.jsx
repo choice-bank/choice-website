@@ -125,7 +125,7 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
                 Choice Internal Transfer
               </p>
             </div>
@@ -136,7 +136,9 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">Pesalink</p>
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
+                Pesalink
+              </p>
             </div>
             <div
               className="rounded-full p-2"
@@ -145,7 +147,9 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">RTGS</p>
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
+                RTGS
+              </p>
             </div>
           </div>
           <div className="flex  gap-2 md:flex-row lg:flex-row  mb-2">
@@ -156,7 +160,9 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">Mobile Money</p>
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
+                Mobile Money
+              </p>
             </div>
             <div
               className="rounded-full p-2"
@@ -165,7 +171,9 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">Paybill</p>
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
+                Paybill
+              </p>
             </div>
             <div
               className="rounded-full p-2"
@@ -174,7 +182,9 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">Till</p>
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
+                Till
+              </p>
             </div>
             <div
               className="rounded-full p-2"
@@ -183,7 +193,9 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">EFT</p>
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
+                EFT
+              </p>
             </div>
             <div
               className="rounded-full p-2"
@@ -192,7 +204,9 @@ const SectionThree = () => {
                 border: "1px solid #586ECF",
               }}
             >
-              <p className="font-sans text-[14px] font-[400]">SWIFT</p>
+              <p className="font-sans text-[11px] lg:text-[14px] md:text-[14px] font-[400]">
+                SWIFT
+              </p>
             </div>
           </div>
         </div>

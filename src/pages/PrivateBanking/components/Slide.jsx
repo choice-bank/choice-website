@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import img1 from "../../../assets/home/app1.png";
-import img2 from "../../../assets/home/app2.png";
+import img2 from "../../../assets/home/Screen3.png";
+import img3 from "../../../assets/home/app2.png";
+
 import { ArrowForwardOutlined, ArrowBackOutlined } from "@mui/icons-material";
 
 const items = [
@@ -15,14 +17,14 @@ const items = [
     id: 2,
     title: "Choose Transfer Method",
     description: "Just select the transfer method that suits your need.",
-    image: img1,
+    image: img2,
   },
   {
     id: 3,
     title: "Confirm and Pay",
     description:
       "Review your transaction details and make a secure payment using your preferred method.",
-    image: img2,
+    image: img3,
   },
 ];
 
