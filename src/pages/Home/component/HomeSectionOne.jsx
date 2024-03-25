@@ -6,7 +6,7 @@ const HomeSectionOne = () => {
     <div className="min-h-screen flex flex-col lg:flex-row justify-around   bg-[#0A0534] lg:p-20 md:flex-row md:p-5">
       {/* Left Section */}
       <div className="flex flex-col lg:justify-center md:justify-center lg:w-1/2">
-        <div className="flex mb-5 px-5 pt-2">
+        <div className="flex mb-2 px-5 pt-2">
           <div
             className="inline-block rounded-full py-2 px-2 mr-1 md:py-2 md:px-2 "
             style={{
@@ -38,7 +38,7 @@ const HomeSectionOne = () => {
         </div>
 
         <div className="px-5">
-          <h2 className="mb-4 text-white text-lg lg:text-[50px]">
+          <h2 className="mb-2 text-white text-[34px] lg:text-[50px]">
             <span
               className="font-playfair italic font-[400]"
               style={{ lineHeight: "46px" }}

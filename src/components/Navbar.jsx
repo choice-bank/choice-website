@@ -40,7 +40,7 @@ const Navbar = ({ textColor, logo }) => {
           </Link>
         </div>
 
-        <div className="p-2 bg-slate-500 lg:bg-transparent ">
+        <div className="p-2 bg-slate-500 lg:bg-transparent md:bg-transparent">
           <div className="md:hidden">
             <button
               onClick={toggleMenu}

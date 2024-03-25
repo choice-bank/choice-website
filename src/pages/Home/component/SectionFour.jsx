@@ -6,15 +6,12 @@ import { Link } from "react-router-dom";
 const SectionFour = () => {
   return (
     <div className="min-h-screen flex flex-col  px-auto lg:mx-auto p-6 lg:p-20">
-      <h3
-        className="font-[500] text-lg lg:text-[35px] text-[0A1D2B] mb-6 text-center"
-        style={{ lineHeight: "51px" }}
-      >
+      <h3 className="font-[500] text-[35px] lg:text-[35px] text-[0A1D2B] mb-6 text-center leading-[39px] lg:leading-[51px] md:leading-[51px]">
         Powerful API Banking <br />
         Solution
       </h3>
       <div className="flex lg:justify-around items-center  flex-col md:flex-row lg:flex-row">
-        <div className="">
+        <div className="hidden lg:inline md:inline">
           <img
             src={image}
             alt="Image"
@@ -26,13 +23,13 @@ const SectionFour = () => {
             <p className="mr-2">01.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-sm md:text-sm  text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm  text-[#0A0534] font-sans"
                 style={{ lineHeight: "16px" }}
               >
                 Bank Accounts
               </h3>
               <p
-                className="text-sm md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
+                className="text-[14px] md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
                 style={{ lineHeight: "18px" }}
               >
                 Build bank & wallet accounts within your ecosystem via our APIs
@@ -44,13 +41,13 @@ const SectionFour = () => {
             <p className="mr-2">02.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-sm md:text-sm text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans"
                 style={{ lineHeight: "16px" }}
               >
                 Payments
               </h3>
               <p
-                className="text-sm md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
+                className="text-[14px] md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
                 style={{ lineHeight: "18px" }}
               >
                 Build aggregated payment solutions within your network,
@@ -62,13 +59,13 @@ const SectionFour = () => {
             <p className="mr-2">03.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-sm md:text-sm text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans"
                 style={{ lineHeight: "16px" }}
               >
                 Lending
               </h3>
               <p
-                className="text-sm md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
+                className="text-[14px] md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
                 style={{ lineHeight: "18px" }}
               >
                 Offer credit products to your customers and ecosystem players
@@ -81,13 +78,13 @@ const SectionFour = () => {
             <p className="mr-2">04.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-sm md:text-sm text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans"
                 style={{ lineHeight: "16px" }}
               >
                 Other products
               </h3>
               <p
-                className="text-sm md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
+                className="text-[14px] md:text-sm lg:text-[14px] font-[400] text-[#3C5665] font-sans"
                 style={{ lineHeight: "18px" }}
               >
                 Embed FX, remittance, and investment products into your existing

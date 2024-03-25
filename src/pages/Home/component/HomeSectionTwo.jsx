@@ -73,7 +73,7 @@ const HomeSectionTwo = () => {
   return (
     <div className="min-h-screen flex flex-col p-5 lg:p-20 md:p-10">
       <h1
-        className="font-sans font-[500] text-[0A1D2B] mb-6 text-center text-lg md:text-xl lg:text-[35px] "
+        className="font-sans font-[500] text-[0A1D2B] mb-6 text-center text-[35px] md:text-xl lg:text-[35px] "
         style={{ lineHeight: "35px" }}
       >
         Unparalleled Banking <br />

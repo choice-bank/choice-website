@@ -41,7 +41,7 @@ const Footer = () => {
             <Email style={{ color: "#0A0534" }} />
             <p className="text-[14px] font-[500]">info@choice-bank.com</p>
           </div>
-          <p className=" font-[700] text-[15px] mt-3">
+          <p className=" font-[500] text-[15px] mt-3">
             Choice Bank is regulated by the Central Bank of Kenya
           </p>
         </div>

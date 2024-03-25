@@ -16,16 +16,21 @@ const SectionThree = () => {
           </div>
         </div>
         <p
-          className="italic font-playfair text-white font-[400] text-lg md:text-2xl lg:text-[50px] leading-normal md:leading-tight"
+          className="italic font-playfair text-white font-[400] text-[36px] md:text-2xl lg:text-[50px] leading-normal md:leading-tight"
           style={{ lineHeight: "51px" }}
         >
-          We believe in a future where
-          <br />
+          We believe in a future where{" "}
+          <span className="md:inline lg:inline hidden">
+            <br />
+          </span>
           <span
             className="not-italic font-sans text-[#794EF7] font-[700]"
             style={{ lineHeight: "51px", letterSpacing: "-1.5px" }}
           >
-            finance comes to you, no <br />
+            finance comes to you, no{" "}
+            <span className="md:inline lg:inline hidden">
+              <br />
+            </span>
             need to search for it.
           </span>
         </p>
