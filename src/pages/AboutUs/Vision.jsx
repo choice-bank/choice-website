@@ -13,13 +13,13 @@ const Vision = () => {
         <div className=" lg:mx-auto w-full h-full bg-cover lg:w-[800px] pt-10 lg:pt-34">
           <img src={location} alt="location-icon" className="mx-auto" />
           <h1
-            className="font-sans text-center font-[700] text-[24px] lg:text-[35px] py-5"
+            className="font-sans text-center font-[700] text-[35px] lg:text-[35px] py-5"
             style={{ lineHeight: "46px" }}
           >
             Our Vision
           </h1>
           <p
-            className="font-sans lg:text-center text-lg lg:text-[20px] font-[400]"
+            className="font-sans lg:text-center text-[20px] lg:text-[20px] font-[400] text-center"
             style={{ lineHeight: "26px" }}
           >
             Our vision is to empower individuals and businesses with

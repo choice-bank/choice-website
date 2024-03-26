@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
       </div>
       <div className="w-full mb-5">
-        <h1 className="text-white font-[700] text-[36px] lg:text-[60px] font-sans leading-[36px] lg:leading-[59px]">
+        <h1 className="text-white font-[700] text-[36px] lg:text-[60px] font-sans leading-[30px] lg:leading-[59px]">
           One Platform{" "}
           <span className="lg:inline md:inline hidden">
             <br />
@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
       <div className="w-full lg:w-1/2 font-sans">
         <p
-          className="font-sans text-[#fff] text-[14px] lg:text-[17px] font-[250]"
+          className="font-sans text-[#fff] text-[15px] lg:text-[17px] font-[250]"
           style={{ lineHeight: "22px" }}
         >
           Leverage Our Bank APIs to seamlessly integrate a comprehensive suite

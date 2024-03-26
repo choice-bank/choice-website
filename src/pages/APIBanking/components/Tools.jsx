@@ -58,7 +58,7 @@ const Tools = ({ id }) => {
 
   return (
     <div id={id} className="flex flex-col lg:items-center">
-      <div className="flex flex-col items-center lg:mb-10 mb-5 lg:w-1/2 w-full">
+      <div className="flex flex-col items-center lg:mb-10 mb-5 lg:w-1/2 w-4/5 mx-auto">
         <div className="pt-5">
           <div className="lg:mt-9 md:mt-9 inline-block bg-[#6043EC] rounded-full px-3 py-1 mb-5">
             <p className="font-sans text-white font-[500] text-sm md:text-base lg:text-[12px]">
@@ -67,21 +67,20 @@ const Tools = ({ id }) => {
           </div>
         </div>
 
-        <h1
-          className="font-sans font-[700] text-[25px] lg:text-[45px]"
-          style={{ lineHeight: "45px" }}
-        >
-          Add your own Tools
+        <h1 className="font-sans text-[#0A0534] text-center font-[700] text-[29px] lg:text-[45px] leading-[32px] lg:leading-[45px]">
+          Add your own Tools{" "}
+          <span className="lg:inline md:inline hidden">
+            <br />
+          </span>
+          With Our Business API
         </h1>
         <h1
           className="font-sans font-[700] text-[20px] lg:text-[45px] mb-3"
           style={{ lineHeight: "45px" }}
-        >
-          With Our Business API
-        </h1>
+        ></h1>
 
         <p
-          className="font-sans text-center text-[14px] lg:text-[14px] font-[400] p-5"
+          className="font-sans text-center text-[14px] lg:text-[14px] font-[400] "
           style={{ lineHeight: "18px" }}
         >
           Connect your company's own applications to your Choice Business{" "}
@@ -139,13 +138,16 @@ const Tools = ({ id }) => {
 const ToolItem = ({ item, isActive, onClick }) => {
   return (
     <div
-      className={`items-center flex rounded-full md:py-3 md:px-5 lg:py-3 lg:px-5 cursor-pointer  ${
+      className={`items-center flex rounded-full md:py-3 p-5 md:px-5 lg:py-3 lg:px-5 cursor-pointer  ${
         isActive ? "bg-black text-white" : "bg-white border border-black"
       }`}
       onClick={onClick}
     >
       <item.icon />
-      <p className="ml-2 font-sans text-[11px] lg:text-[12px]">{item.title}</p>
+
+      <p className="ml-2 font-sans text-[11px] lg:text-[12px] lg:inline md:inline hidden">
+        {item.title}
+      </p>
     </div>
   );
 };

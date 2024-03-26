@@ -34,19 +34,19 @@ const Solutions = ({ id }) => {
           And that's not all we can offer
         </h6>
         <h1 className="font-sans font-[700] text-[36px] lg:text-[45px]">
-          Meet our Global
-        </h1>
-        <h1
-          className="font-sans font-bold text-[36px] lg:text-[45px]"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(90,58,149,1), rgba(158,70,198,1))",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundSize: "cover",
-          }}
-        >
-          Solutions
+          Meet our Global <br />
+          <span
+            className="font-sans font-bold text-[36px] lg:text-[45px]"
+            style={{
+              backgroundImage:
+                "linear-gradient(rgba(90,58,149,1), rgba(158,70,198,1))",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundSize: "cover",
+            }}
+          >
+            Solutions
+          </span>
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row md:flex-row  lg:justify-center gap-6">
