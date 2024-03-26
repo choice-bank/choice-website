@@ -7,11 +7,12 @@ const SectionFive = () => {
     <div className="flex items-center justify-center lg:m-32 md:m-32">
       <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center lg:justify-center md:justify-center  md:items-center">
         <div className="lg:w-2/5 md:w-3/4 w-full p-5">
-          <h1
-            className="font-sans text-2xl lg:text-[25px] font-[700] mb-4"
-            style={{ lineHeight: "25px" }}
-          >
-            Transparent <br />& Fair Pricing
+          <h1 className="font-sans text-[36px] lg:text-[25px] font-[700] mb-4 leading-[36px] lg:leading-[25px]">
+            Transparent{" "}
+            <span className="lg:inline md:inline hidden">
+              <br />
+            </span>
+            & Fair Pricing
           </h1>
           <p
             className="font-sans text-[15px] font=[400] mb-4"
@@ -40,7 +41,7 @@ const SectionFive = () => {
             </div>
           </div>
         </div>
-        <div className="md:block">
+        <div className="md:block mb-5">
           <img src={img} alt="phone" className="object-contain" />
         </div>
       </div>

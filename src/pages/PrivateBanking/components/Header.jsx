@@ -38,16 +38,11 @@ const Header = () => {
         </div>
       </div>
       <div className="w-full mb-10">
-        <h1
-          className="text-white font-[700] text-xl lg:text-[60px] font-sans"
-          style={{ lineHeight: "60px" }}
-        >
-          Innovative Banking Services
-        </h1>
-        <h1
-          className="text-white font-[700] text-xl lg:text-[60px] font-sans"
-          style={{ lineHeight: "60px" }}
-        >
+        <h1 className="text-white font-[700] text-[36px] lg:text-[60px] font-sans leading-[42px] lg:leading-[60px] md:leading-[60px]">
+          Innovative Banking Services{" "}
+          <span className="md:inline lg:inline hidden">
+            <br />
+          </span>{" "}
           for Exclusive Clients
         </h1>
       </div>

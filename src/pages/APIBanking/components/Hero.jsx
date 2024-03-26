@@ -16,11 +16,12 @@ const Hero = () => {
         </h1>
       </div>
       <div className="w-full mb-5">
-        <h1
-          className="text-white font-[700] text-xl lg:text-[60px] font-sans"
-          style={{ lineHeight: "59px", letterSpacing: "-1.8px" }}
-        >
-          One Platform <br /> Infinite Opportunities
+        <h1 className="text-white font-[700] text-[36px] lg:text-[60px] font-sans leading-[36px] lg:leading-[59px]">
+          One Platform{" "}
+          <span className="lg:inline md:inline hidden">
+            <br />
+          </span>{" "}
+          Infinite Opportunities
         </h1>
       </div>
       <div className="w-full lg:w-1/2 font-sans">

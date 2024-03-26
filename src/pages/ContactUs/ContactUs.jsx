@@ -30,6 +30,8 @@ const ContactUs = () => {
       emailHeader: "",
       message: "",
     });
+
+    alert("Email sent successfully");
   };
   return (
     <div className=" flex flex-col lg:flex-row  lg:p-32 p-5">
@@ -116,22 +118,22 @@ const ContactUs = () => {
         <h1>Need more help?</h1>
         <h6>Call us on:</h6>
         <div className="flex mb-1">
-          <SupportAgentTwoTone style={{ color: "red" }} />
+          <SupportAgentTwoTone />
           <p className="text-[14px]">+254 203882206</p>
         </div>
 
         <div className="flex mb-1">
-          <SupportAgentTwoTone style={{ color: "red" }} />
+          <SupportAgentTwoTone />
           <p className="text-[14px]">+254 203882207</p>
         </div>
 
         <div className="flex mb-1">
-          <LocalPhone style={{ color: "red" }} />
+          <LocalPhone />
           <p className="text-[14px]">+254731225879</p>
         </div>
 
         <div className="flex mb-1">
-          <Email style={{ color: "red" }} />
+          <Email />
           <p className="text-[14px]">info@choice-bank.com</p>
         </div>
       </div>

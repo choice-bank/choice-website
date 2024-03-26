@@ -37,18 +37,15 @@ const SectionSix = () => {
       <div className="max-w-full lg:mx-auto">
         <div className="mb-10  text-center">
           <h4
-            className="font-sans text-[#0A0534] text-sm md:text-xl lg:text-[19px] font-[250]"
+            className="font-sans text-[#0A0534] text-[18px] md:text-xl lg:text-[19px] font-[250]"
             style={{ lineHeight: "22px" }}
           >
             And that's not all we can offer
           </h4>
-          <h1
-            className="font-sans text-[#0A0534] text-2xl md:text-4xl lg:text-[45px] font-[700] mb-1"
-            style={{ lineHeight: "45px" }}
-          >
+          <h1 className="font-sans text-[#0A0534] text-[42px] md:text-4xl lg:text-[45px] font-[700] leading-[30px] lg:leading-[45px]">
             Meet Our Global
           </h1>
-          <h1 className="font-sans text-2xl md:text-4xl lg:text-[45px] font-[700]">
+          <h1 className="font-sans text-[42px] md:text-4xl lg:text-[45px] font-[700]">
             <span
               style={{
                 background:
@@ -70,7 +67,7 @@ const SectionSix = () => {
               style={{ boxShadow: "0px 7px 34px 0px rgba(25, 5, 121, 0.07)" }}
             >
               <h2
-                className="font-sans text-lg md:text-xl lg:text-[25px] font-[700]"
+                className="font-sans text-[25px]  font-[700]"
                 style={{ lineHeight: "27px" }}
               >
                 <span
@@ -86,7 +83,7 @@ const SectionSix = () => {
                 </span>
               </h2>
               <h2
-                className="font-sans text-lg md:text-xl lg:text-[25px] font-[700] mb-5"
+                className="font-sans text-[25px]  font-[700] mb-5"
                 style={{ lineHeight: "27px" }}
               >
                 <span

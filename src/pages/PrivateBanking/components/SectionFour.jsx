@@ -11,13 +11,13 @@ const SectionFour = () => {
           <div className="lg:w-2/5 md:w-3/4 w-full p-5">
             <img src={money} />
             <h1
-              className="font-sans lg:text-[35px] md:text-2xl text-xl font-[500]"
+              className="font-sans lg:text-[35px] md:text-2xl text-[36px] font-[500]"
               style={{ lineHeight: "36px" }}
             >
               Your Ideal Money
             </h1>
             <h1
-              className="font-sans lg:text-[35px] md:text-2xl text-xl font-[500]"
+              className="font-sans lg:text-[35px] md:text-2xl text-[36px] font-[500] mb-2"
               style={{ lineHeight: "36px" }}
             >
               Transfer Partner

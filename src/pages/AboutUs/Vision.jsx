@@ -13,7 +13,7 @@ const Vision = () => {
         <div className=" lg:mx-auto w-full h-full bg-cover lg:w-[800px] pt-10 lg:pt-34">
           <img src={location} alt="location-icon" className="mx-auto" />
           <h1
-            className="font-sans text-center font-[700] text-xl lg:text-[35px] py-5"
+            className="font-sans text-center font-[700] text-[24px] lg:text-[35px] py-5"
             style={{ lineHeight: "46px" }}
           >
             Our Vision

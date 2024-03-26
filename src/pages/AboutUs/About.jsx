@@ -9,13 +9,13 @@ const About = () => {
     >
       <div className="mt-16 px-5 lg:ml-36 lg:mt-36 pt-10">
         <h4
-          className="font-sans uppercase font-[500] lg:text-[11px] text-sm"
+          className="font-sans uppercase font-[500] lg:text-[11px] text-[14px]"
           style={{ lineHeight: "51px" }}
         >
           about us
         </h4>
         <h1
-          className="font-sans capitalize font-[700] text-xl lg:text-[60px] "
+          className="font-sans capitalize font-[700] text-[32px] lg:text-[60px] "
           style={{ lineHeight: "56px", letterSpacing: "-1.8px" }}
         >
           <span
@@ -29,8 +29,8 @@ const About = () => {
           </span>
         </h1>
         <h1
-          className="font-sans capitalize font-[700] text-xl lg:text-[60px]"
-          style={{ lineHeight: "56px", letterSpacing: "-1.8px" }}
+          className="font-sans capitalize font-[700] text-[30px] lg:text-[60px]"
+          style={{ letterSpacing: "-1.8px" }}
         >
           <span
             style={{
@@ -55,13 +55,13 @@ const About = () => {
         <div className="flex justify-center flex-col mb-10  lg:ml-0 flex-grow flex-shrink-1 lg:w-2/5 md:w-2/5 p-5">
           {" "}
           <h4
-            className="font-sans uppercase text-sm lg:text-[11px] font-[500]"
+            className="font-sans uppercase text-[15px] lg:text-[11px] font-[500]"
             style={{ lineHeight: "51px" }}
           >
             who we are
           </h4>
           <h1
-            className="font-sans capitalize font-[700] text-xl lg:text-[35px]"
+            className="font-sans capitalize font-[700] text-[24px] lg:text-[35px]"
             style={{ lineHeight: "45px" }}
           >
             the ChoiceBank Story

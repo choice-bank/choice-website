@@ -68,24 +68,26 @@ const Tools = ({ id }) => {
         </div>
 
         <h1
-          className="font-sans font-[700] text-sm lg:text-[45px]"
+          className="font-sans font-[700] text-[25px] lg:text-[45px]"
           style={{ lineHeight: "45px" }}
         >
           Add your own Tools
         </h1>
         <h1
-          className="font-sans font-[700] text-sm lg:text-[45px] mb-3"
+          className="font-sans font-[700] text-[20px] lg:text-[45px] mb-3"
           style={{ lineHeight: "45px" }}
         >
           With Our Business API
         </h1>
 
         <p
-          className="font-sans text-center text-sm lg:text-[14px] font-[400] p-5"
+          className="font-sans text-center text-[14px] lg:text-[14px] font-[400] p-5"
           style={{ lineHeight: "18px" }}
         >
-          Connect your company's own applications to your Choice Business
-          <br />
+          Connect your company's own applications to your Choice Business{" "}
+          <span className="lg:inline md:inline hidden">
+            <br />
+          </span>
           account for a personalized customer experience.
         </p>
       </div>

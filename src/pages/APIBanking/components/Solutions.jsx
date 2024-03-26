@@ -33,11 +33,11 @@ const Solutions = ({ id }) => {
         <h6 className="font-sans text-lg lg:text-[19px] font-[250]">
           And that's not all we can offer
         </h6>
-        <h1 className="font-sans font-[700] text-2xl lg:text-[45px]">
+        <h1 className="font-sans font-[700] text-[36px] lg:text-[45px]">
           Meet our Global
         </h1>
         <h1
-          className="font-sans font-bold text-2xl lg:text-[45px]"
+          className="font-sans font-bold text-[36px] lg:text-[45px]"
           style={{
             backgroundImage:
               "linear-gradient(rgba(90,58,149,1), rgba(158,70,198,1))",

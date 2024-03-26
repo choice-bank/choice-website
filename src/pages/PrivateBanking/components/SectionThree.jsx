@@ -7,7 +7,7 @@ const SectionThree = () => {
       {/* left side */}
       <div className="flex flex-col bg-[#0A0534] lg:flex-grow lg:p-20 md:p-20 p-5">
         <h3
-          className="font-sans lg:text-[45px] text-xl md:text-2xl font-[700] mb-4"
+          className="font-sans lg:text-[45px] text-[30px] md:text-2xl font-[700] mb-4"
           style={{ lineHeight: "39px" }}
         >
           <span

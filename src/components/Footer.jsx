@@ -46,7 +46,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex-1 flex-col w-full flex lg:flex-row justify-center lg:gap-10 md:gap-10 md:mt-0 mt-10">
+        <div className="flex-1 flex-col w-full flex md:flex-row lg:flex-row justify-center lg:gap-10 md:gap-10 md:mt-0 mt-10">
           {footerLinks.map((footerLink, i) => (
             <div key={i} className={`flex flex-col s:my-0 my-2`}>
               <h4

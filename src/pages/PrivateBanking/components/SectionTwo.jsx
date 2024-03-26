@@ -42,10 +42,7 @@ const SectionTwo = () => {
           "linear-gradient(180deg, #EFEDFE 0%, rgba(239, 236, 254, 0.00) 100%)",
       }}
     >
-      <h1
-        className="font-sans font-[700] text-[0A1D2B] mb-6 text-center text-lg lg:text-[35px] md:text-xl"
-        style={{ lineHeight: "51px" }}
-      >
+      <h1 className="font-sans font-[700] text-[0A1D2B] mb-6 text-center text-[36px] lg:text-[35px] md:text-xl leading-[30px] lg:leading-[51px]">
         Bank the way you want
       </h1>
       <div className="lg:w-[550px] lg:mx-auto md:w-[700px] md:mx-auto flex lg:items-center lg:justify-center">
