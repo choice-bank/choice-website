@@ -1,5 +1,6 @@
 import image from "../../../assets/home/Image.png";
 import icon from "../../../assets/icon.svg";
+import { FormatQuote } from "@mui/icons-material";
 
 const HomeSectionOne = () => {
   return (
@@ -43,6 +44,7 @@ const HomeSectionOne = () => {
               className="font-playfair italic font-[400]"
               style={{ lineHeight: "46px" }}
             >
+              <FormatQuote style={{ transform: "rotate(180deg)" }} />
               We believe{" "}
             </span>
             <span
@@ -57,10 +59,15 @@ const HomeSectionOne = () => {
                 letterSpacing: "-1.5px",
               }}
             >
-              Less is More
+              Less is More{" "}
+              <FormatQuote
+                style={{
+                  transform: "rotateX(180deg)",
+                }}
+              />
             </span>
           </h2>
-          <div className="flex">
+          <div className="flex gap-2">
             <img src={icon} />
             <p
               className="text-[17px] font-sans font-[250] text-[#D8D8DB]"
@@ -69,7 +76,7 @@ const HomeSectionOne = () => {
               Next-level digital banking experience
             </p>
           </div>
-          <div className="flex">
+          <div className="flex gap-2">
             <img src={icon} />
             <p
               className="text-[17px] font-sans font-[250] text-[#D8D8DB]"
@@ -78,7 +85,7 @@ const HomeSectionOne = () => {
               24 hour business and support team
             </p>
           </div>
-          <div className="flex">
+          <div className="flex gap-2">
             <img src={icon} />
             <p
               className="text-[17px] font-sans font-[250]  text-[#D8D8DB]"
@@ -87,7 +94,7 @@ const HomeSectionOne = () => {
               Best FX deals, customized interest rates
             </p>
           </div>
-          <div className="flex">
+          <div className="flex gap-2">
             <img src={icon} />
             <p
               className="text-[17px] font-sans font-[250] text-[#D8D8DB]"

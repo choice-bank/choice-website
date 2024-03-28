@@ -1,12 +1,7 @@
 import image from "../../assets/aboutUs/img1.png";
 const About = () => {
   return (
-    <div
-      className="min-h-screen flex flex-col justify-center"
-      style={{
-        background: "linear-gradient(#F1EEFF, #E6E4FF)",
-      }}
-    >
+    <div className="min-h-screen flex flex-col justify-center">
       <div className="mt-16 px-5 lg:ml-36 lg:mt-36 pt-10">
         <h4
           className="font-sans uppercase font-[500] lg:text-[11px] text-[14px]"

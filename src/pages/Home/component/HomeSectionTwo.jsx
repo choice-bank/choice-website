@@ -1,8 +1,8 @@
 import { useState } from "react";
-import pic1 from "../../../assets/pic1.png";
-import pic2 from "../../../assets/pic2.png";
-import pic3 from "../../../assets/pic3.png";
-import pic4 from "../../../assets/pic4.png";
+import pic1 from "../../../assets/home/pic1.png";
+import pic2 from "../../../assets/home/pic2.png";
+import pic3 from "../../../assets/home/pic3.png";
+import pic4 from "../../../assets/home/pic4.png";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 
 const HomeSectionTwo = () => {
@@ -113,13 +113,13 @@ const HomeSectionTwo = () => {
       </div>
       <div className="mt-4 flex space-x-4 justify-center lg:justify-end md:justify-end ">
         <div
-          className="bg-[#6043ED] hover:bg-purple-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
+          className="bg-[#E2DCFF]  text-[#6043ED] font-semibold py-2 px-4 flex justify-center items-center"
           style={{ borderRadius: "50%", height: "30px", width: "30px" }}
         >
           <ArrowBack onClick={showPreviousCard} />
         </div>
         <div
-          className="bg-[#6043ED] hover:bg-blue-300 text-white font-semibold py-2 px-4 flex justify-center items-center"
+          className="bg-[#6043ED]  text-white font-semibold py-2 px-4 flex justify-center items-center"
           style={{ borderRadius: "50%", height: "30px", width: "30px" }}
         >
           <ArrowForward onClick={showNextCard} />

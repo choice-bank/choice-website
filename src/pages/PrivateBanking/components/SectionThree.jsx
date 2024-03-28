@@ -5,7 +5,10 @@ const SectionThree = () => {
   return (
     <div className="bg-white min-h-screen flex flex-col lg:flex-row md:flex-col text-white">
       {/* left side */}
-      <div className="flex flex-col bg-[#0A0534] lg:flex-grow lg:p-20 md:p-20 p-5">
+      <div
+        className="flex flex-col bg-[#0A0534] lg:flex-shrink-2 md:flex-shrink-2 lg:p-20 md:p-20 p-5"
+        style={{ width: "40%" }}
+      >
         <h3
           className="font-sans lg:text-[45px] text-[30px] md:text-2xl font-[700] mb-4"
           style={{ lineHeight: "39px" }}
@@ -212,8 +215,16 @@ const SectionThree = () => {
         </div>
       </div>
       {/* right side */}
-      <div className="bg-[#F2F1FF] lg:flex-shrink-0 flex">
-        <img src={img} alt="bg" className="object-contain " />
+      <div
+        className="bg-[#F2F1FF] lg:flex-shrink-0 md:flex-shrink-0 lg:flex-grow-1 md:flex-grow-1 flex"
+        style={{ width: "60%" }}
+      >
+        <img
+          src={img}
+          alt="bg"
+          className="object-contain "
+          style={{ width: "" }}
+        />
       </div>
     </div>
   );

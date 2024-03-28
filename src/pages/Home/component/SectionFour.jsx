@@ -19,11 +19,11 @@ const SectionFour = () => {
           />
         </div>
         <div className="w-full sm:w-1/2 md:w-2/3 lg:w-[400px] mx-4">
-          <div className=" flex mb-4 p-2">
+          <div className=" flex gap-2 mb-4 p-2">
             <p className="mr-2">01.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-[15px] md:text-sm  text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm  text-[#0A0534] font-sans mb-2"
                 style={{ lineHeight: "16px" }}
               >
                 Bank Accounts
@@ -37,11 +37,11 @@ const SectionFour = () => {
               </p>
             </div>
           </div>
-          <div className=" flex mb-4 p-2">
+          <div className=" flex gap-2 mb-4 p-2">
             <p className="mr-2">02.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans mb-2"
                 style={{ lineHeight: "16px" }}
               >
                 Payments
@@ -55,11 +55,11 @@ const SectionFour = () => {
               </p>
             </div>
           </div>
-          <div className="flex mb-4 p-2">
+          <div className="flex gap-2 mb-4 p-2">
             <p className="mr-2">03.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans mb-2"
                 style={{ lineHeight: "16px" }}
               >
                 Lending
@@ -74,11 +74,11 @@ const SectionFour = () => {
               </p>
             </div>
           </div>
-          <div className="flex mb-4 p-2">
+          <div className="flex gap-2 mb-4 p-2">
             <p className="mr-2">04.</p>
             <div>
               <h3
-                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans"
+                className="font-[500] lg:text-[15px] text-[15px] md:text-sm text-[#0A0534] font-sans mb-2"
                 style={{ lineHeight: "16px" }}
               >
                 Other products

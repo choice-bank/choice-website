@@ -3,12 +3,7 @@ import location from "../../assets/aboutUs/location.png";
 import connection from "../../assets/aboutUs/img2.png";
 const Vision = () => {
   return (
-    <div
-      className="lg:min-h-screen md:min-h-screen lg:p-20"
-      style={{
-        background: "linear-gradient(#EFEDFE, #EFECFE)",
-      }}
-    >
+    <div className="lg:min-h-screen md:min-h-screen lg:p-20">
       <div className="bg-white h-full rounded mb-10 lg:mx-auto lg:w-[1100px] lg:h-full  px-5">
         <div className=" lg:mx-auto w-full h-full bg-cover lg:w-[800px] pt-10 lg:pt-34">
           <img src={location} alt="location-icon" className="mx-auto" />
