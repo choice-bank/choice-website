@@ -46,7 +46,7 @@ const SectionTwo = () => {
       <img
         src={globe}
         alt=""
-        className="mx-auto"
+        className="mx-auto md:inline lg:inline hidden"
         style={{
           position: "absolute",
           left: "calc(50% - 250px)",

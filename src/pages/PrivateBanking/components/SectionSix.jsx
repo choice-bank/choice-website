@@ -1,4 +1,5 @@
 import React from "react";
+import globe from "../../../assets/banking/globe.png";
 
 const items = [
   {
@@ -29,11 +30,22 @@ const items = [
 const SectionSix = () => {
   return (
     <div
-      className="min-h-screen flex lg:items-center justify-center  py-10"
+      className="min-h-screen flex lg:items-center justify-center  py-10 relative"
       style={{
         background: "linear-gradient(180deg, #F8F8F8 0%, #F9F9F9 100%)",
       }}
     >
+      <img
+        src={globe}
+        alt=""
+        className="mx-auto md:inline lg:inline hidden"
+        style={{
+          position: "absolute",
+          left: "calc(50% - 250px)",
+          top: "50px",
+          width: "500px",
+        }}
+      />
       <div className="max-w-full lg:mx-auto">
         <div className="mb-10  text-center">
           <h4
@@ -63,8 +75,10 @@ const SectionSix = () => {
           {items.map((item, index) => (
             <div
               key={index}
-              className="bg-white  rounded-lg  lg:p-5 md:p-4 p-2 lg:w-full w-full md:w-full"
-              style={{ boxShadow: "0px 7px 34px 0px rgba(25, 5, 121, 0.07)" }}
+              className="bg-white  rounded-lg  lg:p-5 md:p-4 p-2 lg:w-full w-full md:w-full border-b-2 border-t-2 lg:hover:border-[#9E46C6]  transition duration-500 hover:scale-125"
+              style={{
+                boxShadow: "0px 7px 34px 0px rgba(25, 5, 121, 0.07)",
+              }}
             >
               <h2
                 className="font-sans text-[25px]  font-[700]"
