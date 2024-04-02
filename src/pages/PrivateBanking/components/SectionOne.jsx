@@ -35,8 +35,8 @@ const SectionOne = () => {
             </span>
           </h1>
         </div>
-        <div className="self-center flex flex-col lg:flex-row md:flex-row justify-center lg:justify-between md:justify-center items-center w-[950px]">
-          <div className="w-2/5 lg:w-2/5 md:w-2/4 ">
+        <div className="self-center flex flex-col lg:flex-row md:flex-row justify-center lg:justify-center md:justify-center lg:items-center">
+          <div className="w-full lg:w-1/4 md:w-3/4 mb-2">
             <p
               className="font-sans mb-10 mt-5 text-sm md:text-lg lg:text-[13px] font-[400]"
               style={{ lineHeight: "21px" }}

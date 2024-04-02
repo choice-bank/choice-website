@@ -44,7 +44,9 @@ const SectionFour = () => {
           </div>
         </div>
       </div>
-      <Slide />
+      <div className="hidden md:block lg:block">
+        <Slide />
+      </div>
     </>
   );
 };
