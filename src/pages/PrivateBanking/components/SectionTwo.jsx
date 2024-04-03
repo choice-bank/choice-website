@@ -72,7 +72,7 @@ const SectionTwo = () => {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="relative bg-cover bg-no-repeat h-[500px] w-[300px] md:h-[300px] lg:h-[400px] shadow-md"
+            className="relative bg-cover bg-no-repeat h-[500px] w-[300px] md:h-[300px] lg:h-[400px] shadow-md transition duration-500 lg:hover:scale-125 md:hover:scale:125"
             style={{
               backgroundImage: `url(${cards[index].imageUrl})`,
               borderRadius: "10px",

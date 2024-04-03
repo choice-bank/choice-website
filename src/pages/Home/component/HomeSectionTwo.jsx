@@ -84,7 +84,7 @@ const HomeSectionTwo = () => {
         {visibleIndices.map((index) => (
           <div
             key={cards[index].id}
-            className="relative lg:w-[600px] md:w-full md:m-3 m-5 bg-cover bg-no-repeat rounded-lg h-[450px]"
+            className="relative lg:w-[600px] md:w-full md:m-3 m-5 bg-cover bg-no-repeat rounded-lg h-[450px] transition duration-500 lg:hover:scale-125 md:hover:scale:125"
             style={{
               backgroundImage: `url(${cards[index].imageUrl})`,
             }}
