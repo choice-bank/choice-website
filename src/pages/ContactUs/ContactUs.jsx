@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LocalPhone, SupportAgentTwoTone, Email } from "@mui/icons-material";
+import { LocalPhone, Email } from "@mui/icons-material";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -117,7 +117,7 @@ const ContactUs = () => {
       <div className="flex-shrink">
         <h1>Need more help?</h1>
         <h6>Call us on:</h6>
-        <div className="flex mb-1">
+        {/* <div className="flex mb-1">
           <SupportAgentTwoTone />
           <p className="text-[14px]">+254 203882206</p>
         </div>
@@ -125,7 +125,7 @@ const ContactUs = () => {
         <div className="flex mb-1">
           <SupportAgentTwoTone />
           <p className="text-[14px]">+254 203882207</p>
-        </div>
+        </div> */}
 
         <div className="flex mb-1">
           <LocalPhone />

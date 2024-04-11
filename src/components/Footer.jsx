@@ -7,7 +7,7 @@ import {
   LinkedIn,
   X,
   LocalPhone,
-  SupportAgentTwoTone,
+  //SupportAgentTwoTone,
   Email,
 } from "@mui/icons-material";
 import playstore from "../assets/footer/playstore.jpg";
@@ -22,7 +22,7 @@ const Footer = () => {
           <Link to="/">
             <img src={logo} alt="logo" className="object-contain mb-4" />
           </Link>
-          <div className="flex mb-1">
+          {/* <div className="flex mb-1">
             <SupportAgentTwoTone style={{ color: "#0A0534" }} />
             <p className="text-[14px] font-[500]">+254 203882206</p>
           </div>
@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="flex mb-1">
             <SupportAgentTwoTone style={{ color: "#0A0534" }} />
             <p className="text-[14px] font-[500]">+254 203882207</p>
-          </div>
+          </div> */}
 
           <div className="flex mb-1">
             <LocalPhone style={{ color: "#0A0534" }} />

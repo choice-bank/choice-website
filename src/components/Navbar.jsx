@@ -101,7 +101,7 @@ const Navbar = ({ textColor, logo }) => {
                 Contact Us
               </Link>
             </div>
-            <div className="flex justify-between ml-2 relative">
+            <div className="flex justify-between ml-2 relative lg:w-[150px] md:w-[150px]">
               <div
                 onClick={toggleLoginDropdown}
                 className="text-white bg-[#D43A36] px-2 py-2  text-[11px]  focus:outline-none rounded-full lg:text-[14px] font-[500] flex items-center"
