@@ -83,7 +83,7 @@ const Footer = () => {
           Ⓒ{currentYear} ChoiceBank. All Rights Reserved.
         </p>
 
-        <div className="flex justify-between sm:flex-wrap lg:justify-between gap-5">
+        <div className="flex justify-between sm:flex-wrap lg:justify-between items-center gap-5">
           <div>
             <Link
               to="https://app.choicedigitalbank.com/#/privacypolicy"

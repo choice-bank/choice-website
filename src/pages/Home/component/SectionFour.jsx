@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../../assets/home/stack.png";
+import image from "../../../assets/home/Stack.png";
 import { ArrowForward } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 

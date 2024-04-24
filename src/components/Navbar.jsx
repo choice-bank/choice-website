@@ -104,7 +104,7 @@ const Navbar = ({ textColor, logo }) => {
             <div className="flex justify-between ml-2 relative lg:w-[150px] md:w-[150px]">
               <div
                 onClick={toggleLoginDropdown}
-                className="text-white bg-[#D43A36] px-2 py-2  text-[11px]  focus:outline-none rounded-full lg:text-[14px] font-[500] flex items-center"
+                className="text-white bg-[#D43A36] px-8 py-2  text-[11px]  focus:outline-none rounded-full lg:text-[14px] font-[500] flex items-center"
               >
                 <Login
                   className=" inline-block -ml-1 mr-1 "
